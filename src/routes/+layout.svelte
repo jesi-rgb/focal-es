@@ -4,7 +4,7 @@
   import NavBar from "../lib/NavBar.svelte";
 </script>
 
-<div class="my-10 mx-auto max-w-xl font-body">
+<div class="mx-auto max-w-sm md:max-w-md xl:max-w-xl 2xl:max-w-2xl font-body">
   <NavBar />
   <slot />
   <Footer />
