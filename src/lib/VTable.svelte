@@ -2,6 +2,7 @@
   // @ts-nocheck
 
   import VirtualTable from "svelte-virtual-table";
+  import InputSearch from "./InputSearch.svelte";
 
   export let data;
 
@@ -9,7 +10,7 @@
 
   $: filteredList = data.filter(
     (item) =>
-      item.particle.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1
+      item.example.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1
   );
 
   // TWO variables that can be bound to the VirtualTable
@@ -18,21 +19,11 @@
 </script>
 
 <div class="flex flex-col space-y-4">
-  <input
-    class="placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md p-2 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm"
-    placeholder="Filtrar por partícula..."
-    bind:value={searchTerm}
-  />
+  <InputSearch bind:value={searchTerm} />
 
-  <VirtualTable
-    class="divide-y "
-    height="500px"
-    items={filteredList}
-    bind:start
-    bind:end
-  >
+  <VirtualTable height="800px" items={filteredList} bind:start bind:end>
     <tr slot="thead" class="text-left">
-      <th data-sort="key">Índice</th>
+      <th data-sort="key">i</th>
       <th data-sort="particle">Partícula</th>
       <th data-sort="medium">Medio</th>
       <th data-sort="element">Elemento</th>

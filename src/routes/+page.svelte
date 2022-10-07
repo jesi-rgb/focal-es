@@ -7,13 +7,18 @@
   import DTable from "$lib/DTable.svelte";
 </script>
 
-<div class="flex flex-col space-y-3">
-  <h1 class="text-3xl font-bold">
-    Bienvenidos a la base de datos de partículas lingüísticas 👅
-  </h1>
-  <p>Busca en esta tabla por partícula etc.</p>
+<div class="flex flex-col">
+  <h1 class="text-6xl font-extrabold font-title">FOCAL-ES</h1>
+  <div class="my-4">
+    Consulta el uso de las principales partículas focales en diferentes
+    contextos.
+  </div>
+  <div class="my-4">
+    Filtra la tabla en función de su uso o busca una frase en el buscador.
+  </div>
 
   <!-- <Table data={randomData} /> -->
   <SvTable data={randomData} />
+  <!-- <VTable data={randomData} /> -->
   <!-- <DTable {data} /> -->
 </div>
