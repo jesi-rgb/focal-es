@@ -15,6 +15,6 @@
   <p>Busca en esta tabla por partícula etc.</p>
 
   <!-- <Table data={randomData} /> -->
-  <!-- <SvTable data={randomData} /> -->
-  <DTable {data} />
+  <SvTable data={randomData} />
+  <!-- <DTable {data} /> -->
 </div>
