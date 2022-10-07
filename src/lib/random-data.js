@@ -58,6 +58,14 @@ function getElement() {
   return options[rand(0, options.length)];
 }
 
+function createRandomGarbage() {
+  const numWords = rand(8, 12);
+  return fill(numWords, () => {
+    const numLetters = rand(3, 12);
+    return fill(numLetters, () => String.fromCharCode(rand(97, 122))).join("");
+  }).join(" ");
+}
+
 export default fill(100000, (i) => {
   return {
     key: `${i}`,
@@ -65,5 +73,6 @@ export default fill(100000, (i) => {
     medium: Math.random() < 0.5 ? "Oral" : "Escrito",
     element: getElement(),
     direction: Math.random() < 0.5 ? "Derecha" : "Izquierda",
+    example: createRandomGarbage(),
   };
 });

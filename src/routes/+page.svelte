@@ -1,5 +1,4 @@
 <script>
-  import { data } from "$lib/data-xxl";
   import randomData from "$lib/random-data";
 
   import Table from "../lib/Table.svelte";
