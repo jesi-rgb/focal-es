@@ -9,10 +9,10 @@
   );
 </script>
 
-<div class="">
+<div class="overflow-y-scroll h-96">
   Filter: <input bind:value={searchTerm} />
   {searchTerm}
-  <table class="mx-auto max-w-xl divide-y divide-slate-200">
+  <table class="mx-auto max-w-xl divide-y divide-slate-200 ">
     <tr>
       <th
         class="pr-20 py-3 text-left text-xs text-slate-500 uppercase tracking-wider"

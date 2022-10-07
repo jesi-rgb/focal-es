@@ -3,6 +3,7 @@
 
   export let data;
   import VirtualList from "@sveltejs/svelte-virtual-list";
+  import InputSearch from "./InputSearch.svelte";
 
   let searchTerm = "";
   $: filteredList = data.filter(
@@ -14,11 +15,10 @@
 </script>
 
 <div>
-  Filter: <input bind:value={searchTerm} />
-  {searchTerm}
+  <InputSearch bind:value={searchTerm} />
 
-  <table class="w-full divide-y  divide-slate-200">
-    <tr class="flex flex-row py-3">
+  <table class="w-full divide-y divide-slate-200 scrollbar-hide">
+    <tr class="flex flex-row my-3">
       <th class="w-1/4 text-left text-sm text-gray-500 uppercase tracking-wider"
         >Partícula
       </th>
@@ -35,12 +35,13 @@
     <VirtualList
       height="500px"
       items={filteredList}
+      class="scrollbar-hide"
       bind:start
       bind:end
       let:item
     >
       <!-- this will be rendered for each currently visible item -->
-      <tr class="flex flex-row my-3 hover:bg-slate-100">
+      <tr class="flex flex-row my-3 hover:bg-slate-100 scrollbar-hide">
         <td class="w-1/4 text-sm text-left font-medium text-slate-900"
           >{item.particle}</td
         >
@@ -55,7 +56,6 @@
         >
       </tr>
     </VirtualList>
-
-    <p>Mostrando elementos en el rango <b>{start} — {end}</b></p>
   </table>
+  <p>Mostrando elementos en el rango <b>{start} — {end}</b></p>
 </div>
