@@ -8,32 +8,32 @@
   import InputSearch from "./InputSearch.svelte";
   import MultiSelect from "svelte-multiselect";
 
-  const particleOptions = [`todavia`, `tampoco`, `ni aun`];
+  const particleOptions = [`todavía`, `tampoco`, `ni aun`];
   let selected = [];
 
-  let particleFilter = data.filter((item) => selected?.includes(item.particle));
-
   let searchTerm = "";
-  $: filteredList = data.filter(
-    (item) => item.example.toLowerCase().indexOf(searchTerm) !== -1
-  );
+
+  // master filter including every aspect
+  $: masterFilter = data.filter((item) => {
+    return (
+      (searchTerm === "" ||
+        item.example.toLowerCase().indexOf(searchTerm) !== -1) &&
+      (selected.length === 0 || selected.includes(item.particle))
+    );
+  });
 
   $: showExample = "";
-  //   $: filteredList = particleFilter.concat(searchFilter);
+
+  console.log(masterFilter);
 
   let start;
   let end;
 </script>
 
 <div class="flex flex-col items-start space-y-5">
-  <MultiSelect
-    options={particleOptions}
-    placeholder="Filtrar por partículas"
-    ulSelectedClass="text-red-300"
-    bind:selected
-  />
   <div class="flex flex-col xl:flex-row space-x-8 w-full mx-auto">
-    <table class="mb-4 xl:w-3/4 ">
+    <MultiSelect bind:selected options={particleOptions} />
+    <table class="mb-4 xl:w-3/4">
       <InputSearch bind:value={searchTerm} />
       <tr class="flex flex-row my-3">
         <th
@@ -56,7 +56,7 @@
       </tr>
       <VirtualList
         height="500px"
-        items={filteredList}
+        items={masterFilter}
         bind:start
         bind:end
         let:item
@@ -85,13 +85,13 @@
       {#if showExample == ""}
         <div>Selecciona una fila para consultar su ejemplo</div>
       {:else if searchTerm !== ""}
-        <div class="">
+        <div>
           {@html marked(
             showExample.replace(searchTerm, "**" + searchTerm + "**")
           )}
         </div>
       {:else}
-        <div class="">{showExample}</div>
+        <div>{showExample}</div>
       {/if}
     </div>
   </div>
