@@ -30,6 +30,6 @@
 <!-- <span class="py-1 px-2 mr-5 bg-red-200 rounded-lg text-red-900">
   {particle}
 </span> -->
-<span class={`py-1 px-2 mr-5 bg-${color}-200 rounded-lg text-${color}-900`}>
+<span class={tagStyle}>
   {particle}
 </span>
