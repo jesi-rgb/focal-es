@@ -66,7 +66,7 @@ function createRandomGarbage() {
   }).join(" ");
 }
 
-export default fill(100000, (i) => {
+export default fill(10000, (i) => {
   return {
     key: `${i}`,
     particle: getParticle(),

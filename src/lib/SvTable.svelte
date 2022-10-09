@@ -8,8 +8,36 @@
   import InputSearch from "./InputSearch.svelte";
   import MultiSelect from "svelte-multiselect";
 
-  const particleOptions = [`todavía`, `tampoco`, `ni aun`];
-  let selected = [];
+  const particleOptions = [
+    "inclusive",
+    "incluso",
+    "ni aun",
+    "ni siquiera",
+    "también",
+    "tampoco",
+    "todavía",
+  ];
+  const mediumOptions = ["Oral", "Escrito"];
+  const elementOptions = [
+    "Sintagma verbal",
+    "Sintagma nominal",
+    "Sintagma pronominal",
+    "Sintagma adjetival",
+    "Sintagma adverbial",
+    "Sintagma preposicional",
+    "Oración",
+    "Oración subordinada",
+    "Cláusula de infinitivo",
+    "Cláusula de gerundio",
+    "Cláusula de participio",
+    "Dentro de una perífrasis",
+  ];
+  const directionOptions = ["Derecha", "Izquierda"];
+
+  let particleSelected = [];
+  let mediumSelected = [];
+  let elementSelected = [];
+  let directionSelected = [];
 
   let searchTerm = "";
 
@@ -18,29 +46,54 @@
     return (
       (searchTerm === "" ||
         item.example.toLowerCase().indexOf(searchTerm) !== -1) &&
-      (selected.length === 0 || selected.includes(item.particle))
+      (particleSelected.length === 0 ||
+        particleSelected.includes(item.particle)) &&
+      (mediumSelected.length === 0 || mediumSelected.includes(item.medium)) &&
+      (elementSelected.length === 0 ||
+        elementSelected.includes(item.element)) &&
+      (directionSelected.length === 0 ||
+        directionSelected.includes(item.direction))
     );
   });
 
   $: showExample = "";
-
-  console.log(masterFilter);
 
   let start;
   let end;
 </script>
 
 <div class="flex flex-col items-start space-y-5">
+  <div class="flex flex-row gap-4">
+    <MultiSelect
+      bind:selected={particleSelected}
+      placeholder="Filtrar por partícula..."
+      options={particleOptions}
+    />
+    <MultiSelect
+      bind:selected={mediumSelected}
+      placeholder="Filtrar por medio..."
+      options={mediumOptions}
+    />
+    <MultiSelect
+      bind:selected={elementSelected}
+      placeholder="Filtrar por elemento..."
+      options={elementOptions}
+    />
+    <MultiSelect
+      bind:selected={directionSelected}
+      placeholder="Filtrar por dirección..."
+      options={directionOptions}
+    />
+  </div>
   <div class="flex flex-col xl:flex-row space-x-8 w-full mx-auto">
-    <MultiSelect bind:selected options={particleOptions} />
     <table class="mb-4 xl:w-3/4">
       <InputSearch bind:value={searchTerm} />
       <tr class="flex flex-row my-3">
         <th
           data-sort="particle"
           class="w-1/4 text-left text-sm text-gray-500 uppercase tracking-wider"
-          >Partícula
-        </th>
+          >Partícula</th
+        >
         <th
           class="w-1/4 text-left text-sm text-gray-500 uppercase tracking-wider"
           >Medio
