@@ -1,4 +1,4 @@
-<div class="flex flex-col space-y-10">
+<div class="flex flex-col space-y-10 mx-auto max-w-sm md:max-w-md">
   <div class="text-3xl font-semibold font-title">¿Qué es esto?</div>
   <div class="">
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci in

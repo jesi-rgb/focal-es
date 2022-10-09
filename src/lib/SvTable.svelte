@@ -7,32 +7,14 @@
   import VirtualList from "@sveltejs/svelte-virtual-list";
   import InputSearch from "./InputSearch.svelte";
   import MultiSelect from "svelte-multiselect";
+  import ParticleTag from "./ParticleTag.svelte";
 
-  const particleOptions = [
-    "inclusive",
-    "incluso",
-    "ni aun",
-    "ni siquiera",
-    "también",
-    "tampoco",
-    "todavía",
-  ];
-  const mediumOptions = ["Oral", "Escrito"];
-  const elementOptions = [
-    "Sintagma verbal",
-    "Sintagma nominal",
-    "Sintagma pronominal",
-    "Sintagma adjetival",
-    "Sintagma adverbial",
-    "Sintagma preposicional",
-    "Oración",
-    "Oración subordinada",
-    "Cláusula de infinitivo",
-    "Cláusula de gerundio",
-    "Cláusula de participio",
-    "Dentro de una perífrasis",
-  ];
-  const directionOptions = ["Derecha", "Izquierda"];
+  import {
+    particleOptions,
+    mediumOptions,
+    elementOptions,
+    directionOptions,
+  } from "./utils";
 
   let particleSelected = [];
   let mediumSelected = [];
@@ -63,7 +45,7 @@
 </script>
 
 <div class="flex flex-col items-start space-y-5">
-  <div class="flex flex-row gap-4">
+  <div class="flex flex-col w-full xl:grid xl:grid-cols-2 gap-4">
     <MultiSelect
       bind:selected={particleSelected}
       placeholder="Filtrar por partícula..."
@@ -91,19 +73,19 @@
       <tr class="flex flex-row my-3">
         <th
           data-sort="particle"
-          class="w-1/4 text-left text-sm text-gray-500 uppercase tracking-wider"
+          class="w-1/4 text-left text-xs md:text-sm text-gray-500 uppercase tracking-wider"
           >Partícula</th
         >
         <th
-          class="w-1/4 text-left text-sm text-gray-500 uppercase tracking-wider"
+          class="w-1/4 text-left text-xs md:text-sm text-gray-500 uppercase tracking-wider"
           >Medio
         </th>
         <th
-          class="w-1/4 text-left text-sm text-gray-500 uppercase tracking-wider"
+          class="w-1/4 text-left text-xs md:text-sm text-gray-500 uppercase tracking-wider"
           >Elemento
         </th>
         <th
-          class="w-1/4 text-left text-sm text-gray-500 uppercase tracking-wider"
+          class="w-1/4 text-left text-xs md:text-sm text-gray-500 uppercase tracking-wider"
           >Dirección
         </th>
       </tr>
@@ -119,34 +101,28 @@
           class="flex flex-row hover:bg-slate-100 py-4 "
           on:click={() => (showExample = item.example)}
         >
-          <td class="w-1/4 text-sm text-left font-medium text-slate-900"
-            >{item.particle}</td
+          <td class="w-1/4 text-sm text-left font-medium"
+            ><ParticleTag particle={item.particle} /></td
           >
-          <td class="w-1/4 text-sm text-left font-medium text-slate-900"
-            >{item.medium}</td
-          >
-          <td class="w-1/4 text-sm text-left font-medium text-slate-900"
-            >{item.element}</td
-          >
-          <td class="w-1/4 text-sm text-left font-medium text-slate-900"
-            >{item.direction}</td
-          >
+          <td class="w-1/4 text-sm text-left font-medium">{item.medium}</td>
+          <td class="w-1/4 text-sm text-left font-medium">{item.element}</td>
+          <td class="w-1/4 text-sm text-left font-medium">{item.direction}</td>
         </tr>
       </VirtualList>
     </table>
-    <div class="text-left xl:w-1/4">
-      {#if showExample == ""}
-        <div>Selecciona una fila para consultar su ejemplo</div>
-      {:else if searchTerm !== ""}
-        <div>
-          {@html marked(
-            showExample.replace(searchTerm, "**" + searchTerm + "**")
-          )}
-        </div>
-      {:else}
-        <div>{showExample}</div>
-      {/if}
-    </div>
+  </div>
+  <div class="">
+    {#if showExample == ""}
+      <div>Selecciona una fila para consultar su ejemplo</div>
+    {:else if searchTerm !== ""}
+      <div>
+        {@html marked(
+          showExample.replace(searchTerm, "**" + searchTerm + "**")
+        )}
+      </div>
+    {:else}
+      <div>{showExample}</div>
+    {/if}
   </div>
   <div class="text-sm">
     Mostrando elementos en el rango <b>{start} — {end}</b>

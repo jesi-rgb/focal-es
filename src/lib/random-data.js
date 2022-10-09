@@ -1,4 +1,6 @@
 // @ts-nocheck
+import { particleOptions, elementOptions } from "./utils";
+
 function rand(min, max) {
   return min + ~~(Math.random() * (max - min));
 }
@@ -10,52 +12,10 @@ function fill(len, fn) {
 }
 
 function getParticle() {
-  let options = [
-    "inclusive",
-
-    "incluso",
-
-    "ni aun",
-
-    "ni siquiera",
-
-    "también",
-
-    "tampoco",
-
-    "todavía",
-  ];
-
-  return options[rand(0, options.length)];
+  return particleOptions[rand(0, particleOptions.length)];
 }
 function getElement() {
-  let options = [
-    "Sintagma verbal",
-
-    "Sintagma nominal",
-
-    "Sintagma pronominal",
-
-    "Sintagma adjetival",
-
-    "Sintagma adverbial",
-
-    "Sintagma preposicional",
-
-    "Oración",
-
-    "Oración subordinada",
-
-    "Cláusula de infinitivo",
-
-    "Cláusula de gerundio",
-
-    "Cláusula de participio",
-
-    "Dentro de una perífrasis",
-  ];
-
-  return options[rand(0, options.length)];
+  return elementOptions[rand(0, elementOptions.length)];
 }
 
 function createRandomGarbage() {
