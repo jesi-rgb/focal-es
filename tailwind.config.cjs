@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        body: ["Satoshi"],
-        title: ["Lora"],
+        body: ["Satoshi", "ui-sans-serif", "system-ui"],
+        title: ["Lora", "ui-serif"],
       },
     },
   },
