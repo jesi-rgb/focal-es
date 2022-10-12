@@ -8,6 +8,9 @@
   import InputSearch from "./InputSearch.svelte";
   import MultiSelect from "svelte-multiselect";
   import ParticleTag from "./ParticleTag.svelte";
+  import { Svrollbar } from "svrollbar";
+
+  import fs from "fs";
 
   import {
     particleOptions,
@@ -15,6 +18,24 @@
     elementOptions,
     directionOptions,
   } from "./utils";
+  import { onMount } from "svelte";
+
+  let realData;
+
+  // related to "externalized module:"
+  // https://www.reddit.com/r/sveltejs/comments/ra7tpz/comment/hngs7p7/?utm_source=share&utm_medium=web2x&context=3
+  // https://kit.svelte.dev/docs/routing
+
+  onMount(() => {
+    realData = fs.readFile("./src/lib/focal-es.csv", (error, data) => {
+      console.log(data);
+    });
+  });
+
+  let viewport;
+  let contents;
+
+  //   might be of use: https://github.com/Skayo/svelte-tiny-virtual-list
 
   let particleSelected = [];
   let mediumSelected = [];
@@ -68,7 +89,7 @@
     />
   </div>
   <div class="flex flex-col xl:flex-row space-x-8 w-full mx-auto">
-    <table class="mb-4 xl:w-3/4">
+    <table class="mb-4">
       <InputSearch bind:value={searchTerm} />
       <tr class="flex flex-row my-3">
         <th
@@ -89,29 +110,42 @@
           >Dirección
         </th>
       </tr>
-      <VirtualList
-        height="500px"
-        items={masterFilter}
-        bind:start
-        bind:end
-        let:item
-      >
-        <!-- this will be rendered for each currently visible item -->
-        <tr
-          class="flex flex-row hover:bg-slate-100 py-4 "
-          on:click={() => (showExample = item.example)}
-        >
-          <td class="w-1/4 text-sm text-left font-medium"
-            ><ParticleTag particle={item.particle} /></td
-          >
-          <td class="w-1/4 text-sm text-left font-medium">{item.medium}</td>
-          <td class="w-1/4 text-sm text-left font-medium">{item.element}</td>
-          <td class="w-1/4 text-sm text-left font-medium">{item.direction}</td>
-        </tr>
-      </VirtualList>
+      <div class="wrapper">
+        <div bind:this={viewport} class="viewport">
+          <div bind:this={contents} class="contents">
+            <Svrollbar {viewport} {contents} />
+            <VirtualList
+              height="500px"
+              items={masterFilter}
+              bind:start
+              bind:end
+              let:item
+            >
+              <!-- this will be rendered for each currently visible item -->
+              <tr
+                class="flex flex-row hover:bg-slate-100 py-4 "
+                on:click={() => (showExample = item.example)}
+              >
+                <td class="w-1/4 text-sm text-left font-medium"
+                  ><ParticleTag particle={item.particle} /></td
+                >
+                <td class="w-1/4 text-sm text-left font-medium"
+                  >{item.medium}</td
+                >
+                <td class="w-1/4 text-sm text-left font-medium"
+                  >{item.element}</td
+                >
+                <td class="w-1/4 text-sm text-left font-medium"
+                  >{item.direction}</td
+                >
+              </tr>
+            </VirtualList>
+          </div>
+        </div>
+      </div>
     </table>
   </div>
-  <div class="">
+  <div class="text-lg">
     {#if showExample == ""}
       <div>Selecciona una fila para consultar su ejemplo</div>
     {:else if searchTerm !== ""}
@@ -124,7 +158,24 @@
       <div>{showExample}</div>
     {/if}
   </div>
-  <div class="text-sm">
+  <div class="text-xs">
     Mostrando elementos en el rango <b>{start} — {end}</b>
   </div>
 </div>
+
+<style>
+  :global(.virtual-list-wrapper) {
+    /* hide scrollbar */
+    -ms-overflow-style: none !important;
+    scrollbar-width: none !important;
+  }
+
+  :global(.virtual-list-wrapper::-webkit-scrollbar) {
+    /* hide scrollbar */
+    display: none !important;
+  }
+
+  .wrapper {
+    position: relative;
+  }
+</style>
