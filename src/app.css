@@ -1,10 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,600;1,700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,600;1,700&display=swap"); */
 
 @font-face {
   font-family: "Satoshi";
   src: url("../fonts/Satoshi-Variable.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lora";
+  src: local("Lora") url("/static/fonts/Lora-Variable.woff") format("woff");
   font-display: swap;
 }
