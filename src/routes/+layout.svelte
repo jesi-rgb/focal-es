@@ -5,7 +5,7 @@
 </script>
 
 <div
-  class="mx-auto max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl 2xl:max-w-5xl font-body"
+  class="mx-auto max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl 2xl:max-w-5xl font-body font-normal"
 >
   <NavBar />
   <slot />

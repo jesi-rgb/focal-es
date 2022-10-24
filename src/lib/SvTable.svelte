@@ -10,27 +10,12 @@
   import ParticleTag from "./ParticleTag.svelte";
   import { Svrollbar } from "svrollbar";
 
-  import fs from "fs";
-
   import {
     particleOptions,
     mediumOptions,
     elementOptions,
     directionOptions,
   } from "./utils";
-  import { onMount } from "svelte";
-
-  let realData;
-
-  // related to "externalized module:"
-  // https://www.reddit.com/r/sveltejs/comments/ra7tpz/comment/hngs7p7/?utm_source=share&utm_medium=web2x&context=3
-  // https://kit.svelte.dev/docs/routing
-
-  onMount(() => {
-    realData = fs.readFile("./src/lib/focal-es.csv", (error, data) => {
-      console.log(data);
-    });
-  });
 
   let viewport;
   let contents;
@@ -145,7 +130,7 @@
       </div>
     </table>
   </div>
-  <div class="text-lg">
+  <div class="text-lg font-light">
     {#if showExample == ""}
       <div>Selecciona una fila para consultar su ejemplo</div>
     {:else if searchTerm !== ""}

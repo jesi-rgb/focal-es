@@ -1,10 +1,17 @@
 <script>
+  // @ts-nocheck
+
   import randomData from "$lib/random-data";
 
   import Table from "../lib/Table.svelte";
   import SvTable from "../lib/SvTable.svelte";
   import VTable from "$lib/VTable.svelte";
   import DTable from "$lib/DTable.svelte";
+
+  export let realData;
+
+  console.log("mierda");
+  console.log(realData);
 </script>
 
 <div class="flex flex-col">
@@ -18,7 +25,7 @@
   </div>
 
   <!-- <Table data={randomData} /> -->
-  <SvTable data={randomData} />
+  <SvTable data={realData} />
   <!-- <VTable data={randomData} /> -->
   <!-- <DTable {data} /> -->
 </div>

@@ -4,12 +4,24 @@
 
 @font-face {
   font-family: "Lora";
-  src: local("Lora") url("/static/fonts/Lora-Variable.woff") format("woff");
+  src: local("Lora") url("/fonts/Lora-Variable.woff") format("woff");
   font-display: swap;
 }
 @font-face {
   font-family: "Satoshi";
-  src: local("Satoshi") url("/static/fonts/Satoshi-Variable.woff")
-    format("woff");
+  src: url("/fonts/Satoshi/Satoshi-Regular.woff") format("woff");
   font-display: swap;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Satoshi";
+  src: url("/fonts/Satoshi/Satoshi-Medium.woff") format("woff");
+  font-display: swap;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Satoshi";
+  src: url("/fonts/Satoshi/Satoshi-Bold.woff") format("woff");
+  font-display: swap;
+  font-weight: 900;
 }
