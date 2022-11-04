@@ -6,7 +6,6 @@
   import randomData from "$lib/random-data";
 
   export let data;
-  console.log(randomData);
 
   let parsedData = csvToObjs(data.data);
 </script>
@@ -21,8 +20,5 @@
     Filtra la tabla en función de su uso o busca una frase en el buscador.
   </div>
 
-  <!-- <Table data={randomData} /> -->
-  <SvTable data={randomData} />
-  <!-- <VTable data={randomData} /> -->
-  <!-- <DTable {data} /> -->
+  <SvTable data={parsedData} />
 </div>
