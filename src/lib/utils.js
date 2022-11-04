@@ -4,6 +4,18 @@ export function intersection(a, b) {
   return b.filter((value) => setA.has(value));
 }
 
+export function csvToObjs(data) {
+  const lines = data.split(/\r\n|\n/);
+  let [headings, ...entries] = lines;
+  headings = headings.split(",");
+  const objs = [];
+  entries.map((entry) => {
+    let obj = entry.split(",");
+    objs.push(Object.fromEntries(headings.map((head, i) => [head, obj[i]])));
+  });
+  return objs;
+}
+
 export const particleOptions = [
   "inclusive",
   "incluso",

@@ -1,17 +1,14 @@
 <script>
   // @ts-nocheck
 
+  import { csvToObjs } from "$lib/utils";
+  import SvTable from "../lib/SvTable.svelte";
   import randomData from "$lib/random-data";
 
-  import Table from "../lib/Table.svelte";
-  import SvTable from "../lib/SvTable.svelte";
-  import VTable from "$lib/VTable.svelte";
-  import DTable from "$lib/DTable.svelte";
+  export let data;
+  console.log(randomData);
 
-  export let realData;
-
-  console.log("mierda");
-  console.log(realData);
+  let parsedData = csvToObjs(data.data);
 </script>
 
 <div class="flex flex-col">
@@ -25,7 +22,7 @@
   </div>
 
   <!-- <Table data={randomData} /> -->
-  <SvTable data={realData} />
+  <SvTable data={randomData} />
   <!-- <VTable data={randomData} /> -->
   <!-- <DTable {data} /> -->
 </div>
