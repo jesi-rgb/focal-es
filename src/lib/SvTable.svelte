@@ -50,7 +50,7 @@
 </script>
 
 <div class="flex flex-col items-start space-y-5">
-  <div class="flex flex-col w-full xl:grid xl:grid-cols-2 gap-4">
+  <div class="flex flex-col gap-4">
     <MultiSelect
       bind:selected={particleSelected}
       placeholder="Filtrar por partícula..."
@@ -72,9 +72,9 @@
       options={directionOptions}
     />
   </div>
-  <div class="flex flex-col xl:flex-row space-x-8 w-full mx-auto">
+  <div class="flex flex-col w-full mx-auto">
+    <InputSearch bind:value={searchTerm} />
     <table class="mb-4">
-      <InputSearch bind:value={searchTerm} />
       <tr class="flex flex-row my-3">
         <th
           data-sort="particle"
