@@ -135,8 +135,9 @@
       <div>Selecciona una fila para consultar su ejemplo</div>
     {:else if searchTerm !== ""}
       <div>
-        {@html marked(
-          showExample.replace(searchTerm, "**" + searchTerm + "**")
+        {@html showExample.replace(
+          searchTerm,
+          "<span class='font-bold text-blue-700'>" + searchTerm + "</span>"
         )}
       </div>
     {:else}
