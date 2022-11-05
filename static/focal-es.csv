@@ -1,10 +1,10 @@
-particle,medium,element,direction,comments,example
+PARTÍCULA,MEDIO,ELEMENTO MODIFICADO,ORIENTACIÓN,OBSERVACIONES,EJEMPLO
 Tampoco,Escrito,Sintagma verbal,derecha,,"La decoración del partido cambió en un instante y el Deportivo pasó a manejar el partido a su antojo. La presión de la Juventus, herida en su orgullo, tampoco daba para demasiadas florituras"
 Tampoco,Escrito,Sintagma verbal,derecha,,La ruptura del diálogo social y la falta de acuerdo en la negociación colectiva no ayudan. Pero eso tampoco tiene por qué ser determinante.
 Tampoco,Escrito,Sintagma verbal,derecha,,"El segundo sector tecnológico en el que aumentarán las inversiones tampoco será el informático ni siquiera el de telecomunicaciones, sino el sanitario."
 Tampoco,Escrito,Sintagma verbal,derecha,,"No estaba muy contento con mi vida, así que empecé a tomar clases de actuación pero aquello tampoco me gustaba demasiado."
 Tampoco,Escrito,Sintagma verbal,derecha,,"Si los jóvenes lo tienen difícil, los adultos tampoco se libran de esta nueva prisión estructural"
-Tampoco,Escrito,Sintagma verbal,derecha,,lgunos de los personajes representados son difíciles de identificar con los de la serie. Los puzzles tampoco tienen que ver con las tareas de CSI.
+Tampoco,Escrito,Sintagma verbal,derecha,,Algunos de los personajes representados son difíciles de identificar con los de la serie. Los puzzles tampoco tienen que ver con las tareas de CSI.
 Tampoco,Escrito,Sintagma verbal,derecha,,No todo son cualidades. La cámara tampoco es capaz de guardar las imágenes en formato RAW
 Tampoco,Escrito,Sintagma verbal,derecha,,"El Gobierno del PP pagó los 20.000 millones de pesetas (120 millones de euros), aunque Andalucía le pidió más, que se negó a abonar. Pero la llegada al poder de los socialistas tampoco supuso una resolución definitiva del contencioso"
 Tampoco,Escrito,Sintagma verbal,derecha,,"Desde el PSOE, su portavoz, Jesús Cuadrado, todavía no se quiere pronunciar sobre esta iniciativa hasta conocer su contenido. Finalmente, el portavoz del PNV, José Ramón Beloki, tampoco tiene una ""idea clara"" sobre lo que hay que cambiar."
@@ -98,7 +98,7 @@ Tampoco,Escrito,Sintagma verbal,derecha,,Morir no sienta a cualquiera. Vivir tam
 Tampoco,Escrito,Sintagma nominal,derecha,,"El contenido de las intervenciones, sin embargo, no cambió. El blanco de todas sus críticas, tampoco."
 Tampoco,Escrito,Sintagma nominal,derecha,,"Para entonces los hermanos Almodóvar y la ministra González-Sinde ya no pestañeaban. Y el resto de sus congéneres, irremediablemente, tampoco."
 Tampoco,Escrito,Dudoso,derecha,,"no defiende unos efectos poderosos de los medios, ni considera tampoco a los receptores como autómatas"
-Tampoco,Escrito,Dudoso,derecha,,"el PP de la capital no especificó el nombre de la empresa, ni tampoco el del concejal amenazado [SN con nombre elidido o SV con verbo elidido]"
+Tampoco,Escrito,Dudoso,derecha,SN con nombre elidido o SV con verbo elidido,"el PP de la capital no especificó el nombre de la empresa, ni tampoco el del concejal amenazado"
 Tampoco,Oral,Sintagma verbal,derecha,,los entrenadores eeh muchas veces no les gusta / que / que les pregunten por los equipos / por las alineaciones // yo tampoco te voy a preguntar
 Tampoco,Oral,Sintagma verbal,derecha,,puede que haya juicios demasiado estrictos que consideren que no merece la pena formar opinión sobre alguien que no la tiene en ese sentido / yo tampoco quiero llegar a ese nivel / pero creo que lo que les interesan al Gobierno y a los ciudadanos son los acuerdos de las autoridades responsables
 Tampoco,Oral,Sintagma verbal,derecha,,en estos momentos esa es la pregunta básica que uno hace cada vez que lee los periódicos por la mañana y no encontramos respuesta // por lo tanto / no creo que los analistas en estos momentos tampoco la aventuren
@@ -197,9 +197,9 @@ Tampoco,Oral,Sintagma nominal,derecha,,bueno mi hijo que de aquella era pequeño
 Tampoco,Oral,Sintagma nominal,derecha,,"de hecho no fuma y mi mujer tampoco // y ya tengo problemas en casa porque ya me echan fuera siempre para fumar [este es otro hablante, es casual que también hable de su mujer]"
 Tampoco,Oral,Sintagma preposicional,derecha,,a mí no me gustó el café tú fíjate / y a ellos / a los que iban con nosotros tampoco
 Tampoco,Oral,Oración,derecha,,yo lo que tenía muy claro / era que / no quería planta // no me gusta la planta eeh // eeh ¿que más? / no me gu eeh después la patología / de psiquiatría no me gusta tampoco
-Tampoco,Oral,Dudoso,derecha,,es cierto que tampoco toda la tasa de paro está incluida o todos están cubiertos por el seguro de desempleo [duda entre SN u oración]
-Tampoco,Oral,Dudoso,derecha,,que no se pueda estar utilizando una institución democrática en beneficio de los terroristas y que tampoco en el futuro cualquier institución democrática pudiera ser utilizada en beneficio de los terroristas [duda entre SP y oración]
-Tampoco,Oral,Dudoso,derecha,,"¿eso significa que tienen que salir en todos los medios diciendo ¡qué bien la Villalobos! creo que tampoco [alcance sobre elemento elidido, hacia la derecha]"
+Tampoco,Oral,Dudoso,derecha,duda entre SN u oración,es cierto que tampoco toda la tasa de paro está incluida o todos están cubiertos por el seguro de desempleo
+Tampoco,Oral,Dudoso,derecha,duda entre SP y oración,que no se pueda estar utilizando una institución democrática en beneficio de los terroristas y que tampoco en el futuro cualquier institución democrática pudiera ser utilizada en beneficio de los terroristas
+Tampoco,Oral,Dudoso,derecha,"alcance sobre elemento elidido, hacia la derecha",¿eso significa que tienen que salir en todos los medios diciendo ¡qué bien la Villalobos!? creo que tampoco
 Inclusive,Escrito,Sintagma verbal,derecha,,La palabra homicidio inclusive es demasiado leve para referirse a ella.
 Inclusive,Escrito,Sintagma verbal,derecha,,"antiguo es todo lo que allí tienen, antiguo y viejo y algunas cosas inclusive están rotas"
 Inclusive,Escrito,Sintagma verbal,derecha,,"a Jesús no le dije nada de que tú eras una bollera, y yo inclusive le di un beso a un amigo mío"
@@ -270,7 +270,7 @@ Inclusive,Escrito,Sintagma preposicional,derecha,,su trágico destino entristece
 Inclusive,Escrito,Sintagma preposicional,derecha,,"Se descartaron alergias, inclusive a metales pesados y níquel."
 Inclusive,Escrito,Oración,derecha,,extendió la resolución de modo que cubriera y protegiera como un paraguas a todos los involucrados en la supuesta 'asociación ilícita' responsable de la venta ilegal de 6.500 toneladas de armas a Ecuador y Croacia entre 1991 y 1995. Inclusive se permitió veladas amenazas a la prensa por desarrollar su propia investigación.
 Inclusive,Escrito,Oración,derecha,,"algo que ya había advertido el entrenador del equipo, Phil Jackson, que inclusive también era consciente del factor West"
-Inclusive,Escrito,Oración,derecha,,"los accesorios que duran entre 6 y 12 meses- nacen por desarrollos sociales, económicos, políticos y tecnológicos. Inclusive pueden darse por influencia del cine"
+Inclusive,Escrito,Oración,derecha,,"los accesorios —que duran entre 6 y 12 meses— nacen por desarrollos sociales, económicos, políticos y tecnológicos. Inclusive pueden darse por influencia del cine"
 Inclusive,Escrito,Oración,derecha,,"Interés que es significativamente menor que el que generan otros temas como la medicina y la salud, la alimentación y el consumo, o el medio ambiente y la ecología. Inclusive es menor que la atención dirigida hacia el cine, el arte y la cultura, o los deportes."
 Inclusive,Escrito,Oración,derecha,,"la aproximación entre los tres sistemas se produciría a través del reconocimiento al órgano competente de una amplia potestad discrecional. Inclusive, a partir de la redacción del párrafo primero del artículo 57.6 DCP, podría deducirse que el legislador europeo ha acabado por diseñar un sistema que, como el de la FAR estadounidense, pivota sobre el concepto de “responsabilidad presente”"
 Inclusive,Escrito,Oración,derecha,,Pensé mucho en Bebo porque él me enseñó todas estas cosas del acompañamiento desde que yo era un muchacho. Inclusive me fui un poco hacia el estilo suyo aunque a mi manera
@@ -296,12 +296,12 @@ Inclusive,Escrito,Cláusula de infinitivo,derecha,,"prácticas con las que se bu
 Inclusive,Escrito,Dentro de una perífrasis,derecha,,"Yo no puedo decir que hubiera abuso de poder por parte del antiguo gerente, pero por las investigaciones que hemos hecho podríamos inclusive llevar este asunto a los tribunales"
 Inclusive,Escrito,Dentro de una perífrasis,derecha,,"Los proyectos apoyan, y pueden inclusive mejorar, la conservación de la biodiversidad local"
 Inclusive,Escrito,Dentro de una perífrasis,derecha,,"yo ya me movilicé al máximum antes de venir a España, llegando inclusive a contratar a unos detectives privados"
-Inclusive,Escrito,Dudoso,derecha,,"yo lo sabía desde un principio, se lo dije a Jesús, inclusive, le dije mi madre una bollera cómo va a ser, explícame, si está casada con mi padre [ambiguo: Solo SPrep u Or. completa]"
-Inclusive,Escrito,Sintagma nominal,derecha,,"Cuando todo, el guión de la noticia inclusive, estuvo listo, se buscó de entre los más prestigiosos locutores de programas radiofónicos de Latinoamérica a aquel que pudiera presentar el informativo con más aplomo"
-Inclusive,Escrito,Sintagma adjetival,derecha,,"Todos los gatos negros son iguales entre sí, más iguales inclusive que ningunos, precisamente por ser negros."
-Inclusive,Escrito,Oración subordinada,derecha,,Se lo gritaba a los que no sabían leer inclusive.
-Inclusive,Escrito,Sintagma nominal,derecha,,"Ese tedio es la rutina, es la costumbre, es el dar por consabido el amor conyugal, las apropiadas atenciones al esposo, inclusive, y fíjese si llego lejos, la propia voluntad de la esposa de cumplir con el débito conyugal queda afectada por ese roe-roe"
-Inclusive,Escrito,Dudoso,derecha,,"me llama la atención, que mantengan la pareja que tenían anteriormente que tal, e inclusive una vez que están con una drogodependencia, pues tenga la capacidad de ir de por libre [ambiguo: entre SN y subordinada]"
+Inclusive,Escrito,Dudoso,izquierda,Ambiguo: alcance solo sobre el SPrep o sobre la Oración completa,"yo lo sabía desde un principio, se lo dije a Jesús, inclusive, le dije mi madre una bollera cómo va a ser, explícame, si está casada con mi padre"
+Inclusive,Escrito,Sintagma nominal,izquierda,,"Cuando todo, el guión de la noticia inclusive, estuvo listo, se buscó de entre los más prestigiosos locutores de programas radiofónicos de Latinoamérica a aquel que pudiera presentar el informativo con más aplomo"
+Inclusive,Escrito,Sintagma adjetival,izquierda,,"Todos los gatos negros son iguales entre sí, más iguales inclusive que ningunos, precisamente por ser negros."
+Inclusive,Escrito,Oración subordinada,izquierda,,Se lo gritaba a los que no sabían leer inclusive.
+Inclusive,Escrito,Sintagma nominal,izquierda,,"Ese tedio es la rutina, es la costumbre, es el dar por consabido el amor conyugal, las apropiadas atenciones al esposo, inclusive, y fíjese si llego lejos, la propia voluntad de la esposa de cumplir con el débito conyugal queda afectada por ese roe-roe"
+Inclusive,Escrito,Dudoso,derecha,Ambiguo: entre SN y subordinada,"me llama la atención, que mantengan la pareja que tenían anteriormente que tal, e inclusive una vez que están con una drogodependencia, pues tenga la capacidad de ir de por libre [ambiguo: entre SN y subordinada]"
 Inclusive,Oral,Sintagma verbal,derecha,,venía tal // y ya yo / entraba y me y y modificaba inclusive
 Inclusive,Oral,Sintagma nominal,derecha,,yo creo que en contra de la guerra está todo el mundo / inclusive Pedro Schwartz
 Inclusive,Oral,Sintagma nominal,derecha,,estamos ocupando yo diría que // inclusive mejor puesto que el que teóricamente te nos dan
@@ -371,7 +371,7 @@ Incluso,Escrito,Sintagma preposicional,derecha,,"Las muestras para aislar y/o ca
 Incluso,Escrito,Sintagma preposicional,derecha,,"Como es obvio, parece difícil desde aquí (incluso es probable que tampoco sea sencillo saberlo para quienes allí están) tener muy claro a quiénes, en concreto, se dirigen mayoritariamente. ¿A los colegas?, ¿a sus estudiantes?, ¿a la opinión pública, en su estrato más informado?, ¿o incluso a la cerrada y retroalimentada comunidad"
 Incluso,Escrito,Sintagma preposicional,derecha,,"Otros lamentables al tiempo que destacables ejemplos de campañas de descrédito orquestadas contra el poder judicial son las maniobras de los partidos nacionalistas independentistas para minar la credibilidad en torno a los jueces y magistrados que instruyen y juzgan a los políticos organizadores del referéndum del 1 de octubre, e incluso para intentar amedrentarlos, llegando a realizar pintadas amenazantes"
 Incluso,Escrito,Sintagma preposicional,derecha,,el aumento de la desigualdad incrementa la preferencia por un líder fuerte capaz de restaurar el orden incluso a costa de los valores democráticos
-Incluso,Escrito,Dudoso,derecha,,"El último día incluso nos bañamos, más por masoquismo que por placer. [Clasificado inicialmente como ""Oración"", pero yo creo que realmente es ""Sintagma verbal"".]"
+Incluso,Escrito,Dudoso,derecha,"VSG. Clasificado inicialmente como ""Oración"", pero yo creo que realmente es ""Sintagma verbal"".","El último día incluso nos bañamos, más por masoquismo que por placer."
 Incluso,Escrito,Oración,derecha,,dos sociedades completamente opuestas que apenas llegaban a tocarse y que incluso se ignoraban entre sí
 Incluso,Escrito,Oración,derecha,,Cuando contemplas en soledad las insinuaciones de cualquier lontananza tienen sentido. Incluso todo lo imaginado adquiere significado
 Incluso,Escrito,Oración,derecha,,"María Bauer me escribió, me escribió mucho, primero al frente y después a Tánger, e incluso —pero no hablaré de ello ahora— hubo una carta, una sola, cuando regresé."
@@ -407,11 +407,11 @@ Incluso,Escrito,Cláusula de participio,derecha,,"no es de extrañar que los pri
 Incluso,Escrito,Dentro de una perífrasis,derecha,,"El dinero es un detergente, que puede, incluso, limpiar el alma de los codiciosos."
 Incluso,Escrito,Dentro de una perífrasis,derecha,,"Como muy bien explica la Wikipedia, solemos asociar (e incluso confundir) el fundamentalismo con el fanatismo"
 Incluso,Escrito,Dentro de una perífrasis,derecha,,Llegó incluso a abrir la boca
-Incluso,Escrito,,izquierda,,"Efectivamente, antes incluso de la primera de las revoluciones tecnológicas que han afectado a la palabra —la que permitió a través de la escritura fonética su fijación en signos estables y de fácil combinación y descifrado—, el ejercicio de esta ha ido acompañado del poder demiúrgico no solo de reproducir la realidad, sino también de crearla."
-Incluso,Escrito,Dudoso,derecha,,"empezamos a tomarlo como algo natural e incluso en más de una ocasión, dependiendo del ánimo en que nos pillara, le decíamos, ""abuelo, déjanos en paz"" [alcance preposicional u oracional]"
-Incluso,Escrito,Dudoso,derecha,,"Pero tengo, creo, gran facilidad para estructurar las canciones partiendo casi de la nada. Incluso a veces ideo líneas de bajo, de guitarra… [igual que en el ejemplo anterior]"
-Incluso,Escrito,Dudoso,derecha,,Incluso yo le llamaría ñoño. [ambiguo: entre alcance pronominal y oracional]
-Incluso,Escrito,Dudoso,derecha,,Pero incluso un niño puede entender que el dinero no mueve el coche de papá. [ambiguo: alcance de SN u oracional]
+Incluso,Escrito,Sintagma adverbial,izquierda,,"Efectivamente, antes incluso de la primera de las revoluciones tecnológicas que han afectado a la palabra —la que permitió a través de la escritura fonética su fijación en signos estables y de fácil combinación y descifrado—, el ejercicio de esta ha ido acompañado del poder demiúrgico no solo de reproducir la realidad, sino también de crearla."
+Incluso,Escrito,Dudoso,derecha,"Alcance preposicional u oracional [VSG. Para mí, claramente el alcance es sobre toda la oración]","empezamos a tomarlo como algo natural e incluso en más de una ocasión, dependiendo del ánimo en que nos pillara, le decíamos, ""abuelo, déjanos en paz"""
+Incluso,Escrito,Dudoso,derecha,"Alcance preposicional u oracional [VSG. Para mí, claramente el alcance es sobre toda la oración]","Pero tengo, creo, gran facilidad para estructurar las canciones partiendo casi de la nada. Incluso a veces ideo líneas de bajo, de guitarra…"
+Incluso,Escrito,Dudoso,derecha,Ambiguo: alcance pronominal u oracional,Incluso yo le llamaría ñoño.
+Incluso,Escrito,Dudoso,derecha,Ambiguo: alcance sobre el SN o sobre toda la oración,Pero incluso un niño puede entender que el dinero no mueve el coche de papá.
 Incluso,Oral,Sintagma verbal,derecha,,en resumen / los impuestos se congelan / incluso se reducen / y las prioridades del gasto se orientan hacia lo social
 Incluso,Oral,Sintagma verbal,derecha,,no solo no dificulta el cumplimiento del déficit en los años próximos / sino que incluso lo favorece
 Incluso,Oral,Sintagma verbal,derecha,,me resulta muy difícil pero siempre me gu mmm y yo creo que acabaré teniendo / o in / no sé si incluso dedicándome a eso / profesionalmente
@@ -451,7 +451,7 @@ Incluso,Oral,Sintagma preposicional,derecha,,la actualización / del salario mí
 Incluso,Oral,Sintagma preposicional,derecha,,la adquisición directa o indirecta / incluso a través de terceros / fiduciarios o interpuestos / de acciones de la compañía
 Incluso,Oral,Sintagma preposicional,derecha,,incluso / en los periódicos lo que hacían era poner anuncios para pues pedir un ahijado o pedir una madrina
 Incluso,Oral,Sintagma preposicional,derecha,,pero yo siempre he recibido muy buenas críticas de mis hijos // y incluso de gente / que no sabía que eran mis hijos [verbo elidido después de la conjunción]
-Incluso,Oral,Sintagma preposicional,derecha,,apoyó expresamente esta tarea reformadora y manifestó la conveniencia de acelerar este proceso modernizador mediante un llamamiento / incluso / a todas las fuerzas políticas
+Incluso,Oral,Dudoso,derecha o izquierda,"[VSG. Cabe la posibilidad de interpretarlo, bien como introductor del SPrep, bien como pospuesto al SN previo: ""mediante incluso un llamamiento"", o bien ""incluso mediante un llamamiento""]",apoyó expresamente esta tarea reformadora y manifestó la conveniencia de acelerar este proceso modernizador mediante un llamamiento / incluso / a todas las fuerzas políticas
 Incluso,Oral,Sintagma preposicional,derecha,,la naturaleza es bella y también lo es el lenguaje incluso en el caso del castellano
 Incluso,Oral,Sintagma preposicional,derecha,,homologar nuestro sistema al sistema / como decía / de otras democracias europeas e / incluso / de fuera de Europa
 Incluso,Oral,Sintagma preposicional,derecha,,el líder de Podemos habló de un incremento del gasto en numerosos ámbitos / medidas de ámbito escolar / Ley de Dependencia / salario mínimo / las pensiones y el IPC / incluso / de rebaja de impuestos como el IVA o de cuotas de autónomos [verbo elidido]
@@ -501,7 +501,7 @@ Incluso,Oral,Oración subordinada,derecha,,las aportaciones a los patrimonios pr
 Incluso,Oral,Oración subordinada,derecha,,me limito a respetar lo que dice la Constitución // eso es lo que puedo decir a mí lo que me sorprende es que / incluso si no se estuviese de acuerdo con declaraciones como las que ha hecho el presidente del Tribunal Constitucional / incluso / yo creo que estar en clave electoral no significa que vale todo
 Incluso,Oral,Oración subordinada,derecha,,los recopiladores tenían sus cuentos // pero cuando tenían que volcarlos en letra impresa / tropezaban muchas veces / ay madre / con el editor y con la ideología dominante / y con y tendencias escolares / incluso donde estaban específicamente repudiados
 Incluso,Oral,Oración subordinada,derecha,,siempre ha estado en el texto que ha venido trabajando el Gobierno / no desde que era proyecto / no desde que era anteproyecto / sino incluso cuando era ya un borrador de anteproyecto de proyecto
-Incluso,Oral,Oración subordinada,derecha,,la aureola de Mafalda / le ha acompañado toda su vida / dicen incluso que llegó a renegar de ella
+Incluso,Oral,Dudoso,derecha o izquierda,"[VSG. Cabe la posibilidad de interpretarlo, bien como focalizador de toda la oración en que se icrusta, bien como pospuesto al SV previo, que a mi juicio es el único elemento focal: ""incluso dicen...""]",la aureola de Mafalda / le ha acompañado toda su vida / dicen incluso que llegó a renegar de ella
 Incluso,Oral,Cláusula de infinitivo,derecha,,cuyo primer objetivo es hacer un diagnóstico de la situación de las víctimas e / incluso / recapitular las indemnizaciones
 Incluso,Oral,Cláusula de infinitivo,derecha,,llevo tres o cuatro semanas tratando justamente de explicarles a los ciudadanos españoles e / incluso / sugerirle a algún partido político / cómo son las cosas en el Estado de derecho
 Incluso,Oral,Cláusula de infinitivo,derecha,,me voy a permitir reproducirlo e / incluso / en algún caso / explicarlo
@@ -510,13 +510,13 @@ Incluso,Oral,Cláusula de infinitivo,derecha,,necesito como // ir buscando cosas
 Incluso,Oral,Cláusula de gerundio,derecha,,es lo que impone la Unión Europea / y nos parece de sentido común incluso imponiéndolo la Unión Europea
 Incluso,Oral,Dentro de una perífrasis,derecha,,como dice la sentencia del Tribunal Constitucional de veintiocho de junio del año mil novecientos ochenta y tres / se pueden incluso recurrir con éxito simples oficios de una Dirección General de una comunidad autónoma
 Incluso,Oral,Dentro de una perífrasis,derecha,,hay gente que tiene el resto del rostro con una piel normal y que no necesita ni matificar o que podría incluso combinar bases de maquillaje
-Incluso,Oral,,izquierda,,tuve un profesor de Matemáticas que se me atragantó mucho // y que yo creo incluso que fue como el único en esa edad que se me / que se me atragantó
-Incluso,Oral,,izquierda,,pues yo tengo foto incluso fíjate
-Incluso,Oral,,izquierda,,está hecha / por / Carmelo Bernaola exclusivamente para La Clave / y de ahí / de hecha / mmm / de / de / de ella se ha hecho / un concierto incluso una chica de dieciséis diecisiete años ¿más? / ya ya es que ni me acuerdo / creo que eran veintidós años incluso
-Incluso,Oral,,izquierda,,yo creo que eso ya empezamos a corregirlo / antes incluso de la aprobación de la ley
-Incluso,Oral,Dudoso,derecha,,me acuerdo de ir a v a ver la última nota o a o cuando fui a ver las notas con mi madre incluso que fui con ella me dice ¿tú estás seguro que quieres continuar?
-Incluso,Oral,Dudoso,derecha,,hay cegueras que son impuestas / miradas cautivas / algunas parecen que llevaran el peso de una vida en las pupilas // otras provocan sonrisas / se vuelven furtivas // e incluso / distorsionan el mundo
-Incluso,Oral,Dudoso,derecha,,eso es lo que se acordó ayer y yo creo que es positivo // incluso nosotros lo hemos promovido [ambiguo: alcance pronominal u oracional]
+Incluso,Oral,Sintagma verbal,izquierda,,tuve un profesor de Matemáticas que se me atragantó mucho // y que yo creo incluso que fue como el único en esa edad que se me / que se me atragantó
+Incluso,Oral,Sintagma nominal,izquierda,,pues yo tengo foto incluso fíjate
+Incluso,Oral,Dudoso,izquierda,Alcance sobre todo el SV o solamente sobre el SN de objeto directo,está hecha / por / Carmelo Bernaola exclusivamente para La Clave / y de ahí / de hecha / mmm / de / de / de ella se ha hecho / un concierto incluso una chica de dieciséis diecisiete años ¿más? / ya ya es que ni me acuerdo / creo que eran veintidós años incluso
+Incluso,Oral,Sintagma adverbial,izquierda,,yo creo que eso ya empezamos a corregirlo / antes incluso de la aprobación de la ley
+Incluso,Oral,Dudoso,derecha o izquierda,Ambiguo: alcance a la derecha (oración subordinada) o a la izquierda (Sintagma nominal),me acuerdo de ir a v a ver la última nota o a o cuando fui a ver las notas con mi madre incluso que fui con ella me dice ¿tú estás seguro que quieres continuar?
+Incluso,Oral,Dudoso,derecha,"[VSG. A mi juicio, Sintagma verbal]",hay cegueras que son impuestas / miradas cautivas / algunas parecen que llevaran el peso de una vida en las pupilas // otras provocan sonrisas / se vuelven furtivas // e incluso / distorsionan el mundo
+Incluso,Oral,Dudoso,derecha,Ambiguo: alcance pronominal u oracional,eso es lo que se acordó ayer y yo creo que es positivo // incluso nosotros lo hemos promovido [ambiguo: alcance pronominal u oracional]
 Ni aun,Escrito,Sintagma nominal,derecha,,el mercado no puede existir —ni aun el más libre— sin regulaciones
 Ni aun,Escrito,Sintagma nominal,derecha,,"Por qué se le deparó una fortuna que entre nosotros no ha alcanzado ninguna de las demás recreaciones del personaje de Don Juan, ni aun la primera, mejor y más arrinconada, la del ignorado autor de El burlador de Sevilla?"
 Ni aun,Escrito,Sintagma nominal,derecha,,"Una plaza que no es ni la primera, ni la segunda, ni aun la tercera o la cuarta, entre las más nombradas de la villa"
@@ -718,8 +718,8 @@ Ni siquiera,Escrito,Cláusula de infinitivo,derecha,,"O quizás se trate de no i
 Ni siquiera,Escrito,Cláusula de infinitivo,derecha,,La verdad es que no me apetecía ni siquiera respirar.
 Ni siquiera,Escrito,Cláusula de participio,derecha,,"Casi siempre ello queda en la invocación, en una suerte de buenismo epistemológico, a menudo ni siquiera cultivado por quien proclama esa necesaria tarea."
 Ni siquiera,Escrito,Dentro de una perífrasis,derecha,,"Si estás tan mala para no poder ni siquiera escribirme, es mejor que me lo hagas saber"
-Ni siquiera,Escrito,Dudoso,derecha," [dudoso entre SN y oración con verbo elidido] [VSG: dado que ""nata"" aparece como nominal escueto, sin determinante, creo que no cabe hablar de verbo elidido; a mi juicio, es un caso claro de SN]","el único ingrediente es la nata, y ni siquiera nata con fermentos, solo nata"
-Ni siquiera,Escrito,Dudoso,derecha,"[dudosa entre SN y oración] [VSG: para mí es un caso claro de SN, que es lo que se sitúa en el punto más alto de la escala; el resto de la oración no tiene esa propiedad]",Ni siquiera los viajes son lo que eran.
+Ni siquiera,Escrito,Dudoso,derecha," Dudoso entre SN y oración con verbo elidido [VSG: dado que ""nata"" aparece como nominal escueto, sin determinante, creo que no cabe hablar de verbo elidido; a mi juicio, es un caso claro de SN]","el único ingrediente es la nata, y ni siquiera nata con fermentos, solo nata"
+Ni siquiera,Escrito,Dudoso,derecha,"Dudosa entre SN y oración [VSG: para mí es un caso claro de SN, que es lo que se sitúa en el punto más alto de la escala; el resto de la oración no tiene esa propiedad]",Ni siquiera los viajes son lo que eran.
 Ni siquiera,Oral,Sintagma verbal,derecha,,cuando tú ni siquiera has dicho / que te oponías a jugar allí
 Ni siquiera,Oral,Sintagma verbal,derecha,,el cuarto comentario que quería hacer es un comentario de hecho / no es normativo / ni siquiera es de política / pero creo que tiene un cierto interés
 Ni siquiera,Oral,Sintagma verbal,derecha,,son servicios públicos fundamentales que en muchos casos se han destruido / en otros muchos casos estaban francamente deteriorados y en otros ni siquiera existían
@@ -823,4 +823,598 @@ Ni siquiera,Oral,Dentro de una perífrasis,derecha,,no hemos llegado ni siquiera
 Ni siquiera,Oral,¿Oración?,izquierda,"[VSG: creo que la partícula focaliza toda la oración, aunque se sitúe entre el verbo y los complementos. No sería tanto que focaliza al elemento a su izquierda como que se inserta en medio de la unidad que focaliza]",pues muy bien eeh yo estoy encantado ¿no? // y y en fin no tengo además no le conozco personalmente ni siquiera // y cualquier otro comentario pues eeh en fin que aporte todo lo que pueda a esa fundación ¿no?
 Ni siquiera,Oral,¿Oración?,izquierda,"[VSG: creo que la partícula focaliza toda la oración, aunque se sitúe entre el verbo y los complementos. No sería tanto que focaliza al elemento a su izquierda como que se inserta en medio de la unidad que focaliza]",no estamos ni siquiera en condiciones de decir que el presidente va a comparecer en el Parlamento
 Ni siquiera,Oral,Dudoso,derecha,"[VSG: creo que cabe interpretarlo como un SN con el nombre elidido: ""la primera (palabra)""]",el Gobierno tendrá la primera palabra / pero no la última / y en este caso ni siquiera la primera / la primera la ha tenido
-Ni siquiera,Oral,Dudoso,derecha,"[dudoso entre SN y oración] [VSG: creo que modifica la Oración entera; de hecho, el elemento inmediatamente posterior es el SV (está cerrado), por lo que me parece difícil decir que modifica al SN, que no está en posición contigua]",no hay nada sobre el emplazamiento / y ni siquiera está cerrado el número de personas que vayan a ir y ni siquiera está cerrado el propio hecho de que vayan a ir
+Ni siquiera,Oral,Dudoso,derecha,"Dudoso entre SN y oración [VSG: creo que modifica la Oración entera; de hecho, el elemento inmediatamente posterior es el SV (está cerrado), por lo que me parece difícil decir que modifica al SN, que no está en posición contigua]",no hay nada sobre el emplazamiento / y ni siquiera está cerrado el número de personas que vayan a ir y ni siquiera está cerrado el propio hecho de que vayan a ir
+También,Escrito,Sintagma verbal,derecha,,El consejo también acordará que Goirigolzarri sustituya a Uriarte como miembro de éste órgano de administración
+También,Escrito,Sintagma verbal,derecha,,La Justicia también es sensible al ruido.
+También,Escrito,Sintagma verbal,derecha,,"Posteriormente se llevará a cabo una encuesta epidemiológica, cuyo protocolo de actuación también es bastante complejo"
+También,Escrito,Sintagma verbal,derecha,,"Y yo, cariño, también necesito que los fines de semana hagamos algún plan los tres juntos"
+También,Escrito,Sintagma verbal,derecha,,"Las casadas, cuyos cónyuges no lo perciban, también tendrán derecho así como las separadas con hijos a cargo."
+También,Escrito,Sintagma verbal,derecha,,"A su vez, la formación, las consultorías o la inversión en innovación también requieren inversión."
+También,Escrito,Sintagma verbal,derecha,,"Tras unos días tormentosos, con la vuelta del buen tiempo Marina empezó a dar largos paseos, que también eran momentos de aislamiento y embeleso"
+También,Escrito,Sintagma verbal,derecha,,ahora todo el mundo sale aprovechando que Marruecos está levantando la mano porque somos muchos los que nos estamos amontonando en sus calles y la policía también está distraída con las protestas en el Rif
+También,Escrito,Sintagma verbal,derecha,,"Lagarde también destacó que actualmente, tras el incremento de los recursos del organismo en 461.000 millones de dólares en abril, la ""red de seguridad mundial"" del fondo es ""real, no una ilusión""."
+También,Escrito,Sintagma verbal,derecha,,"Se trata de una cantidad de crudo relativamente pequeña, según las autoridades navales del país, quienes también afirmaron que la mayor parte de las 1.900 toneladas de fuel–oil vertido se concentran cerca del estrecho de Groensund."
+También,Escrito,Sintagma verbal,derecha,,Una segunda fuente también apuntó al mes de noviembre como el momento más probable para que el Ejecutivo de Mariano Rajoy realice la petición a la Unión Europea.
+También,Escrito,Sintagma verbal,derecha,,El descanso también forma parte del entrenamiento.
+También,Escrito,Sintagma verbal,derecha,,La actualización del Fondo también recoge una sensible rebaja en la previsión de crecimiento de Estados Unidos
+También,Escrito,Sintagma nominal,derecha,,"A fin de reducir espacio y costes de alquiler, los empleados- y en muchos casos también los mandos intermedios- carecen de un escritorio"
+También,Escrito,Sintagma nominal,derecha,,"Y, de otra parte, se mencionan como competencias de Europol, también, los delitos penales conexos"
+También,Escrito,Sintagma nominal,derecha,,Agradezco también su colaboración a los compañeros de otros zoológicos
+También,Escrito,Sintagma nominal,derecha,,En el lóbulo frontal reside nuestra capacidad para planificar y es también el lugar donde se graban las normas sociales.
+También,Escrito,Sintagma nominal,derecha,,"a medida que aumenta el interés, aumentan también la creencia en fenómenos paranormales"
+También,Escrito,Sintagma nominal,derecha,,una protesta a la que se sumará también el sindicato AFID de Profesores Interinos.
+También,Escrito,Sintagma nominal,derecha,,En esta actividad se encuentran también los sectores productores
+También,Escrito,Sintagma nominal,derecha,,en cuyo cajón de sastre aglutinamos [...] no sólo las realidades de intercomunicación [...] sino también la normativa reguladora de estos fenómenos
+También,Escrito,Sintagma nominal,derecha,,"no sólo cuentan las evidencias recibidas a favor de una hipótesis, sino también la perspectiva personal que otorgue el observador a la experiencia previa"
+También,Escrito,Sintagma nominal,derecha,,"ese ejército aliado recibió de Irene no sólo el último parte médico, sino también el cuento que les había escrito a sus hijos"
+También,Escrito,Sintagma nominal,derecha,,A continuación te damos también una serie de juegos e ideas para que la fiesta sea perfecta
+También,Escrito,Sintagma nominal,derecha,,Durante este año se ha mantenido también el significativo cambio que ya fue detectado en 2016 en Andalucía
+También,Escrito,Sintagma nominal,derecha,,"No hay aquí un desenlace o un acontecimiento determinado que resulte exclusivamente de una alteración de la dopamina, sino que es también la consecuencia directa de una situación de opresión"
+También,Escrito,Sintagma nominal,derecha,,"las naciones más abiertas a las relaciones comerciales con el exterior no sólo tienen economías que funcionan mejor, sino también una población más culta y cosmopolita"
+También,Escrito,Sintagma nominal,derecha,,Revisó los bolsillos y encontró lo que buscaba. Cogió también la cartera y sin más dilación se metió en uno de los servicios y cerró el pestillo.
+También,Escrito,Sintagma nominal,derecha,,"se enfrentaba a una complicada perspectiva de supervivencia en la que predominaba no solo la represión política practicada por la dictadura, sino también el hambre, la enfermedad y la muerte como consecuencia de la precaria situación social y económica"
+También,Escrito,Sintagma nominal,derecha,,"serían justiciables [...] el decreto de declaración del estado de alarma, pero también los decretos de prórroga del estado de alarma"
+También,Escrito,Sintagma nominal,derecha,,"Está empapado de arriba a abajo, también su ropa."
+También,Escrito,Sintagma nominal,derecha,,"Sería de algo que habría leído recientemente. Podría ser Stendhal, pero también Flaubert o Maupassant o Balzac."
+También,Escrito,Sintagma nominal,derecha,,"Cataluña no sólo tiene planteado el mayor desafío ante el Tribunal Constitucional (TC), sino que tiene también más desafíos que nadie."
+También,Escrito,Sintagma nominal,derecha,,"Otro de los nuevos conceptos es la llamada dieta flexitariana. Es una variante de la dieta vegetariana. Verduras y hortalizas, sí pero también carne de forma puntual."
+También,Escrito,Sintagma adjetival,derecha,,"A la corrida de la feria de Torremolinos le ha faltado el toro. Los corridos en los tres primeros lugares con el hierro de El Serrano, flojos, casi inválidos, pero nobles. Con alto grado de After Save. Los restantes de los Herederos de José Luis Osborne descastados con algunas violentas arrancadas, también flojos."
+También,Escrito,Sintagma adjetival,derecha,,"Me considero muy afortunada y me niego a vivir anhelando algo que no ocurrió, porque tengo cosas que me hacen, también, muy feliz y plena."
+También,Escrito,Sintagma adjetival,derecha,,"las prácticas y los discursos médico-sanitarios se representan y articulan en estos cinco documentales como una fuente esencial y heroica, pero también objetiva"
+También,Escrito,Sintagma adjetival,derecha,,"Los niños, que se diferencian de los adultos en cuanto a su estructura fisiológica y psicológica, son también más vulnerables a algunos riesgos laborales específicos"
+También,Escrito,Sintagma adverbial,derecha,,"se desvela [...] la posible identidad de Jack el Destripador, basándose principalmente en muestras de ADN tomadas de las cartas que —también posiblemente— el asesino de Whitechappel envió a la policía"
+También,Escrito,Sintagma preposicional,derecha,,"Y los más repugnantes, como ocurre también en la política, en todos los trabajos y en la vida misma, son los 'cortesanos'"
+También,Escrito,Sintagma preposicional,derecha,,La granadina regresó al Seis Naciones también por accidente
+También,Escrito,Sintagma preposicional,derecha,,"ha provocado inusitado entusiasmo no sólo en el mundo literario anglosajón, sino también entre chefs"
+También,Escrito,Sintagma preposicional,derecha,,"se encontró bajo fortísimas presiones de la administración Bush y del 'lobby' irlandés de Boston, Chicago y Nueva York. Y no tan sólo por el estigma del terrorismo, sino también por el descubrimiento de que tenía un 'enlace' en La Haban"
+También,Escrito,Sintagma preposicional,derecha,,Me gustaría que reflejara también a los artistas que se concentran más en la música y no tan centrado en el mundo del espectáculo.
+También,Escrito,Sintagma preposicional,derecha,,"Simultáneamente sirven de contraste a las investigaciones actuales y también como advertencia de lo que puede ocurrir cuando prejuicios sociales, o el simple salvajismo, se inmiscuyen en el quehacer científico."
+También,Escrito,Sintagma preposicional,derecha,,En el auto ahora dictado resuelve también sobre cuestiones procesales recogidas en algunos de los recursos sobre la incompetencia del juez instructor para dictar un auto de archivo.
+También,Escrito,Sintagma preposicional,derecha,,Estamos dispuestos a encontrar una solución también sin Estados Unidos
+También,Escrito,Sintagma preposicional,derecha,,"Michael Owen, inglés, 22 años, ídolo de la mayoría de adolescentes inglesas y por lo visto, también de los corresponsales de «France Football». Hoy se hará público que el delantero inglés, que el pasado año"
+También,Escrito,Sintagma preposicional,derecha,,"abrieron los mercados neoyorquinos, animados también por la compra de USA Networks"
+También,Escrito,Sintagma preposicional,derecha,,"Entiendo que metrosexual es una terminología que se han inventado, probablemente, los grandes grupos mediáticos americanos para vender más revistas y, claro, ha llegado también a España."
+También,Escrito,Sintagma preposicional,derecha,,"La culpa de esa desorientación no es únicamente de quienes la sufren, que podrían paliarla si pusieran interés, sino también de quienes deberían guiarles por ese laberinto de supersticiones."
+También,Escrito,Sintagma preposicional,derecha,,"personas que no tienen capacidad plena, que no pueden por ello asumir plena responsabilidad y que también por ello han de ser protegidos frente a los abusos"
+También,Escrito,Sintagma preposicional,derecha,,en los tres últimos años de la gestión de Menem hubo un gran endeudamiento de las provincias y también de la Nación por una exagerada expansión del gasto público
+También,Escrito,Sintagma preposicional,derecha,,"El grupo Aramón es el propietario de este centro de nieve situado en el valle del Gállego, alto Pirineo oscense, junto con los de Formigal y Cerler, también en el Pirineo, y Javalambre y Valdelinares, en Teruel."
+También,Escrito,Oración,derecha,,"La búsqueda de lagartos gigantes en la isla de La Palma, donde también se conocen como fósiles, no había dado ningún resultado hasta fechas recientes"
+También,Escrito,Oración,derecha,,"Además, también parece ser que los canarios son los únicos que han sufrido estas incidencias con Auna"
+También,Escrito,Oración,derecha,,"los derechos civiles y políticos, además de necesitar una acción positiva de los poderes públicos, también deben ser concretados y definidos caso por caso por los tribunales"
+También,Escrito,Oración,derecha,,Pedro Azpiazu ha analizado no solo el avance de las cuentas económicas trimestrales de 2017 sino que también ha explicado los parámetros fundamentales de la evolución de la economía en 2016
+También,Escrito,Oración,derecha,,"a vida es una auténtica noria emocional. Nos proporciona momentos de inmensa alegría, pero también es posible que nos traiga el mayor sufrimiento"
+También,Escrito,Oración,derecha,,"Dentro del paquete de medidas aprobadas hoy por el Gobierno vasco en materia de empleo, también se ha aprobado la convocatoria de ayudas al contrato de relevo de 2017"
+También,Escrito,Oración,derecha,,"Se trata de un proceso de control que no sólo afectará al Ayuntamiento de Valencia en la Comunidad Valenciana sino que también obligará a la Generalitat y a las tres diputaciones provinciales, según informaron las fuentes municipales consultadas."
+También,Escrito,Oración,derecha,,"La guitarra gigante del Hard Rock Café se apagó temprano, con sus fotografías firmadas y presuntas chaquetas de Elvis decorando las ruidosas cenas navideñas que también se dan por aquí."
+También,Escrito,Oración,derecha,,mientras van llenado unas libretas que son ya un archivo gráfico para la historia. Pero que también son las sensaciones diarias de un grupo de personas con especial sensibilidad
+También,Escrito,Oración,derecha,,"Y es que, desde hace tiempo, Andorra ya no solo es un destino de esquí, al ser cada vez mayor su oferta de ocio y cultural, que incluye exposiciones, museos y espectáculos. Y si lo que quieres es relax, también es famosa por sus balnearios"
+También,Escrito,Oración,derecha,,"Las invitaciones de su carta son fácilmente reconocibles por los amantes de los sabores de toda la vida: mejillones con patatas fritas, sardinas con cebolla, calamares fritos... También hay alguna que se sale de la norma como la de carrillera."
+También,Escrito,Oración,derecha,,"Mientras la cuerda vibra como un todo, también vibran sus dos mitades"
+También,Escrito,Oración,derecha,,"Puedes enviarle un mensaje a través de Facebook, tuitearle y más cosas. También sabrás lo que las otras personas hacen al leer sus publicaciones en sus cuentas sociales."
+También,Escrito,Oración,derecha,,"El Cola Cao lo concibo no solo como bebida, también es para comer."
+También,Escrito,Oración,derecha,,En los actos dedicados a Malala también participó el ministro
+También,Escrito,Oración,derecha,,"El segundo premio de televisión ha recaído en Mathieu Mabin, de la francesa France 24, por su reportaje 'Brigada Trípoli', por el que también se hizo con el premio 'Fondation Varenne' de los estudiantes de la región Basse-Normandie."
+También,Escrito,Oración,derecha,,Le diría que no se encontraba bien y que por eso se había marchado. También telefonearía a Flogenhofer para pedirle disculpas por no haberse despedido de él.
+También,Escrito,Oración,derecha,,Al campo del Millwall también va gente normal
+También,Escrito,Oración,derecha,,"Más incluso que una inversión equivalente en otro tipo de inmovilizado o en incremento de personal, los otros dos recursos básicos en la empresa. También podemos invertir en tecnología e intentar que ésta, por arte de magia, impregne los procesos y a las personas…"
+También,Escrito,Oración,derecha,,"Hoy voy a dedicar el post a los niños porque, los pobres, también tienen derecho a que nos acordemos de ellos."
+También,Escrito,Oración,derecha,,"al final no solo se trata de un cuaderno bonito, también tienes tu propio viaje"
+También,Escrito,Oración,derecha,,la propuesta anunciada hoy por Bruselas se basa en una serie de inspecciones [...] para comprobar cómo cumple cada país la normativa de seguridad contra la EEB. También ha tenido en cuenta una primera evaluación de los efectos de incrementar la realización de tests para detectar la enfermedad.
+También,Escrito,Oración,derecha,,"Es un pacto contranatura, con toda seguridad. Pero también es un pacto de dos partidos que están poniendo los muertos en el País Vasco."
+También,Escrito,Oración,derecha,,En el caso de la neumonía asiática también se recomienda su uso entre el personal sanitario
+También,Escrito,Oración,derecha,,parecía la forma más fácil de asistir a la Cumbre que Rusia y la Unión Europea celebraban en esa ciudad. Pero también fue una excelente oportunidad para ojear la vida que los rusos llevan fuera de la capital
+También,Escrito,Oración,derecha,,"colabora la institución provincial alicantina junto al Instituto Tecnológico Geominero de España (IGME), con el que también desarrolla actividades de cooperación para el estudio de los acuíferos"
+También,Escrito,Oración,derecha,,"Yo... yo sé que habrá gente que inventará pretextos, pero no es mi caso. Como también me consta que ha habido ocasiones en las que se autorizó."
+También,Escrito,Oración,derecha,,También quiero expresar mi gratitud a Redvya por el entusiasmo demostrado en la difusión de todo lo relacionado con el mundo de los animales
+También,Escrito,Oración,derecha,,"También existe la ganadería extensiva, que se aplica en España con toros de lidia, cerdos y ovinos transhumantes."
+También,Escrito,Oración,derecha,,Pérez indicó que también van a remitir una copia de las firmas entregadas ayer en el registro de la Consejería
+También,Escrito,Oración,derecha,,"Es una película no sólo para gente de edad temprana, sino que también gustará a los padres"
+También,Escrito,Oración,derecha,,"Si atendemos al codo de mejoras, veremos que también tiene costes."
+También,Escrito,Oración,derecha,,"Mark Webber será quien inaugure la fiesta en Yeongam, igual que lo hizo en Mónaco. Sus dos únicas 'poles' esta temporada. Entonces, por las calles de Montecarlo también se hizo con la victoria."
+También,Escrito,Oración,derecha,,"Yo tuve la suerte de que Julián Piedrafita, que llevaba la ingeniería de MAN, contactó conmigo para probar cuando también lo hizo con Luis Pérez Salas y Luis Villamil. Al final fui yo"
+También,Escrito,Oración,derecha,,"En el colectivo de pacientes también entran mujeres nativas y españolas ""unidas por la desgracia común"""
+También,Escrito,Oración,derecha,,"El francés Olivier Messiaen llegó a rizar el rizo ya que no sólo veía notas musicales, sino que también escuchaba colores."
+También,Escrito,Oración,derecha,,"Al menos seis municipios se han quedado este año sin toros y en otros cuatro podría suceder lo mismo. [...] En algunas localidades también se ha decidido enterrar la fiesta nacional tras una consulta popular, como ha ocurrido en Coslada y Colmenarejo. En otros pueblos como Pinto y San Sebastián de los Reyes también se celebrarán próximamente consultas sobre la fiesta."
+También,Escrito,Oración,derecha,,La panadera que además de amasar se ve que también entiende de alta costura se afana porque mi imagen sea divina.
+También,Escrito,Oración,derecha,,"deberíamos hablar de la Web, y más específicamente de la Web 2.0, y no de internet, también es cierto que estos términos se han confundido y que hemos pasado a hablar de la Web como «internet»"
+También,Escrito,Cláusula de infinitivo,derecha,,"sirve para mostrar situaciones problemáticas e integrarlas con la experiencia de cada uno y, también, desarrollar habilidades de crítica, capacidad de tomar decisiones y de escucha activa hacia los demás"
+También,Escrito,Dentro de una perífrasis,derecha,,Cuando mira la década del 90 en su conjunto tiende también a decir que el país siguió endeudándose a través de la deuda pública interna y externa.
+También,Escrito,Sintagma nominal,izquierda,,"La velocidad del viento ha sido durante el año 2000 de 7 kilómetros de media cada mes, lo que es muy bajo y no ayuda en absoluto a deshacer los núcleos contaminantes. La lluvia también ha sido escasa y sólo se han recogido 191 litros"
+También,Escrito,Sintagma nominal,izquierda,,Su marido Ramiro Oliveros y una hija de ambos también estuvieron presentes en el acto.
+También,Escrito,Sintagma nominal,izquierda,,"Tampoco está claro que fuera él realmente el tirador, dado que la identificación es confusa y las narraciones de los testigos también."
+También,Escrito,Sintagma adjetival,izquierda,"[VSG. A mi juicio, ""también"" incide solo sobre el atributo (""cinco""). Cabría pensar que incide sobre todo el sintagma verbal (""somos cinco""), pero eso me parece menos plausible, en parte por mi convicción de que el verbo copulativo es simplemente un elemento de apoyo sin contenido léxico.]","Para sorpresa del jefe de prensa del tenista, los profesionales de EL MUNDO desplazados a la cita somos cinco también, pues así lo impone la era del periodismo multimedia y la magnitud del personaje."
+También,Escrito,Sintagma verbal,izquierda,,"A la hora del baño metías la tortuga termómetro para que la temperatura del agua estuviera perfecta. Luego el codo, luego otra tortuga termómetro pero en grados Fahrenheit, por si la otra fallaba. Y porque no tenías a mano una tortuga que midiera en grados Kelvin, que si no la metías también."
+También,Escrito,Sintagma nominal,izquierda,,"Estos barcos son nuevos y tienes muchas cosas diferentes. Es un TP 52 también, pero hay diferencia en maniobra y electrónica."
+También,Escrito,Sintagma pronominal,izquierda,,¿Los suyos también?
+También,Escrito,Sintagma pronominal,izquierda,,—Tú también —me contestó ella como si nada.
+También,Escrito,Sintagma pronominal,izquierda,,Y yo también tengo miedo —replicó la joven
+También,Escrito,Dudoso,derecha,"[VSG. He puesto todo el diálogo sin puntos y aparte, separando cada intervención mediante una línea inclinada. De lo contrario, no conseguía insertarlo correctamente.]","CACHORRO.— (Recogiendo el falo asustado.) Joder, tío, ya lo has conseguido. Mi vieja me la arma. (Intenta reconstruirlo.) / SURCOS.— (Riéndose.) ¿Tu vieja también es roja? / CACHORRO.— No sé."
+También,Escrito,Dudoso,derecha o izquierda,"[VSG. Deduzco que la duda viene de no saber la orientación de la partícula. Haría falta más contexto para determinarlo. ¿Se podría obtener? A primera vista, y solo como hipótesis, me parece que el sujeto ""yo"" actúa como elemento contrastivo, por lo que la adición aportada por ""también"" incidiría sobre su derecha ""soy general"", que sería el foco informativo propiamente dicho.]",Y yo también soy general.
+También,Escrito,Dudoso,derecha,"Duda entre conjunción y adverbio [VSG. Para mí, incide a la derecha sobre el adverbio]","a veces mamá es muy, muy pesada, demasiado pesada. Supongo que también como todas vuestras mamás [duda entre conjunción y adverbio]"
+También,Escrito,Dudoso,izquierda o derecha,"Duda entre cláusula de infinitivo y SV [VSG. Para mí, es SV, a la izquierda]",Disponer de los precios tanto en pesetas como en euros permite también al consumidor comprobar que la conversión en euros se ha realizado con todas las garantías [duda entre cláusula de infinitivo y SV]
+También,Escrito,Dudoso,derecha,"Duda entre alcance sobre ""mi padre"" (SN) o ""mi padre hurgando en la nevera"" (cláusula de gerundio)","conozco bien ese ruido: es mi talento intentando reordenar este desfase léxico, es también mi padre hurgando en la nevera. [duda entre alcance sobre mi padre o mi padre hurgando en la nevera]"
+También,Oral,Sintagma verbal,derecha,,¿se siente usted solo cuando el departamento de Estado le ha puesto distancia y cuando el mismo presidente de Estados Unidos también ha hecho una serie de observaciones a este proceso?
+También,Oral,Sintagma verbal,derecha,,y él lo entiende / y yo / yo obviamente / pues también lo entiendo
+También,Oral,Sintagma verbal,derecha,,vamos a hablar hoy / con el historiador y escritor Mario Escobar / que también es autor del libro Matar a Lutero
+También,Oral,Sintagma verbal,derecha,,los Globos como sabéis también premian a las series del año
+También,Oral,Sintagma verbal,derecha,,esta novela también es una novela de amor
+También,Oral,Sintagma verbal,derecha,,ella no lo acepta / cree que sí / dice que sí / y yo / también pienso que / bueno que / que puede ser // y ya está / no pasa nada
+También,Oral,Sintagma verbal,derecha,,las distancias a la NBA / ¿sabes? que siempre la veíamos como ese Olimpo del deporte / hasta que los españoles también estamos ahí
+También,Oral,Sintagma verbal,derecha,,yo creo que la labor también está mucho en en / en la / educación / en la información / y en / y en la concienciación
+También,Oral,Sintagma verbal,derecha,,Mercè Rodoreda sufrió mucho / escribiendo sus historias // porque ella también había sufrido viviéndolas
+También,Oral,Sintagma verbal,derecha,,vuestra generación que también es la de mis padres que crece en en en una dictadura
+También,Oral,Sintagma verbal,derecha,,lo que hacemos también es trabajar la comunicación no verbal
+También,Oral,Sintagma verbal,derecha,,una cosa que a mí me importa mucho que es el respeto a los animales y la idea de que los animales también tienen sentimientos / también tienen recuerdos
+También,Oral,Sintagma nominal,derecha,,tienes momentos de bajón / momentos de tristeza / pero también muchos momentos de alegría
+También,Oral,Sintagma nominal,derecha,,ha estado ahí sentado tu hermano Emilio / y también tu sobrina nieta Irene Escolar
+También,Oral,Sintagma nominal,derecha,,tiene que haber una serie de secciode exenciones fiscales dentro de de vivir en un pueblo y atraer a gente porque hay también un gasto mayor ¿no?
+También,Oral,Sintagma nominal,derecha,,son ciudadanos entonces tienen también unos derechos
+También,Oral,Sintagma nominal,derecha,,me gustan mucho también los muchos directores japoneses de los años 60
+También,Oral,Sintagma nominal,derecha,,entonces // es eso / eeh / también la agilidad mental / tienes que estar muy / muy rápido de mente / entrenar la mente
+También,Oral,Sintagma nominal,derecha,,ahora estamos hablando de la parte más intelectual / también la parte musical / la parte de fluidez en el ritmo
+También,Oral,Sintagma nominal,derecha,,mejorar las condiciones de vida de las personas / que es el último objetivo de la política del Gobierno del Partido Popular // y lo son también los presupuestos de la cohesión territorial
+También,Oral,Sintagma nominal,derecha,,ese discurso negativo un poco de de odio al otro / que a mí me interesa mucho que exploro mucho en el / en el libro pero también / ese sentimiento de agravio de ser ciudadanos de segunda constantemente ¿no?
+También,Oral,Sintagma nominal,derecha,,y cuando digo lo peor digo también lo mejor eh
+También,Oral,Sintagma nominal,derecha,,me apetece reivindicar también esos / esas referencias culturales de la cultura popular
+También,Oral,Sintagma nominal,derecha,,la educación se hace en alemán / porque hasta ese momento el latín era la lengua un poco de la educación / y de esta manera va a potenciar también las lenguas vulgares en los diferentes países
+También,Oral,Sintagma nominal,derecha,,supone no solo un cambio a nivel pedagógico / sino también un cambio importante en las infraestructuras
+También,Oral,Sintagma nominal,derecha,,yo creo que en esta película y en este personaje había por parte de de / de Carlos / también una propuesta de // mmm // eeh / de atreverte a a //
+También,Oral,Sintagma adjetival,derecha,,son unos encuadres muy concretos / son / es un juego de colores / entre los grises y azules también muy concreto
+También,Oral,Sintagma preposicional,derecha,,os dejaré en la cajita de información y también en mi blog el link a ese vídeo
+También,Oral,Sintagma preposicional,derecha,,sí que estoy intentando un poco / romper / romper todo lo establecido también en el tema de / de la homofobia
+También,Oral,Sintagma preposicional,derecha,,vamos a escuchar a la escritora en la actualidad y cuando era joven // también a sus hijos
+También,Oral,Sintagma preposicional,derecha,,Irene Escolar comienza a destacar también desde el cine y la pequeña pantalla.
+También,Oral,Sintagma preposicional,derecha,,yo te cogía de la mano también para llevarte de un lado para otro
+También,Oral,Sintagma preposicional,derecha,,¿estas propuestas educativas se dan también en otros países y otros reformadores de de aquella época?
+También,Oral,Sintagma preposicional,derecha,,España es el país de la eurozona que tuvo mayor crecimiento en el año dos mil dieciséis y lo va a ser también en dos mil diecisiete
+También,Oral,Sintagma preposicional,derecha,,y estamos además / con una obra que se ha convertido en un poco también en signo de la de la de la exposición
+También,Oral,Sintagma preposicional,derecha,,traes un libro que tiene que ver también con la actualidad
+También,Oral,Sintagma preposicional,derecha,,el tema exclusividad no sé cómo es / pero digo que está pensado también para eso / para que los actores puedan hacer más cosas
+También,Oral,Sintagma preposicional,derecha,,yo voy a hablar con todos / voy a hablar también con las fuerzas nacionalistas catalanas
+También,Oral,Sintagma preposicional,derecha,,y creo que además es un error lo que ha ocurrido en Castilla la Mancha / como también en Extremadura
+También,Oral,Sintagma preposicional,derecha,,¿y el aspecto formal cómo te llega? / porque aquí te has encargado también / de // pues de la dirección artística
+También,Oral,Sintagma preposicional,derecha,,no depende de mí / depende también / de Podemos y de Ciudadanos
+También,Oral,Oración,derecha,,ajá / que allí es donde también / eeh empieza quizás lo más serio de todo / ¿no? / la preparación
+También,Oral,Oración,derecha,,me encantaría que me llamaran más para hacer cine me encantaría que hubiera más personajes para mí pero también creo que / que he sabido tener paciencia y / y he ido haciendo poquitas cosas que que me iban ofreciendo
+También,Oral,Oración,derecha,,no sé si me volveré a encontrar personajes así en cine en mucho tiempo / también soy consciente de eso
+También,Oral,Oración,derecha,,de hecho además también es un e es un evento social muy importante
+También,Oral,Oración,derecha,,y no te estoy hablando de gente de ochenta años también te estoy hablando de gente de cuarenta
+También,Oral,Oración,derecha,,los que viven en pueblos pequeños o en zonas rurales son ciudadanos / y tienen derechos / y también los derechos habría que cambiarlos
+También,Oral,Oración,derecha,,Emilio Gancedo es el autor de este libro // también es / joven es talentoso
+También,Oral,Oración,derecha,,lo hablaremos lo hablaremos / y y espero que / eh también nos dé alguna serie de consejos prácticos y útiles
+También,Oral,Oración,derecha,,creo que esa sensación de pérdida / es muy posible que también esté / en mis personajes / y en mis y en mis eeh libros
+También,Oral,Oración,derecha,,engo una libreta ahí llena de notas // tengo algunas a las que les voy dando prioridad / porque me apetece más dibujarlas o lo que sea // pero luego también apunto muchas frases
+También,Oral,Oración,derecha,,pero es verdad que también / eh hay mucha gente que intenta mmm // plantearse la utopía rural
+También,Oral,Oración,derecha,,una sensación de desconcierto enorme y de y de que y de que no encajo en el mundo / pero a la vez de repente mágicamente encajo // en algunas pequeñas cosas y bueno // eso es magia ¿no? / también creo en la magia
+También,Oral,Oración,derecha,,supongo que también hicimos un poco de piña
+También,Oral,Oración,derecha,,a arranca la temporada de premios y no paramos ya hasta agosto / esta semana también han sido las nominaciones a los Goya
+También,Oral,Oración,derecha,,pero yo creo que también hay que / hay que reivindicar esas cosas // que pertenecen al inconsciente
+También,Oral,Oración,derecha,,también estoy de acuerdo con Gustavo
+También,Oral,Oración,derecha,,que esto también hay que tenerlo en cuenta
+También,Oral,Oración,derecha,,era una responsabilidad pero también es bonito cuando / los directores / te dejan eso ¿no? / te dejan hacer tu apuesta
+También,Oral,Oración,derecha,,este lunes ha tenido lugar su premier en Madrid / una cita a la que también acudieron monstruos
+También,Oral,Oración,derecha,,sí hombre Philip Ka Dick por ejemplo / me gusta muchísimo ¿no? / también menciono / en un momento determinado / a Patricia Highsmith que me gusta muchísimo como escritora // eemm en fin / hay algunos que me interesan mucho / pero otr
+También,Oral,Oración,derecha,,ya que soy mayor pues pido permiso para decir que también escribir cartas era muy bonito
+También,Oral,Oración,derecha,,Quique / creo que a ti / también te podrían detener / por hacer ese chiste eeh
+También,Oral,Oración,derecha,,participando en batallas también tuve la oportunidad de ser / de ser juez en las batallas a raíz de ser campeón internacional / eso te da como otra / otra perspectiva / que también es enriquecedora
+También,Oral,Oración,derecha,,y no solamente escucho / las cosas que me dicen en privado / también escucho las cosas que dicen en público
+También,Oral,Oración,derecha,,otra vez tiende una manta / de de de negrura sobre ese medio que también / fomenta esa baja autoestima y fomenta ese sensación de sentirse ninguneado
+También,Oral,Oración,derecha,,ganó un premio Planeta / un Sésamo un Anagrama / y también fue galardonada / con el premio de las Letras Aragonesas
+También,Oral,Oración,derecha,,también hay que decir que hace poco descubrimos // que habían encontrado // en el archivo de Salamanca / unos documentos de cierto interés
+También,Oral,Oración,derecha,,un tipo genial que era un enamorado de la Costa Brava / también era un fotógrafo maravilloso
+También,Oral,Oración,derecha,,nosotros es cierto que tenemos una carga muy grande pero también pensemos / que es / la muestra de amor más grande / que tú puedes hacer / por alguien que has querido muchísimo
+También,Oral,Oración,derecha,,la cultura es sin duda una buena herramienta para la integración / también lo es el deporte
+También,Oral,Oración,derecha,,la obligación del Partido Socialista / también es ofrecer una solución a Cataluña
+También,Oral,Oración subordinada,derecha,,tengo mucho que mejorar y aparte quiero también que / que se valore el / el trabajo musical que estoy haciendo
+También,Oral,Oración subordinada,derecha,,estoy todo el día publicando cosas en instagram / pero bueno / también porque me divierte hacer eso
+También,Oral,Oración subordinada,derecha,,te vas y también / como estás muy sola / pues entonces desde ese momento la abrazas
+También,Oral,Oración subordinada,derecha,,eso significa además también que tu personaje necesitaba vivir ese duelo
+También,Oral,Cláusula de infinitivo,derecha,,sería yo creo muy / muy necesario también recordar hoy de dónde vienes
+También,Oral,Cláusula de infinitivo,derecha,,entendía que cambiar el PSOE significaba también volver a poner / a punto la maquinaria del / el principal instrumento de cambio que tiene este país
+También,Oral,Cláusula de infinitivo,derecha,,creo que es necesario también alfabetizar a una gran parte de la población que se está dejando excluida
+También,Oral,Cláusula de infinitivo,derecha,,me gustaría también hablar de calidad en el empleo
+También,Oral,Cláusula de infinitivo,derecha,,cambiar la sociedad significa también cambiar la educación
+También,Oral,Cláusula de infinitivo,derecha,,para que / estas nos permitan también // generar espacios de aprendizaje adecuados a / a / a nuestros alumnos
+También,Oral,Cláusula de infinitivo,derecha,,hombre a mí me cuesta también encontrar ropa
+También,Oral,Cláusula de infinitivo,derecha,,entonces eso a mí me hizo también pensar / en el sentido de de esa de ese olvidarse de ¿no? / de que esa gente [....] / vive / pues en una especie de limbo
+También,Oral,Cláusula de gerundio,derecha,,pues ma me me apetecía pensar en / pensar en ellas y bueno / y escribir una película hablando un poco de eso / también hablando un poco de género y del misterio
+También,Oral,Dentro de una perífrasis,derecha,,me gusta eso que que puedas jugar / también desmontar un poco
+También,Oral,Oración subordinada,izquierda,,muchas gracias y que Dios bendiga a Asturias / porque / porque he probado el cachopo también
+También,Oral,Sintagma nominal,izquierda,,has dicho que tu familia es un apoyo muy importante / y tu abuela especialmente también ¿no?
+También,Oral,Sintagma pronominal,izquierda,,pues me metí en la cultura y / y empecé pues casi sin querer a / a rapear yo también
+También,Oral,Sintagma pronominal,izquierda,,los personajes son un misterio para sí mismos también
+También,Oral,Sintagma verbal,izquierda,,y es verdad también que por lo menos a mí me sirvió mucho entender eeh la energía de Bárbara
+También,Oral,Sintagma adjetival,izquierda,,pero ellos tienen esa sensación muy poderosa // y muy justificada también
+También,Oral,Sintagma verbal,izquierda,,hizo una primera película que era estupenda / esta segunda es buena también
+También,Oral,Sintagma verbal,izquierda,,por eso se llama La carne // es la carne que nos que nos lleva a la gloria y la carne que nos mata también
+También,Oral,Sintagma adjetival,izquierda,,cada cual empezó a hacer lo sus sus proyectos más personales también
+También,Oral,Sintagma preposicional,izquierda,,entré en contacto con gente que hace cómic a día de hoy también
+También,Oral,Oración subordinada,izquierda,"[VSG. Para mí, incide sobre ""que tiene una gran demanda"", pero admito que cabe entender que incide solo sobre el SN]",aquí hay muy buenos actores / una gran industria que tiene una gran demanda también ¿no?
+También,Oral,Oración subordinada,izquierda,,es una construcción que él hace desde Barcelona y para el público de Barcelona para que se ría el público de Barcelona también
+También,Oral,Sintagma verbal,izquierda,,la imagen que proyectamos de toda esa España / es muy negativa también
+También,Oral,Sintagma preposicional,izquierda,,pero déjate un un huequecito para España también
+También,Oral,Sintagma adverbial,izquierda,,la leyenda negra / a mí me interesa mucho yo creo literariamente tiene una potencia brutal y periodísticamente también
+También,Oral,Sintagma nominal,izquierda,,los alumnos cambian con los tiempos la sociedad también
+También,Oral,Sintagma verbal,izquierda,,por ejemplo // eeh en la sociedad // hay conflictos // y / en la escuela hay conflictos también
+También,Oral,Sintagma pronominal,izquierda,,claro yo también tengo ese problema ¿ves?
+También,Oral,Sintagma verbal,izquierda,,a mí me lo dijeron también
+También,Oral,Sintagma pronominal,izquierda,,a ti también te sometí a varias pruebas de tortura / y tú también hiciste prueba
+También,Oral,Dudoso,izquierda,"[VSG. Falta contexto para determinar si incide sobre todo el SV desde ""tienen..."", o solo sobre una parte del mismo, como ""a los demás"".]",creo que ellos tienen un potencial de hacernos sentir bien a los demás también
+También,Oral,Sintagma pronominal,izquierda,,pues claro que sí pues yo también te quiero
+También,Oral,Sintagma preposicional,izquierda,,bueno a ti también te quiere mucho ¿eh?
+También,Oral,Sintagma pronominal,izquierda,,estamos / me lo habrán oído decir ustedes también-- en un nuevo ciclo político / económico y social
+También,Oral,Sintagma verbal,izquierda,,cuando la función se ha desencajado y entonces el público lo nota también
+Todavía,Escrito,Sintagma verbal,derecha,,"Pero Shakespeare, con su habilidad, no le deja la última palabra del encuentro, eso habría sido barato. El capitán le insiste, le asegura que la buena voluntad lo guía y aun así todavía lo ofende: ‘Te servirá para remendar tus zapatos. Vamos, a qué ser tan remilgado. No tienen buena pinta, esos zapatos’."
+Todavía,Escrito,Sintagma nominal,derecha,,Si no he cambiado de bando ha sido porque al otro lado mi vida tiene todavía menos sentido y menos valor
+Todavía,Escrito,Sintagma nominal,derecha,,un escritor que se quejaba de ganar poco dinero y de gozar de todavía menos respeto
+Todavía,Escrito,Sintagma nominal,derecha,,Necesitaba dar todavía mayor énfasis a sus palabras y se inclinó hacia delante.
+Todavía,Escrito,Sintagma nominal,derecha,,"El descenso de la incidencia de la malaria en términos absolutos es enorme, pero tiene todavía mayor mérito si tenemos en cuenta que la población en estos tres lustros ha crecido en más de 1.300 millones de personas."
+Todavía,Escrito,Sintagma adjetival,derecha,,"Ya me había dado cuenta en los anteriores, pero con éste [embarazo] estás todavía más guapa."
+Todavía,Escrito,Sintagma adjetival,derecha,,"Romper por email es terrible, usar un traductor de intermediario acaso todavía peor."
+Todavía,Escrito,Sintagma adjetival,derecha,,"Romper por email es terrible, usar un traductor de intermediario acaso todavía peor."
+Todavía,Escrito,Sintagma adjetival,derecha,,"Si las exportaciones a la isla son irrelevantes sobre las totales españolas, el peso relativo de las importaciones es todavía menor."
+Todavía,Escrito,Sintagma adjetival,derecha,,el proceso para obtenerlos era todavía menos rentable que en el caso del PLA
+Todavía,Escrito,Sintagma adjetival,derecha,,Sólo 19 de cada cien familias se negaron a facilitar un órgano de un pariente fallecido. El porcentaje es todavía inferior en el Principado
+Todavía,Escrito,Sintagma adjetival,derecha,,La segunda parte fue todavía peor que la primera
+Todavía,Escrito,Sintagma adjetival,derecha,,Dicen que la prisión de Málaga es todavía peor que ésta.
+Todavía,Escrito,Sintagma adjetival,derecha,,Ernest recuerda aquel congreso de Burdeos al que asistieron ambos y el lamentable francés que exhibió. Y su catalán es todavía peor.
+Todavía,Escrito,Sintagma adjetival,derecha,,Gilmore es todavía mayor que yo.
+Todavía,Escrito,Sintagma adjetival,derecha,,"Además, estas cantidades son brutas, de ahí que, tras restar las retenciones del Impuesto sobre la Renta de las Personas Físicas y los pagos a la Seguridad Social por parte del trabajador, el líquido disponible sea todavía inferior."
+Todavía,Escrito,Sintagma adjetival,derecha,,"Una nueva mejora en el acelerador prevista para 2005 aumentará en un tercio la corriente máxima. Luego, los científicos esperan disponer de una máquina todavía mayor."
+Todavía,Escrito,Sintagma adjetival,derecha,,Dicen que la prisión de Málaga es todavía peor que ésta.
+Todavía,Escrito,Sintagma adjetival,derecha,,"también permitieron mantener bajos los tipos de interés, lo cual resulta todavía más difícil en un periodo de bajo desempleo"
+Todavía,Escrito,Sintagma adjetival,derecha,,Ernest recuerda aquel congreso de Burdeos al que asistieron ambos y el lamentable francés que exhibió. Y su catalán es todavía peor.
+Todavía,Escrito,Sintagma adjetival,derecha,," Atraer este talento está bien, retenerlo sería todavía mejor."
+Todavía,Escrito,Sintagma adjetival,derecha,,"la preocupación que no conduzca a la acción no sirve para nada, y todavía menos recomendable es el pánico"
+Todavía,Escrito,Sintagma adjetival,derecha,,"Si los beneficios de la actividad física son cada vez más aceptados para la población en general, aparecen todavía más evidentes en la tercera edad."
+Todavía,Escrito,Sintagma adjetival,derecha,,si no hace viento [...] las caricias del silencio serán todavía más imponentes
+Todavía,Escrito,Sintagma adjetival,derecha,,"El producto interior bruto (PIB) de Francia crecerá un 0,8% en 2003 y podría ser todavía inferior si continúa la apreciación del euro respecto al dólar"
+Todavía,Escrito,Sintagma adjetival,derecha,,Suzuki ha trabajado a fondo para poder ofrecer una moto todavía mejor que su predecesora.
+Todavía,Escrito,Sintagma adjetival,derecha,,"sus originales ideas, que expresa en un castellano todavía peor que el de Sofía"
+Todavía,Escrito,Sintagma adjetival,derecha,,"la mitad de nuestros compatriotas ha consumido algún fármaco en los últimos 15 días. Y, en el caso de las mujeres, la proporción es todavía mayor"
+Todavía,Escrito,Sintagma adjetival,derecha,,"me ha explicado lo mal que anda su hermana, y que su futuro será quizás todavía peor"
+Todavía,Escrito,Sintagma adjetival,derecha,,"hacer predicciones es muy difícil, especialmente del futuro. Resulta todavía más complicado cuando hablamos del futuro de la tecnología"
+Todavía,Escrito,Sintagma adjetival,derecha,,"Procuraremos no utilizar las bolsas de plástico que facilitan en las tiendas; las de papel son mejores, y todavía mejor es llevar el cesto de casa."
+Todavía,Escrito,Sintagma adjetival,derecha,,"Los trabajadores por turnos tienen, asimismo, un mayor riesgo de desarrollar infecciones que los empleados de horario convencional diurno. Y el riesgo es todavía mayor entre quienes trabajan en un régimen laboral de tres turnos diarios."
+Todavía,Escrito,Sintagma adjetival,derecha,,"el siglo XVI, denominado Cinquecento, dará un paso más, situando el arte del Renacimiento en un nivel todavía superior"
+Todavía,Escrito,Sintagma adjetival,derecha,,"No es el aniversario del parque. Es todavía mejor, es el aniversario de una idea urbanística revolucionaria"
+Todavía,Escrito,Sintagma adjetival,derecha,,Era todavía peor de lo que me había figurado.
+Todavía,Escrito,Sintagma adjetival,derecha,,"Pero hay algo todavía mejor que pensar que no estoy en la consulta del dentista, que es pensar que en la consulta del dentista no estoy yo."
+Todavía,Escrito,Sintagma adjetival,derecha,,el daño que ciertas actitudes pueden causar es todavía mayor que el producido por el fuel del 'Prestige'
+Todavía,Escrito,Sintagma adjetival,derecha,,"la tesis de 'América primero' podría provocar el aislamiento de EEUU de Europa, lo que podría favorecer un todavía mayor acercamiento de Teherán a la UE"
+Todavía,Escrito,Sintagma adjetival,derecha,,El resultado es todavía peor que el anterior
+Todavía,Escrito,Sintagma adjetival,derecha,,"Seré una tremenda esposa y una exesposa todavía mejor, ya vas a ver."
+Todavía,Escrito,Sintagma adverbial,derecha,,"Así que se trata de programar tu vida para que exista un equilibrio entre lo que tienes que hacer y lo que te gusta. Y si pudieras lograr coincidir ambas opciones, todavía mejor."
+Todavía,Escrito,Sintagma adverbial,derecha,,"no sabía hacer nada, sino tocar fatalmente el piano, y cortarse sus propios trajes, todavía peor"
+Todavía,Escrito,Sintagma adverbial,derecha,,"para él todos los españoles en general, las mujeres en particular, las españolas concretando y yo todavía más, estamos locos."
+Todavía,Escrito,Sintagma adverbial,derecha,,"le era difícil no repetir su Curso superior de sintaxis española, y todavía más, variar de criterio en los puntos más controvertidos"
+Todavía,Escrito,Sintagma adverbial,derecha,,"nada hubo, sin embargo, en su estilo literario que se parezca a la divulgación didáctica y, todavía menos, a la erudición histórica convencional"
+Todavía,Escrito,Sintagma adverbial,derecha,,hay algunos dirigentes que todavía no han asumido bien que Zapatero ganó por goleada el congreso que se celebró hace apenas un año y asumen todavía menos que el nuevo secretario general está marcando una línea de actuación muy distinta a la de sus antecesores
+Todavía,Escrito,Sintagma adverbial,derecha,,"Seshat recibió mal la noticia, y Totmés todavía peor"
+Todavía,Escrito,Sintagma adverbial,derecha,,"En un principio, es un lugar sin importancia, cuyo valor político puede desparecer, debido a la nueva configuración de los mapas electorales. Todavía así, sirvió de experimento para los líderes del Partido Demócrata"
+Todavía,Escrito,Sintagma adverbial,derecha,,Las centrales nucleares actuales [...] alcanzan hoy en día un alto nivel de seguridad y fiabilidad. Pero el objetivo debe ser el hacerlo todavía mejor.
+Todavía,Escrito,Sintagma adverbial,derecha,,"hay que volver a los tiempos en que un protestante no podía enamorarse de una católica o, todavía peor, a los tiempos en que un trotskista y un leninista debían ser enemigos mortales"
+Todavía,Escrito,Sintagma adverbial,derecha,,"Por último, deberás entrenar fuerza sí o sí para lograr la ansiada ganancia y no menospreciar asuntos como el descanso. Si todavía así crees que no eres capaz de aumentar de peso de forma saludable, no dudes en consultar con un profesional"
+Todavía,Escrito,Sintagma adverbial,derecha,,Lo que no acababa de entender era cómo podían quedarle a alguien ganas de remover más un asunto tan poco agradecido y buscarle tres pies al gato. Entendía todavía menos cómo ese alguien podía ser capaz de escribir tantísimas páginas como había escrito Horacio en una prosa indigesta
+Todavía,Escrito,Sintagma adverbial,derecha,,Es como si un enfermo de cáncer de pulmón creyera que la solución a su enfermedad es fumar todavía más
+Todavía,Escrito,Sintagma adverbial,derecha,,"no le apetecía nada desnudarse al aire libre, y todavía menos tener que sacar luego el coche"
+Todavía,Escrito,Sintagma adverbial,derecha,,"—Me das miedo, Bea. Mientes todavía mejor que yo."
+Todavía,Escrito,Sintagma adverbial,derecha,,no quería que esta última manifestación de su egoísmo acabase alejando todavía más mis ya remotísimas posibilidades de encontrarme algún día con mi padre
+Todavía,Escrito,Sintagma adverbial,derecha,,"5.624 extranjeros adquirieron la nacionalidad española en 1980 frente a los 62.339 que lo hicieron en 2006, es decir, 11 veces más. Ahora bien, este número de adquisiciones podría aumentar todavía más en el futuro"
+Todavía,Escrito,Sintagma preposicional,derecha,"todavía tiene evidente valor temporal, pero quizás también tendría sentido sustituirlo con incluso","A lo largo del siglo XX y todavía en el siglo XXI, escolares de todo el mundo han sido sometidos a test de inteligencia que en muchos casos han acabado condicionando su vida"
+Todavía,Escrito,Sintagma preposicional,derecha,"todavía tiene evidente valor temporal, pero quizás también tendría sentido sustituirlo con incluso","¿Quiere usted decir que, todavía en esa época, cuando el toro salía del chiquero ya estaban en el ruedo los picadores de tanda? "
+Todavía,Escrito,Sintagma preposicional,derecha,"todavía tiene evidente valor temporal, pero quizás también tendría sentido sustituirlo con incluso","Son momentos tristes, pero sabemos que tenemos que continuar todavía con mucha más fuerza "
+Todavía,Escrito,Oración,derecha,,"¿Y todavía me lo preguntas?, ¡pues esto: ¡que nos amamos!"
+Todavía,Escrito,Oración,derecha,,Con esos derechos me limpio el culo y todavía me queda sucio
+Todavía,Escrito,Oración,derecha,,"Sentí algo cercano a la felicidad, y todavía me aproximé más a aquel estado cuando, al salir del aeropuerto, divisé a Daniel."
+Todavía,Escrito,Oración,derecha,,—Igual que yo —dice Mateo—. Y todavía me daba más miedo no encontrarte.
+Todavía,Escrito,Oración,derecha,,comprobé en Google en el ciberlocutorio la escandalosa propagación de los coños de laboratorio: un gélido racismo de la vulva. Y todavía me sentí peor al internarme en la taxonomía del deseo masculino
+Todavía,Escrito,Oración,derecha,,las peores son estas estúpidas que se van a quedar para vestir santos y todavía son exigentes
+Todavía,Escrito,Oración subordinada,derecha,,"Toda la eternidad de Dios quemándoos en el infierno, con el calor, el fuego, y sin poder beber agua ni nada... (a Sor Justina) por pensar en ese calvo. Todavía si fuera el padre Felipe, lo comprendería. Pero anda que el huertero…"
+Todavía,Escrito,Oración subordinada,derecha,,"—Cariño, nunca se dice que estás releyendo un libro que acaba de salir a las librerías. Todavía si hubieras dicho que estabas releyendo la Ilíada, como yo estoy haciendo."
+Todavía,Escrito,Sintagma nominal,izquierda,,Pero para sorpresa que te venga un día tu hijo diciendo que se quiere dedicar a la música. Y más sorpresa todavía si te dice que se quiere dedicar al acordeón.
+Todavía,Escrito,Sintagma nominal,izquierda,,"Desde el momento que se recibe la comunicación, realizamos las gestiones necesarias para que se cumpla la Ley, mayor obligación todavía si estas irregularidades se refieren a un edificio público."
+Todavía,Escrito,Sintagma adjetival (comparativo),izquierda,,"hacer cultura es muy caro, no hacerla es más caro todavía"
+Todavía,Escrito,Sintagma adjetival (comparativo),izquierda,,"La oscuridad, que a Elena le parecía absoluta fuera, es ahora peor todavía."
+Todavía,Escrito,Sintagma adjetival (comparativo),izquierda,,"Pero esos mismos intentos llevados a otras áreas de la historiografía resultaban, a veces, casi patéticos [...] Peor todavía me parece que fue la implantación de un lenguaje críptico"
+Todavía,Escrito,Sintagma adjetival (comparativo),izquierda,,"tampoco voy a quejarme porque haya ruido de coches, peor es el ruido de los bombardeos o pasar el invierno en una guarnición a cuarenta grados bajo cero, y peor todavía es estar muerto"
+Todavía,Escrito,Sintagma adjetival (comparativo),izquierda,,Ganar tu primer gran premio es algo que yo sé que nunca se olvida y el hacerlo en Jerez es mejor todavía.
+Todavía,Escrito,Sintagma adjetival (comparativo),izquierda,,"La economía irlandesa está muy lejos de salir del agujero, es posible incluso que esas medidas lo hagan más grande todavía."
+Todavía,Escrito,Sintagma adjetival (comparativo),izquierda,,"Pase lo que pase a partir de hoy, el balear acabará en lo más alto después de conquistar Roland Garros, Wimbledon y el Open de Estados Unidos, palabras mayores. Consumado el deseo del Grand Slam, ahora desafía al último ""ochomil"" que le falta para ser más grande todavía a sus 24 años."
+Todavía,Escrito,Sintagma adjetival (comparativo),izquierda,,la complejidad democrática es mayor todavía si consideramos otras fuerzas que no dependen de los votos
+Todavía,Escrito,Sintagma adjetival (comparativo),izquierda,,"la condescendencia es mal sistema, pero la rigidez es peor todavía"
+Todavía,Escrito,Sintagma adjetival (comparativo),izquierda,,resalta la grandeza de ese espectáculo único y directo que se hace más grande todavía en la época de Internet y la piratería
+Todavía,Escrito,Sintagma adjetival (comparativo),izquierda,,"Si ya antes había habido una gran conexión, a partir de ahí fue más grande todavía."
+Todavía,Escrito,Sintagma adjetival (comparativo),izquierda,,ha habido gestos aislados de violencia a los que los globalizadores han opuesto otra violencia mayor todavía
+Todavía,Escrito,Sintagma adjetival (comparativo),izquierda,,"había tenido tratos carnales con un ángel del Señor de suprema belleza, y más hermoso todavía que Jesucristo"
+Todavía,Escrito,Sintagma adjetival (comparativo),izquierda,,"Un ejemplo muy parecido, quizá peor todavía, le sucedió a un hombre ecuatoriano en 2006"
+Todavía,Escrito,Sintagma adjetival (comparativo),izquierda,,"¿Cuándo la alta naturaleza de un dios -se podría replicar- necesita acumular sacos y sacos de oro y robar con crueles e inútiles impuestos -inútiles al bien común- o artimañas de todo tipo al que apenas tiene, para ser más dios, más necio y más rico todavía?"
+Todavía,Escrito,Sintagma adjetival (comparativo),izquierda,,Sé que te preocupas y te veo preocupado y me preocupo yo y es peor todavía.
+Todavía,Escrito,Sintagma adjetival (comparativo),izquierda,,demuestran que el riesgo de padecer una demencia por enfermedad de Alzheimer es mayor en portadores de la variante alélica E4 que en los que no la tienen (hecho ya conocido) y que este riesgo es mayor todavía si se es mujer
+Todavía,Escrito,Sintagma adjetival (comparativo),izquierda,,"Peor todavía es el frío interno, peor que el de la intemperie"
+Todavía,Escrito,Sintagma adjetival (comparativo),izquierda,,"Y con tanto hablar de El Chapo, a muchos se les ha olvidado mencionar que hay otro mexicano mucho más rico todavía."
+Todavía,Escrito,Sintagma adverbial,izquierda,,Pero ocurrió exactamente lo contrario: lo que le contó Pedro le preocupó más todavía.
+Todavía,Escrito,Sintagma adverbial,izquierda,,"Ni siquiera los mayores malhechores pueden ser objeto, por ejemplo, de malos tratos y, menos todavía, de la aplicación de la tortura"
+Todavía,Escrito,Sintagma adverbial,izquierda,,"no le apetecía, después de toda aquella lucha por salir de la droga, estar con su madre; irse con su padre mucho menos todavía"
+Todavía,Escrito,Sintagma adverbial,izquierda,,"La erística no proporciona saber alguno; peor todavía, desanima a encontrar por medio del diálogo algún conocimiento"
+Todavía,Escrito,Sintagma adverbial,izquierda,,"Menos mal que ya voy a poder respirar un poco, porque ese olor a hierba que hay ahí me asquea más todavía que éste a lata oxidada"
+Todavía,Escrito,Sintagma adverbial,izquierda,,un empate (0-0) que no satisface a nadie y menos todavía a la afición que ha presenciado cómo los dos conjuntos se medían y se respetaban llegando incluso al miedo
+Todavía,Escrito,Sintagma adverbial,izquierda,,"Ninguna medusa va a ofenderse si el profesor de turno dice que los cnidarios son ""sencillos"", o, peor todavía, ""simples""."
+Todavía,Escrito,Sintagma adverbial,izquierda,,"Y por allí pasaron los diecisiete consejeros, vieron y no corrigieron. Y si no lo vieron, peor todavía."
+Todavía,Escrito,Sintagma adverbial,izquierda,,"Y si la balanza se decanta del lado positivo, mucho mejor todavía."
+Todavía,Escrito,Sintagma adverbial,izquierda,,"Las agencias transmiten ahora muchas menos imágenes de las que enviaban por correo, con lo que se empobrece la posibilidad real de elección. Más todavía: la recepción a través del ordenador, o de un CD, impide esa visión panorámica"
+Todavía,Escrito,Sintagma adverbial,izquierda,,"Si le hubiera juzgado la Inquisición, le hubiera ido peor todavía."
+Todavía,Escrito,Sintagma adverbial,izquierda,,"El fotógrafo no sabe griego, y menos todavía griego del siglo I."
+Todavía,Escrito,Sintagma adverbial,izquierda,,"Es una sensación contradictoria pero prefiere ser coherente con este criterio, aunque el peligro sea pasar por ingenuo o, peor todavía, por ignorante."
+Todavía,Escrito,Sintagma adverbial,izquierda,,"Convendrás conmigo en que, sin su concurso, es imposible ensañarse con el toro; menos todavía, si el toro se echaba jaco y piquero a los lomos y daba con ellos unos tumbos que hacían temblar las barreras."
+Todavía,Escrito,Sintagma adverbial,izquierda,,"Tenerlo detenido es una garantía de que no volverá a fugarse y, mejor todavía, de que a partir de ahora nadie va a pretender hacerle daño."
+Todavía,Escrito,Sintagma adverbial,izquierda,,"se puede aplicar una pomada anestésica previamente. O mejor todavía, el nuevo ácido hialurónico Juvederm Ultra"
+Todavía,Escrito,Sintagma adverbial,izquierda,,"Las damas aristocráticas ni tan siquiera habrían visto a los pobres, ni menos todavía se habrían sentido miradas y admiradas"
+Todavía,Escrito,Sintagma adverbial,izquierda,,"Solo podemos fingir que somos una copia barata del heroico capitán o, mejor todavía, un grumetillo bajo sus órdenes."
+Todavía,Escrito,Sintagma adverbial,izquierda,,"Apúntese mejor a un curso de pintura, o mejor todavía, un curso de crecimiento personal."
+Todavía,Escrito,Sintagma adverbial,izquierda,,"los hombres guapos hablan poco. Los hombres de acción, menos todavía"
+Todavía,Escrito,Sintagma adverbial,izquierda,,¿Le gusta más este lenguaje? Porque puedo usar uno que le va a gustar menos todavía.
+Todavía,Escrito,Sintagma adverbial,izquierda,,"También puedes masturbarte, pensando en mí. O mejor, también puedes pegarme. O mejor todavía, también puedes pegarme un tiro."
+Todavía,Escrito,Sintagma adverbial,izquierda,,"si yo me llamo de verdad Francisca, o mejor todavía, Fanny"
+Todavía,Escrito,Sintagma adverbial,izquierda,,la felicidad no es el estado natural del ser humano (y menos todavía en el caso de la familia Planck)
+Todavía,Escrito,Sintagma adverbial,izquierda,,"esas posiciones no servirían para una recristianización efectiva de la sociedad y, menos todavía, de la española"
+Todavía,Escrito,Sintagma adverbial,izquierda,,"Y si, como en este caso, esas cifras se incrementan por la participación de los jóvenes, mejor todavía."
+Todavía,Escrito,Sintagma adverbial,izquierda,,"esta tendencia se rompió el año siguiente, cuando sólo se importó por valor de 59,1 mil millones de dólares y, posteriormente, debido a la caída en el poder adquisitivo del rublo respecto al dólar, se redujo más todavía este tipo de transacciones hasta representar 39,6 mil millones de dólares"
+Todavía,Escrito,Sintagma adverbial,izquierda,,"Agradecemos sus comentarios, señores, pero agradeceríamos más todavía si los expresasen fuera de la sala"
+Todavía,Escrito,Sintagma adverbial,izquierda,,"Como suele ocurrir con otras muchas falsas creencias populares, en esta puede mucho la influencia de los intelectuales, más todavía si son economistas."
+Todavía,Escrito,Sintagma adverbial,izquierda,,"Si había sorprendido la irresolutividad del Español, lo hizo más todavía la reacción de un Alavés que expuso el 2-0 por el 1-1."
+Todavía,Escrito,Dudoso,izquierda,"[VSG. Para mí, Sintagma Adjetival]","El drama es más incomprensible todavía cuando se sabe que el potencial humano que tiene nuestra patria es elevado y que las posibilidades de que los científicos españoles, si tienen los recursos, consigan resultados valiosos son altísimas."
+Todavía,Escrito,Dudoso,derecha,Alcance sobre SV con verbo elidido o solo sobre el adjetivo expreso,artistas hay muy pocos. Y genios todavía menos
+Todavía,Escrito,Dudoso,izquierda,,"Para mí existen muchas señoras Juanas, en todos los sitios y sobre todo en un país con las connotaciones religiosas que tiene España, más todavía."
+Todavía,Escrito,Dudoso,izquierda,"[VSG. Me parece un caso claro de Sintagma adverbial, pues, incluso aunque el verbo estuviera expreso, ""todavía"" no incidiría sobre él. Veo aquí un paralelismo con ""apenas"", que modifica ""unos meses"", no ""Te quedaban unos meses"".]","te quedaban apenas unos meses, y a mí menos todavía"
+Todavía,Escrito,Dudoso,izquierda,,"Llevamos ya mes y pico con el asunto, ahora sabemos que vamos a tener que llevar muchos más todavía."
+Todavía,Escrito,Dudoso,izquierda,,"—Muchos, pero creo que tiene que haber más todavía."
+Todavía,Escrito,Dudoso,izquierda,,Esta planta necesita mucha agua y más todavía cuando está en flor.
+Todavía,Escrito,Dudoso,izquierda,,"los que se quedaban acabaron siendo tan extranjeros como los que se habían ido, incluso más todavía"
+Todavía,Escrito,Dudoso,izquierda,,"Mis amigos gitanos son muy racistas. Y mis amigos japoneses, más todavía."
+Todavía,Escrito,Dudoso,izquierda,,"Es cierto que ninguna mitología es estéril si mueve a la gente. Más todavía en un país como el nuestro, una sucursal del reino de la quietud."
+Todavía,Escrito,Dudoso,izquierda,,Un puesto privilegiado para recibir y demandar información —más todavía conociendo su indisimulable interés por el curso de los acontecimientos políticos— sobre el intento de golpe de Estado del 27-O.
+Todavía,Escrito,Dudoso,izquierda,,"Es más interesante escuchar a quienes ven en Colau un tapón de la espuma independentista en el Cap i Casal, y lo es más todavía si los indepes no se cierran en banda."
+Todavía,Oral,Sintagma verbal,derecha,,qué pocas pudieron vivir tranquilamente esa condición / bien porque los tiempos no eran favorables / caso de Elena Fortún / bien porque había matrimonios / aunque fueran de tapadera / bien porque había hijos / que todavía era peor
+Todavía,Oral,Sintagma verbal,derecha,,para que proceda a retirar una circular manifiestamente inconstitucional / manifiestamente contraria a los valores jurídicos y / lo que todavía es peor / manifiestamente contraria al sentido común
+Todavía,Oral,Sintagma nominal,derecha,,estamos hablando / de dos conceptos / corresponsales por un lado / y vigilantes del cielo por otro / vigilantes del cielo // que tienen / si cabe / todavía más mérito
+Todavía,Oral,Sintagma nominal,derecha,,una política norteamericana que si cabe toma / todavía más eeh relevancia más incidencia si se termina por  implementar el el ALCA el Acuerdo de Libre Comercio de las Américas
+Todavía,Oral,Sintagma nominal,derecha,,estamos a la espera de tener todavía más datos para poder confirmar lo que en estos momentos se sabe
+Todavía,Oral,Sintagma nominal,derecha,,establecemos un registro especial de operadores que asuman todavía mayores obligaciones de reequilibrio
+Todavía,Oral,Sintagma adjetival,derecha,,lo que más envidio es / a Punset // porque / se levanta y dice quiero anunciar pan de molde // ¡y le montan una campaña! y ya y ya está / yo quiero ser Punset / cuando sea todavía más mayor
+Todavía,Oral,Sintagma adjetival,derecha,,las enfermedades neurodegenerativas que reciben una inversión  /  de dinero  /  eh todavía mucho menor  /  eh que otras enfermedades que tienen menor impacto sobre la sociedad
+Todavía,Oral,Sintagma adjetival,derecha,,son unos presupuestos marcadamente sociales y que dentro de ese pacto lo que va a haber es quizá una incidencia todavía mayor en esa línea presupuestaria adoptada por el Gobierno
+Todavía,Oral,Sintagma adjetival,derecha,,porque suponiendo que al final mantuviera y prevaleciera su decisión personal // sería todavía muchísimo más valiosa // si esa decisión // estuviera avalada por el conocimiento
+Todavía,Oral,Sintagma adjetival,derecha,Posible valor temporal y focal,me propusieron de Estados Unidos una vez pero hace unos añillos // cuando estaba todavía más tirillas que ahora
+Todavía,Oral,Sintagma adjetival,derecha,,con un mismo objetivo / que es mejorar la formación y hacerla todavía más profesional
+Todavía,Oral,Sintagma adjetival,derecha,,las previsiones del año dos mil tres son todavía más positivas que las que vamos a tener este año
+Todavía,Oral,Sintagma adjetival,derecha,,me parece que sobre todo el centro de campo es un centro de campo / fortísimo además parece que que Pogba // va va a intentar también jugar con lo cual sería todavía más fuerte
+Todavía,Oral,Sintagma adjetival,derecha,,podemos y debemos mantener esta tarde también unas expectativas positivas // incluso / si me permite la expresión / todavía algo más positivas de lo que recoge el chiste de Peridis hoy en El País
+Todavía,Oral,Sintagma adjetival,derecha,,la importancia de que estas infraestructuras estén reparadas cuanto antes / de cara a afrontar con garantías la temporada turística / es todavía más relevante
+Todavía,Oral,Sintagma adjetival,derecha,,nunca es fácil moderar // y menos para quien no se considera así // pero sobre todo es todavía más difícil // cuando tiene la suerte el honor // eeh de estar / eeh presentando // a cuatro // eeh periodistas / y cuatro personalidades verdaderamente imponentes
+Todavía,Oral,Sintagma adjetival,derecha,,lo que necesitamos es que en los próximos años el sistema de comunicaciones interinsulares sea todavía más eficiente
+Todavía,Oral,Sintagma adjetival,derecha,,estamos ante un factor importante ya en el presente / pero que va a ser todavía más importante a medio plazo
+Todavía,Oral,Sintagma adjetival,derecha,,ahora que somos // presidentes / tenemos una responsabilidad todavía mayor
+Todavía,Oral,Sintagma adjetival,derecha,,como ocurrió con ocasión del trágico accidente del Prestige o del todavía más trágico atentado del once de marzo
+Todavía,Oral,Sintagma adjetival,derecha,,toda una ciudad mandando universitarios a / a otro sitio / los de Vigo / eran un colectivo todavía mayor
+Todavía,Oral,Sintagma adjetival,derecha,,y en estos momentos / es del uno coma veinticuatro por cien // la elasticidad en el impuesto de sociedades es todavía más importante
+Todavía,Oral,Sintagma adjetival,derecha,,señalaba ahora Iñaki Gabilondo // esa situación todavía casi más dramática
+Todavía,Oral,Sintagma adjetival,derecha,,esa inestabilidad es todavía mayor desde mi punto de vista
+Todavía,Oral,Sintagma adjetival,derecha,,yo creo que vamos avanzando / no al ritmo desde luego que me gustaría / yo creo que el ritmo debe ser todavía mayor
+Todavía,Oral,Sintagma adverbial,derecha,"Este ""todavía"" tiene claramente valor temporal, pero quizás también valor focal, al poder sustituirse con incluso",la esencia de la persona es su sexo y también es su género // yo creo que todavía hoy en nuestra sociedad se castiga a quienes no hacen su género bien
+Todavía,Oral,Sintagma adverbial,derecha,"Este ""todavía"" tiene claramente valor temporal, pero quizás también valor focal, al poder sustituirse con incluso",me refiero a Hessdalen / un lugar // lleno de anomalías // que / todavía hoy / sigue siendo investigado
+Todavía,Oral,Sintagma adverbial,derecha,,el Ministerio de Empleo analizará en detalles / ya lo está haciendo / pero todavía más y se publicarán los resultados
+Todavía,Oral,Sintagma adverbial,derecha,,hemos reformado el derecho a la atención y situación de dependencia y hemos garantizado / todavía más / que ningún ciudadano quedará fuera del sistema por falta de recursos personales
+Todavía,Oral,Sintagma adverbial,derecha,,en la segunda habéis jugado yo creo que todavía mejor
+Todavía,Oral,Sintagma adverbial,derecha,,el Gobierno no tiene más recursos que aquellos que vienen de los ciudadanos o de limitar y de recortar todavía más el gasto
+Todavía,Oral,Sintagma adverbial,derecha,,yo creo que la concepción del coche oficial ha cambiado mucho y tiene que cambiar todavía más
+Todavía,Oral,Sintagma adverbial,derecha,,son unos presupuestos que refuerzan la productividad / que van a mejorar todavía más nuestra economía
+Todavía,Oral,Sintagma adverbial,derecha,,tenemos un dato que nos llama todavía más al aliento
+Todavía,Oral,Sintagma adverbial,derecha,,lo que nos permite / además / incorporar la experiencia desde entonces / y acomodarla todavía más a la legislación comunitaria
+Todavía,Oral,Sintagma adverbial,derecha,,hablamos de qué tenemos que hacer para desarrollar todavía más la Administración electrónica
+Todavía,Oral,Sintagma adverbial,derecha,,recomienden alguna lectura a nuestros jóvenes espectadores para animarles a leer todavía más
+Todavía,Oral,Sintagma adverbial,derecha,,eeh ese tipo de s de sensibilidad eeh por desgracia existía todavía menos que ahora
+Todavía,Oral,Sintagma adverbial,derecha,,confirman la evolución tremendamente positiva del mercado de trabajo y esa evolución positiva se nota todavía mucho más si la comparamos con la evolución que están teniendo el resto de países de la Unión Europea
+Todavía,Oral,Sintagma adverbial,derecha,,no no no evidentemente no lo hago mucho / y ahora menos que entonces todavía menos que entonces
+Todavía,Oral,Sintagma adverbial,derecha,,tenemos que concluir que nuestra prima de riesgo ha bajado muchísimo en una semana [...] y con la política que va a seguir desarrollando el Gobierno de España / se irá relajando todavía mucho más
+Todavía,Oral,Sintagma adverbial,derecha,,todas las cosas que se hacen deprisa salen mal / y en la cocina / todavía mucho más
+Todavía,Oral,Sintagma preposicional,derecha,,y no descarto que este proyecto de ley / cuando salga definitivamente aprobado tras su paso por el Congreso y el Senado / cuente todavía con más apoyo
+Todavía,Oral,Sintagma preposicional,derecha,,la autotutela de la propia Administración / que hoy se aplica ya en el sector privado y creemos que la Administración pública debe estar sometida a él aun todavía con mayor motivo para que lo entiendan
+Todavía,Oral,Oración,derecha,,no solamente lo es en el sentido de que no devuelve la cantidad que retuvo / sino que ha hecho también expresión pública /  anuncio público / de que entiende que todavía se le debe más
+Todavía,Oral,Oración,derecha,,yo creo que no ayudábamos a la claridad del planteamiento desde el Gobierno vasco y metiéndola en el contexto de las comunicaciones anteriores / todavía la claridad es menor
+Todavía,Oral,Oración,derecha,,eso no es serio  // pero es que también / por esas votaciones que se han producido en otras Autonomías / todavía lo es menos
+Todavía,Oral,Oración,derecha,,una película de suspense no tiene por qué ser un thriller / pero además dicen / que todavía es peor si es un thriller
+Todavía,Oral,Dudoso,derecha,,afortunadamente cada vez se están desplazando más // hacia este tipo de carreteras / y en el futuro todavía eeh nos encontraremos con el mayor número
+Todavía,Oral,Dudoso,derecha,,aumentar la eficiencia desde el punto de vista de los mercados / y sobre todo de la industria financiera española / de impulsar todavía una mayor protección de los clientes
+Todavía,Oral,Dudoso,derecha,,la formación también / ya lo está siendo / pero será todavía más aún clave para garantizar la igualdad entre mujer y hombre en el empleo
+Todavía,Oral,Sintagma nominal,izquierda,,bueno / ni sana evidentemente pero / ya si está enferma tiene más delito todavía / ¿no?
+Todavía,Oral,Sintagma nominal,izquierda,,me da igual cuales sean ¿eh? si son españolas casi me da más miedo todavía
+Todavía,Oral,Sintagma nominal,izquierda,,y a esos tiparrajos pues le quiten el carnet durante tiempo ¿no? / yo echo a faltar más dureza todavía
+Todavía,Oral,Sintagma nominal,izquierda,,la política / me hace más gracia todavía
+Todavía,Oral,Sintagma nominal,izquierda,,y eso lo que hace es dar mayor seguridad todavía a las pensiones contributivas
+Todavía,Oral,Sintagma adjetival,izquierda,,yo puedo ser mucho más agresivo todavía
+Todavía,Oral,Sintagma adjetival,izquierda,,controlando la gente si ha bebido o se ha drogado / es decir yo eeh ex eeh extrema eeh haría / más extremo todavía
+Todavía,Oral,Sintagma adjetival,izquierda,,porque sabes todos los berenjenales sabes todo lo que se cuece // y ya te veíamos casi como el espía durante dos años // ¡eres peor todavía!
+Todavía,Oral,Sintagma adjetival,izquierda,,han dado unos resultados francamente buenos y este nace con una ambición muchísimo mayor todavía
+Todavía,Oral,Sintagma adjetival,izquierda,,habrá que analizarlas y estudiarlas con un nivel de profundidad y de detenimiento mayor todavía
+Todavía,Oral,Sintagma adjetival,izquierda,"Quizás aquí ""payaso"" tiene función de adjetivo [VSG. Estoy de acuerdo]",porque si ella es payasa pues cuando estoy con ellos soy más payaso todavía
+Todavía,Oral,Sintagma adjetival,izquierda,,las pateras o los barcos que vienen de África / tanto a las islas Canarias como a las costas del sur de la Península / han disminuido en más de un veinticinco por cien en dos mil cinco con relación a dos mil cinco además / y esto es mucho más importante todavía / si cabe / hemos mejorado muchísimo el control y la represión de las mafias que trafican ilegalmente con seres humanos
+Todavía,Oral,Sintagma adverbial,izquierda,,estás a cinco minutos tienes líneas de autobús por todos lados para bajar // pero eso de meterme en el centro no / / y él menos todavía
+Todavía,Oral,Sintagma adverbial,izquierda,,muchas revistas femeninas del corazón o de salud están llenas de planes delirantes para bajar peso / cógelos con pinzas y no las sigas por principio / lo más seguro es que no funcionen o sean directamente peligrosos / y peor todavía si lo has visto en Facebook hacer cualquier dieta que venga de las redes sociales
+Todavía,Oral,Sintagma adverbial,izquierda,,yo creo que hay algunas cuestiones a las que ha aludido de forma reiterada y he contestado ya varias veces // pero / por si sirve para intentar aclarar más todavía esta cuestión / sobre la que ya creo que no tengo nada más que decir porque lo he dicho de forma reiterada [...]
+Todavía,Oral,Sintagma adverbial,izquierda,,tus hijas eh no te visitan apenas y tus nietos ya menos todavía ¿no?
+Todavía,Oral,Sintagma adverbial,izquierda,,eso a su vez alienta y alimenta más todavía la crispación
+Todavía,Oral,Dudoso,izquierda,,yo decía yo no quiero ser así o sea es que no me lo puedo permitir no // tengo que trabajarme mucho más la cabeza todavía
+Todavía,Oral,Dudoso,izquierda,,¿sería conveniente que hubiera / otro centro dedicado específicamente a este tipo de enfermedad? o incluso / eeh / en su opinión ¿cabría la posibilidad de que se abriese más el abanico todavía?
+Todavía,Oral,Dudoso,izquierda,,nosotros teníamos más información y ahora tienen mucha más todavía
+Todavía,Oral,Dudoso,izquierda,,ya la forma cómo quedan nuestros gastos públicos no puede tener ya / sí puede tener más todavía claro / obviamente / pero nunca habíamos llegado a ver una distribución de los gastos así
+Todavía,Oral,Dudoso,izquierda,,ya desde pequeñita tenía muchísimo carácter / el niño tiene más todavía
+Todavía,Oral,Dudoso,izquierda,,entonces primero hay que ser serios cosa que soy y ~Julio / más que yo todavía
+Todavía,Oral,Dudoso,izquierda,,sabido es lo cercana que es la Administración municipal / pues bien / queremos hacerla todavía más
+Todavía,Oral,Dudoso,izquierda,,de las cosas que he aprendido he aprendido muchas en la vida pero todavía más en los libros que he leído
+Todavía,Oral,Dudoso,izquierda,,¿desde que gobierna el PSOE se han hecho cosas? sí / lo que no quiere decir que no tengamos que hacer todavía más
+Hasta,Escrito,Sintagma verbal,derecha,,"Ya se habían casado todos mis amigos, mayores o menores que yo, Joaquín, mi primo Pedro, el pobre Modesto hasta había dejado viuda"
+Hasta,Escrito,Sintagma verbal,derecha,,"Y al famoso cura Juan ante cualquiera de las que lo ofendían y hasta amenazaban, también numerosas;"
+Hasta,Escrito,Sintagma verbal,derecha,,Y hasta acaban siempre dándonos dinero para ello
+Hasta,Escrito,Sintagma verbal,derecha,,"El que va a ser alcalde, que bajaba con unos y hasta se ha parado a desearle a los bomberos buen servicio"
+Hasta,Escrito,Sintagma verbal,derecha,,Y hasta se imaginaba que era él quien había hablado con el mendigo gallego
+Hasta,Escrito,Sintagma verbal,derecha,,Se pochan y hasta huelen mal
+Hasta,Escrito,Sintagma verbal,derecha,,"Pelos que invaden, que sepultan y hasta aplastan"
+Hasta,Escrito,Sintagma verbal,derecha,,"Pelos que invaden, que sepultan y hasta aplastan"
+Hasta,Escrito,Sintagma verbal,derecha,,Seguro que indaga y hasta quiere acompañarme al juicio
+Hasta,Escrito,Sintagma verbal,derecha,,"Y a lo mejor hasta se arrepiente,"
+Hasta,Escrito,Sintagma verbal,derecha,,"tiene usted que fumar más, templa los nervios y gusta a las mujeres, guiñándole un ojo, y Eliseo fumaba y hasta le decía alguna fineza a la hija,"
+Hasta,Escrito,Sintagma verbal,derecha,,"y yo, obediente, me contenía y hasta recogía y agrupaba las chapas que tú acababas de dispersar,"
+Hasta,Escrito,Sintagma verbal,derecha,,"y él me salió con lo de la confesión y me puso una mano en el hombro y hasta me llamó hijo mío, me dieron ganas de mandarle a paseo"
+Hasta,Escrito,Sintagma verbal,derecha,,"y entonces me levantaría con cuidado, sin hacer ruido para no interrumpir tu sueño reciente, te tiraría un beso con la mano, me marcharía de puntillas, entornaría la puerta de tu habitación y hasta me daría pena hundirme luego en el sueño, aquí otra vez, en esta cama,"
+Hasta,Escrito,Sintagma adjetival,derecha,,"¿Por qué no podía ser como los otros?: como Daniel el profesor, preocupado por su chico, un estudiante normal y corriente, habían contado; o como Gonzalo el policía, tan educado, hasta tan cortado;"
+Hasta,Escrito,Sintagma adverbial,derecha,,Me siento hasta mal y con la tripa revuelta
+Hasta,Escrito,Sintagma Preposicional,derecha,,"Estás acabado niñato, te encontraremos hasta en el infierno."
+Hasta,Escrito,Sintagma Preposicional,derecha,,"Que tenía que cambiar de vida, de casa, de moto y hasta de cabeza"
+Hasta,Escrito,Sintagma Preposicional,derecha,,En ese momento resultaba incómodo hasta para él
+Hasta,Escrito,Sintagma Preposicional,derecha,,Creo que has salido preciosa. Eres guapa hasta del revés
+Hasta,Escrito,Sintagma Preposicional,derecha,,"No hizo esa vez por interrumpir a su temido y temible tío, uno de ésos con tiempo hasta para perder y de palabra fácil y reiterativa"
+Hasta,Escrito,Sintagma Preposicional,derecha,,A dirigir un estacionamiento en batería fácil hasta para los borrachos
+Hasta,Escrito,Sintagma Preposicional,derecha,,"Y fresco, fresquísimo hasta en un día como hoy"
+Hasta,Escrito,Sintagma Preposicional,derecha,,Que conducía con aire de enorme concentración y hasta de mimo
+Hasta,Escrito,Sintagma Preposicional,derecha,,"El calor iba a servirle por dos horas de sueño, y hasta por tres"
+Hasta,Escrito,Sintagma Preposicional,derecha,,frente al afán de protagonismo tan común a veces hasta en la curia
+Hasta,Escrito,Sintagma Preposicional,derecha,,"pero no ha pasado un solo día sin que me acuerde de mi padre, y hasta de mi madre, aunque no la conocí."
+Hasta,Escrito,Sintagma Preposicional,derecha,,"Tantos otros como él habrán cambiado varias veces de uniforme, de destino y hasta de credo"
+Hasta,Escrito,Sintagma Preposicional,derecha,,"Me figuraba que pasaría los veranos en el pueblo, con Salvadora y con los chicos, y hasta con la chica"
+Hasta,Escrito,Sintagma Preposicional,derecha,,"El que apremiaba al redactor era un veterano, Pedro Gómez, uno de esos tipos curtidos en cientos de broncas, capaz de sacar una buena foto, con vida, hasta en el bautizo de la nieta de cualquier cantante folklórica"
+Hasta,Escrito,Sintagma Preposicional,derecha,,"Dependería del tono de Rachid, del humor de la mujer en ese momento, hasta de la niña, que los papeles de Takako llegaran o no a mis manos"
+Hasta,Escrito,Sintagma Preposicional,derecha,,"Sólo que veo difícil subir a Barrio con mi coche, y hasta con el otro, si me apura"
+Hasta,Escrito,Sintagma Preposicional,derecha,,"El caso es que luego te reuniste con Anita en Suiza, y en Roma, y otras veces en Londres, y en Nueva York, y hasta en Casablanca"
+Hasta,Escrito,Sintagma Preposicional,derecha,,"Y también puedes hablarles del magistral de Palermo, y hasta de Zeus y Leda"
+Hasta,Escrito,Sintagma Preposicional,derecha,,"Alcanzar la imagen aumentada de nosotros mismos es un modo de crecer tan digno como estudiar una carrera. Lo que pasa es que yo, cada día, amanezco más bajito; vamos, que me disminuyo... hasta de osamenta"
+Hasta,Escrito,Sintagma Preposicional,derecha,Anteposición del Sintagma Preposicional,"Hasta en eso era machista la sociedad, que permitía antes gozar en público de su homosexualidad a las mujeres que a los hombres"
+Hasta,Escrito,Sintagma Preposicional,derecha,Anteposición del Sintagma Preposicional,"Luego empezaron otros con lo de la dieta mediterránea y ahora hasta de mil pesetas, y más, compra la gente aceite de oliva"
+Hasta,Escrito,Sintagma Preposicional,derecha,Anteposición del Sintagma Preposicional,"O hasta a Paquita si la lía mucho mi mujer, se le hace tarde"
+Hasta,Escrito,Sintagma Preposicional,derecha,Anteposición del Sintagma Preposicional,"Lo estuvimos buscando por todas partes y no aparecía, hasta del cuartelillo salieron de batida"
+Hasta,Escrito,Sintagma Preposicional,derecha,Anteposición del Sintagma Preposicional,"De buena os he librado, les dijo días más tarde don Miguel en el casino, ya lo sabían tu mujer y tu novia, y hasta la bendita de tu hermana, añadió dirigiéndose a Joaquín, seguro que hasta al convento han llegado los vientos de vuestra hazaña"
+Hasta,Escrito,Sintagma Preposicional,derecha,Anteposición del Sintagma Preposicional,Hasta a sus queridas aburren
+Hasta,Escrito,Cláusula de gerundio,derecha,,la situación empezaba a superarla y andaba ya hasta traicionando sus convicciones más profundas sobre una relación
+Hasta,Escrito,Cláusula de gerundio,derecha,,"mientras el agente López tiraba en busca de la familia de ese pobre Romero, casi empujando la ambulancia, tal cual, y hasta abriéndole paso al enfermo"
+Hasta,Escrito,Dentro de una perífrasis,derecha,,Pues me ha explicado el infeliz que ha llegado hasta a pensar en robar
+Hasta,Escrito,Oración subordinada,derecha,,"La televisión lo coge todo, hasta lo que no debe"
+Hasta,Escrito,Oración subordinada,derecha,,"La televisión lo coge todo, hasta lo que no debe"
+Hasta,Escrito,Oración subordinada,derecha,,A veces salen algunos que hasta parece que les huele mal el aliento
+Hasta,Escrito,Oración subordinada,derecha,[VSG. ¿Ejemplo de estructura insubordinada?],"Si hasta te pagas tú la entrada, hombre"
+Hasta,Escrito,Oración subordinada,derecha,[VSG. ¿Ejemplo de estructura insubordinada?],"Vamos, que hasta he visto el proyecto, incluidos los planos y el vídeo de la pirámide, y que hasta conozco a los... sujetos que lo están impulsando"
+Hasta,Escrito,Oración subordinada,derecha,,Le contaba con una recobrada alegría que hasta se hizo coqueteo
+Hasta,Escrito,Oración subordinada,derecha,,"No con be, de ir para arriba, que también los hay, no te creas, Mayte, y que hasta suelen ser los mismos, como el doctor siempre dice"
+Hasta,Escrito,Oración subordinada,derecha,,"Fíjate, lindeza, que hasta había llegado a pensar que habías cerrado ya tu agencia"
+Hasta,Escrito,Oración subordinada,derecha,,Tan amado y tan mimado que hasta tenía dos nombres
+Hasta,Escrito,Oración subordinada,derecha,,Eso no significaba sino que quería darle palique y que incluso hasta le gustaba
+Hasta,Escrito,Oración subordinada,derecha,,"Pregúntale a la hija de Caballero, que en paz descanse, la de la agencia de viajes, que hasta me ha propuesto un lema que para los postres me guardo"
+Hasta,Escrito,Oración subordinada,derecha,,Yo creo que hasta podría ir tu padre
+Hasta,Escrito,Oración subordinada,derecha,,Y eso que hoy hasta me han hablado de otro
+Hasta,Escrito,Oración subordinada,derecha,,"Y si le doy con tino las voy a dejar muy bien, a lo mejor hasta hago una tacada"
+Hasta,Escrito,Oración subordinada,derecha,,"No sé lo que ganas, pero supongo que hasta saldrás beneficiado, a lo mejor te devuelven una parte de lo que te han retenido"
+Hasta,Escrito,Oración subordinada,derecha,,Incluso temo que un piso pagado con nuestro propio dinero puede ser que hasta nos lo nieguen
+Hasta,Escrito,Oración subordinada,derecha,,"¡Si es que, por ellos, hasta harían las alineaciones!"
+Hasta,Escrito,Oración,derecha,Inicio absoluto,"Va diciendo por ahí que es mi novio, hasta me obliga a acompañarle los domingos por la tarde"
+Hasta,Escrito,Oración,derecha,Inicio absoluto,"Sobre todo tú, Tomás, no dejas de darme disgustos, hasta has sido incapaz de formar una familia como Dios manda"
+Hasta,Escrito,Oración,derecha,Inicio absoluto,"Yo en cambio le he dejado decir siempre lo que le ha venido en gana, hasta le he dicho que estoy de acuerdo con él en muchas cosas"
+Hasta,Escrito,Oración,derecha,Inicio absoluto,"Y yo le di, prosiguió Tomás, el nombre de Olga, hasta comencé a escribir una especie de novela"
+Hasta,Escrito,Oración,derecha,Inicio absoluto,"Yo la hubiera tratado de otra manera, hasta podría haber llegado a quererla"
+Hasta,Escrito,Oración,derecha,Inicio absoluto,"Lo tomamos jugando al billar, no di una a derechas aquel día, hasta saqué una bola de la mesa cuando intenté un retruque, que nunca fue mi especialidad"
+Hasta,Escrito,Oración,derecha,Inicio absoluto,"Jorge no tenía ni idea de vinos, eso seguro, ni los bebía ni pertenecía a una familia que apreciara o supiera de esas cosas, pidió la carta de vinos y estuvo mirándola un buen rato, hasta me consultó si prefería uno u otro"
+Hasta,Escrito,Oración,derecha,Inicio absoluto,"Preferí callarme, al abuelo no le gustaba, la primera vez que entró en esta casa, el abuelo le cosió a preguntas, y Amador no pudo estar más desafortunado, hasta tuteó al abuelo"
+Hasta,Escrito,Oración,derecha,Inicio absoluto,"Al decírmelo estaba cayendo en una actitud defensiva que anulaba todas las ventajas que había querido tomar sobre mí. Bueno, con eso ya era humana y podía tratarla sin tantos miramientos. Hasta existía la posibilidad de que pudiéramos llegar a tratarnos como colegas, lo que es siempre un alivio en circunstancias como aquélla"
+Hasta,Escrito,Oración,derecha,Inicio absoluto,¿Cómo iba a olvidarlo? Hasta dicen que ella le inspiró el poema XXV de su Libro
+Hasta,Escrito,Oración,derecha,Inicio absoluto,A veces me desconciertas. Hasta pareces un ser humano
+Hasta,Escrito,Oración,derecha,"Precedido de otro constituyente (SPrep, SAdv, exclamativo...)","Fíjate, hasta podrías ofrecerte para echar una mano"
+Hasta,Escrito,Oración,derecha,"Precedido de otro constituyente (SPrep, SAdv, exclamativo...)",A veces hasta llego a creer que los sacerdotes no servimos para nada
+Hasta,Escrito,Oración,derecha,"Precedido de otro constituyente (SPrep, SAdv, exclamativo...)",bueno... en eso de distinto hasta se pasaba tal vez
+Hasta,Escrito,Oración,derecha,"Precedido de otro constituyente (SPrep, SAdv, exclamativo...)","Con usted, añadió dirigiéndose a Alfredo, lo mismo hasta llegué a ir a la escuela, pero Dios es sordo, sordo y ciego, me parece que no soy yo quien habla así, que es otra que ha venido a suplantarme, a veces hasta pienso que voy a tener el valor de deciros todo lo que he sufrido"
+Hasta,Escrito,Oración,derecha,"Precedido de otro constituyente (SPrep, SAdv, exclamativo...)","La finca se verá bastante bien desde la puerta, a lo mejor hasta nos dejan pasar, estaba de cortijero Basilio, a lo mejor Alberto tenía razón, a lo mejor hasta te alegras"
+Hasta,Escrito,Oración,derecha,"Precedido de otro constituyente (SPrep, SAdv, exclamativo...)","A lo mejor no me has reconocido, a lo mejor hasta te has olvidado de que jugabas a encontrarme aquí arriba"
+Hasta,Escrito,Oración,derecha,En estructuras coordinantes,"En el chisporroteo de sus ojos estaba el optimismo que no tenía la última vez que le vio, y hasta parecía que la humedad y el silencio le habían devuelto a la vida con fuerzas renovadas"
+Hasta,Escrito,Oración,derecha,En estructuras coordinantes,"A él fue, sí, y, por increíble que pueda parecer, hasta me animó a que ejerciera por una vez de historiador"
+Hasta,Escrito,Oración,derecha,En estructuras coordinantes,"Y para que a la niña no se le apareciera el fantasma del padre en cada rincón de esta casa, porque el matrimonio se había establecido en esta casa, es grande y tiene cuartos de sobra, hasta llegué a querer un poco a Salvadora viendo la felicidad de mi hija"
+Hasta,Oral,Sintagma verbal,derecha,,Yo hasta me creí que el niño estaba vivo
+Hasta,Oral,Sintagma verbal,derecha,,Esa es mi opinión y yo hasta puedo creer que estoy equivocado
+Hasta,Oral,Sintagma verbal,derecha,,mucha gente se deprime y sufre / y alguno hasta se quita la vida
+Hasta,Oral,Sintagma verbal,derecha,,Santiago hasta parece que se te // que se te hace un poco pequeño y tal pero // se vive bien en Santiago
+Hasta,Oral,Sintagma verbal,derecha,,y si le veo ganas de aprender eso es lo que me vale // más me da que sepa que no sepa // si a lo mejor la que sabe / hasta prefiero que no sepa
+Hasta,Oral,Sintagma verbal,derecha,,Sí sí hay que tra claro y hay que moverse en la vida // este a / yo / hasta te voy a contar otra cosa / a mí me murió mi mujer ha // hace sei // hace siete años para diciembre // hizo seis años en diciembre y yo le repartí mis herencias y de de ella
+Hasta,Oral,Sintagma verbal,derecha,,y la mitad de las veces cuando quiero ver algo es que me quedo dormida cuando yo era desde estar / poco menos como me decía ~Javier tú hasta te chapabas el Teletienda porque me daban las tres y cuatro de la mañana
+Hasta,Oral,Sintagma verbal,derecha,,Era como un mundo porque / tenías / estabas muy encerrá era aquello / lo que conocías a el barrio / la residencia // eh y la vida la hacías toda allí / ibas al colegio // volvías / para el barrio // nada y era la / claro / el mundo / que tenías / porque yo hasta fui al colegio allí que hoy en día
+Hasta,Oral,Sintagma verbal,derecha,Antes de negación,ya sabe que yo no voy a hacer comentarios sobre los responsables políticos // no lo voy a hacer sobre lo que han dicho unos y otros / algunas incluso hasta no las conozco en concreto
+Hasta,Oral,Sintagma verbal,derecha,Antes de negación,pero hasta no va a la mi ni a la misa siquiera pero ya digo este
+Hasta,Oral,Sintagma nominal,derecha,,es el mismo racismo / que se plantea respecto a los napolitanos se plantea hasta incluso hasta hasta los propios romanos
+Hasta,Oral,Sintagma nominal,derecha,,la escena rap en España sigue creciendo // cada vez hay muchos más grupos / grupos que sacan referencias // con mucha más calidad hay mucha más repercusión / pero // yo creo que falta un poco de profesionalización / del medio / desde medios especializados / que los hay pero // más hasta pues no sé locutores o sea / gente que / tenga un programa de radio // técnicos de sonido // gente / profesional currando en un estudio ingenieros de sonido eeh eeh promotores / managers / eeh no sé dale un poco más de especialización al / al movimiento / ¿no?
+Hasta,Oral,Sintagma adjetival,derecha,,resulta hasta a aburrido ¿no?
+Hasta,Oral,Sintagma adjetival,derecha,,"Y había una mujer, que eso está hasta asqueroso decirlo, que no tiraba la orina por la mañana"
+Hasta,Oral,Sintagma preposicional,derecha,Anteposición del Sintagma Preposicional,que yo ahora hasta hasta para hacer quimioterapia te dan lista de espera
+Hasta,Oral,Sintagma preposicional,derecha,Anteposición del Sintagma Preposicional,Permítame que me considere un buen conocedor del Estatuto de autonomía de Cataluña / entre otras cosas / porque hasta en su redacción final en algunas partes participé de manera directa y personal
+Hasta,Oral,Sintagma preposicional,derecha,Anteposición del Sintagma Preposicional,puede venirse al salón tirar todos sus cacharritos que si vas a su habitación / tiene // hasta con un lápiz se entretiene a ella / le vale todo junta todo allí
+Hasta,Oral,Sintagma preposicional,derecha,Anteposición del Sintagma Preposicional,echo de menos // el decir me voy a tomar un café / sola o me voy // a depilarme / a la peluquería ¿sabes? porque peluquería ya no voy pero / hasta para ir a depilarme tenía que llevarme a los niños /
+Hasta,Oral,Sintagma preposicional,derecha,,Pero bueno mira a la hora de la verdad acabaremos entrevistando hasta a tu perro si tienes
+Hasta,Oral,Sintagma preposicional,derecha,,La receta de este exquisito plato tradicional varía en cada pueblo // en cada barrio / y hasta en cada casa
+Hasta,Oral,Sintagma preposicional,derecha,,Siento a España en mi corazón y la llevo hasta en el tuétano mismo de mis huesos el privilegio de servir a España como ministro de Defensa
+Hasta,Oral,Sintagma preposicional,derecha,,Porque a su vez los acuerdos llevan consigo la adopción de compromisos por ambas partes / que son exigibles hasta desde un punto de vista jurídico
+Hasta,Oral,Sintagma preposicional,derecha,,La segunda / es el ejercicio en cada caso concreto de las posiciones que el fiscal lleva a cabo de acuerdo con la Constitución / que lo hace con absoluta autonomía // pero / es más / le diré incluso que con autonomía en muchas ocasiones hasta del fiscal del caso concreto con respecto de la posición del fiscal
+Hasta,Oral,Sintagma preposicional,derecha,,Se jugaba con todo hasta con trapos
+Hasta,Oral,Sintagma preposicional,derecha,,Yo soy cariñoso hasta con Bonilla
+Hasta,Oral,Sintagma preposicional,derecha,,ahora se habla hasta del verano
+Hasta,Oral,Sintagma preposicional,derecha,,Mi padre también fue así un poco bueno / trabajó hasta de basurero en ~Madrid
+Hasta,Oral,Sintagma preposicional,derecha,,don Eduardo Tamayo hablaba telefónicamente hasta en seis ocasiones
+Hasta,Oral,Sintagma preposicional,derecha,,¿a quién llama? // al señor / Verdes / hasta en cuatro ocasiones
+Hasta,Oral,Sintagma preposicional,derecha,,sin voces ¿eh? Siempre amablemente y hasta con una sonrisa
+Hasta,Oral,Sintagma preposicional,derecha,,dudo hasta de las zapatillitas // fíjate lo que te digo
+Hasta,Oral,Sintagma preposicional,derecha,,Porque la señora Sáez / no habla // coincide // en los argumentos / y hasta en los tiempos // con las declaraciones que hacen los dirigentes / de un determinado / partido
+Hasta,Oral,Sintagma preposicional,derecha,,porque / yo creo que si son unos profesionales deberían de jugar / hasta en el campo de aquí del pueblo de arena
+Hasta,Oral,Sintagma preposicional,derecha,,van a participar en todos los ingresos del Estado / menos en el impuesto sobre sociedades / prácticamente en todo / y en algunos van a participar hasta en el cien por cien
+Hasta,Oral,Sintagma preposicional,derecha,,no me acuerdo ahora / el nombre / era / me los sabía hasta de tercera fila y ahora
+Hasta,Oral,Sintagma preposicional,derecha,,ya decía yo que estamos hasta ante un ejemplo especial y diría que casi único
+Hasta,Oral,Sintagma preposicional,derecha,,fabuloso en el grupo de amigos y en y hasta en el grupo de la milicia universitaria
+Hasta,Oral,Sintagma preposicional,derecha,,nunca me gustó pero bueno estaba muy de moda Alejandro Casona etcétera se publicaba mucho teatro español hasta del propio Casanova de Salamanca // eeh
+Hasta,Oral,Sintagma preposicional,derecha,,pero vamos a dialogar también con las asociaciones de familia / asociaciones de mujeres / abogados de familia y hasta con los juzgados de familia
+Hasta,Oral,Sintagma preposicional,derecha,,aquí lo prioritario es su perfil / su capacidad / sus cualidades humanas / profesionales / técnicas / hasta de conocimiento de lo que es el servicio exterior
+Hasta,Oral,Sintagma preposicional,derecha,,aquí lo prioritario es su perfil / su capacidad / sus cualidades humanas / profesionales / técnicas / hasta de conocimiento de lo que es el servicio exterior
+Hasta,Oral,Sintagma preposicional,derecha,,y de hecho / pues yo estuve hasta en la boda de alguno de ellos / en Marruecos
+Hasta,Oral,Sintagma preposicional,derecha,,aquí pasa algo con / con algún personaje y sale hasta en los / periódicos más serios ¿no?
+Hasta,Oral,Sintagma preposicional,derecha,,Pues tú coges tu coche / y unos porros /y vas de aquí a La Coruña y vas flipando diciendo mi madre tal me persiguen no sé qué / yo era del mítico que miraba hasta por la ventanilla en plan flipando ¿sabes?
+Hasta,Oral,Sintagma preposicional,derecha,,Pues tú coges tu coche / y unos porros /y vas de aquí a La Coruña y vas flipando diciendo mi madre tal me persiguen no sé qué / yo era del mítico que miraba hasta por la ventanilla en plan flipando ¿sabes?
+Hasta,Oral,Sintagma preposicional,derecha,,Pues tú coges tu coche / y unos porros /y vas de aquí a La Coruña y vas flipando diciendo mi madre tal me persiguen no sé qué / yo era del mítico que miraba hasta por la ventanilla en plan flipando ¿sabes?
+Hasta,Oral,Sintagma preposicional,derecha,,voy a poner policías hasta en la esquina
+Hasta,Oral,Sintagma preposicional,derecha,,Es que me ha dolido hasta a mí eeh
+Hasta,Oral,Sintagma preposicional,derecha,,que digo fíjate a estas alturas / las letras sirven incluso hasta para vender coches
+Hasta,Oral,Sintagma preposicional,derecha,,¿eh? Tú te levantas por la mañana hay gente que lo tiene hasta en la mesilla
+Hasta,Oral,Sintagma preposicional,derecha,,Él que ha trabajado con todas las preposiciones / como arquitecto en la Administración / en de la Administración / para la Administración / desde la Administración / para la Administración / para la Administración / sobre la Administración / y hasta sin la Administración
+Hasta,Oral,Sintagma preposicional,derecha,,La rebeldía de la juventud es una rebeldía digamos espontánea / endog-endógena / que brota / hasta de la misma vitalidad
+Hasta,Oral,Sintagma preposicional,derecha,,es que la televisión ha unificado y otros medios / eeh el lenguaje y todo es decir la globalización para ser más exactos / entonces en el momento en que eso ocurre / eeh la unificación de las cosas de los gustos de / hasta de eh de lo que uno puede comprar en cada ciudad si ahora ya casi no se pueden traer regalos porque todo se vende en todas partes
+Hasta,Oral,Sintagma preposicional,derecha,,Me he sentido tan libre // ¿no? // hasta de esa cautela que tenía yo antes / me he sentido tan // tan bien / tan cerca de de de Soledad y tan lejos al mismo tiempo ¿no?
+Hasta,Oral,Dentro de una perífrasis,derecha,,un país que no reconoce el esfuerzo que llega hasta a entregar la vida cuando se lucha por la paz y por la justicia
+Hasta,Oral,Oración subordinada,derecha,,Que yo de hecho confieso que hasta tengo problemas para leer cosas que han escrito otros
+Hasta,Oral,Oración subordinada,derecha,,En mi época no había marcas / y el uniforme / yo creo que hasta debía ser / para la universidad
+Hasta,Oral,Oración subordinada,derecha,,Algunas veces yo creo que hasta le pese a él que por qué no habría trabajado yo
+Hasta,Oral,Oración subordinada,derecha,,Me a mí me es que me hasta / hasta me atormentaba ver
+Hasta,Oral,Oración subordinada,derecha,,Fíjese usted que hasta le he dicho que ni siquiera lo que sé parece razonable que lo cuente en relación con la primera parte de la pregunta
+Hasta,Oral,Oración subordinada,derecha,,Nos han manipulado tanto tantas veces que hasta de lo que podemos estar orgullosos lo utilizamos como arma arrojadiza
+Hasta,Oral,Sintagma preposicional,derecha,"VSG. No he volcado los datos de ""hasta"" como preposición locativa o temporal. Ahora bien, creo que en este ejemplo ""hasta"" no es preposición (aunque Carmen lo consigna como tal), sino partícula focal]",sufrió bastante en el empate ante el Levante teniendo que remontar / hasta en dos ocasiones
+Hasta,Oral,Oración,derecha,Inicio absoluto,Ah pero muy bien hasta hay donde aparcar
+Hasta,Oral,Oración,derecha,Inicio absoluto,Y vine / bueno de contentísimo / incluso // nos trataron bien / yo desconocía todo aquello como como el que va apalpando eeh eso // hasta había mestre en el comedor para / para atender
+Hasta,Oral,Oración,derecha,Inicio absoluto,Pero mi madre me escribió unas recetas / y si haces como mi madre / pone te sale todo perfecto // hasta te ponía en qué olla le ibas a hacer tantos minutos tanto esto bueno
+Hasta,Oral,Oración,derecha,Inicio absoluto,El señor Rodríguez Zapatero ha dicho en un periódico de alcance nacional / hace no muchas fechas / hasta creo que en el día de hoy / que él no va a hacer ningún pacto con el Partido Nacionalista Vasco
+Hasta,Oral,Oración,derecha,Inicio absoluto,Y / sobre todo / no puede estar el principal partido de la oposición atizando a lo contrario de la moderación y del equilibrio // hasta lo podría entender en Izquierda Unida / pero es que está sobrepasando en radicalismo el Partido Socialista a Izquierda Unida
+Hasta,Oral,Oración,derecha,Inicio absoluto,Hay / sí sí hay de mezcla hasta los creo que hasta los cincuenta y algo hay
+Hasta,Oral,Oración,derecha,Inicio absoluto,Que venían de fuera // no sé si eran cuba hasta creo que eran cubanos
+Hasta,Oral,Oración,derecha,Inicio absoluto,// lo que vemos es que las cifras de Presupuesto consolidado con Seguridad Social no dejan lugar a dudas de que la protección social en España / en términos relativos de ocupación del total de gasto / es cada vez mayor // hasta sería admisible que se dedujera esto es por la crisis /
+Hasta,Oral,Oración,derecha,Inicio absoluto,// lo que vemos es que las cifras de Presupuesto consolidado con Seguridad Social no dejan lugar a dudas de que la protección social en España / en términos relativos de ocupación del total de gasto / es cada vez mayor // hasta sería admisible que se dedujera esto es por la crisis /
+Hasta,Oral,Oración,derecha,Precedido de SPrep,a lo mejor hasta le di clase yo pero claro pasan por aquí tantos alumnos que no es
+Hasta,Oral,Oración,derecha,Precedido de SPrep,y entonces como no había otro control más que el el el registrarlos en en / en papel / en cartulinas pues eh se reflejaba allí / eran unas cartulinas / eh al ah en principios / hasta se tenía que poner las asignaturas y los cursos todo a mano escribirlo todo con pluma de aquella
+Hasta,Oral,Oración,derecha,Precedido de SPrep,nada // entonces ni caso / el pobre hombre / ya está acostumbrado / ahora hasta se hace
+Hasta,Oral,Oración,derecha,Precedido de SPrep,mi mi marido entró a trabajar en la en la empresa / en la marmolería / y poco a poco fue subiendo // ¡oye! / hasta llegó a ser el encargado
+Hasta,Oral,Oración,derecha,Precedido de SPrep,a lo mejor / hasta podría compaginar
+Hasta,Oral,Oración,derecha,Precedido de SPrep,a lo mejor hasta repetiría Dublín y todo
+Hasta,Oral,Oración,derecha,Precedido de SPrep,el año pasado ha hasta hubo un momento que me parecía que podía haber ganado la liga
+Hasta,Oral,Oración,derecha,Precedido de SPrep,incluso hasta es posible que con lo que nos diga / podamos hacer un juicio clínico pero // eeh / ajustar un diagnóstico
+Hasta,Oral,Oración,derecha,Precedido de SPrep,pero después con las otras bien a ver gallego si no fuera por la literatura que hay que estudiar / bien aunque bueno tampoco / como nunca hablo / gallego / después a veces ya hasta me trabo al hablar gallego
+Hasta,Oral,Oración subordinada,derecha,"[Carmen consigna este ejemplo como oración (principal) precedido de SPrep, pero creo que se trata realmente de una cláusula de relativo, con ""invento"" como antecedente]",el diablo me parece / un invento que además hasta creo que lo ha suprimido el Wojtyla
+Hasta,Oral,Oración,derecha,Precedido de SPrep,de hecho las traducciones que se han hecho al inglés y al alemán y al francés / son un auténtico bestseller ¿no? Eh y gracias a eso pues hasta hacen anuncios de / en / en televisión y en radio y en los periódicos
+Hasta,Oral,Oración,derecha,En estructuras coordinantes,Instantánea yo estaba en casa era un domingo eeh / estaba con mis niños porque mi marido había marchado / que él / entrenaba a un equipo de fútbol // y tenía / hasta tenía aquí a tres // creo / ay no tenía tres no / perdona
+Hasta,Oral,Oración,derecha,En estructuras coordinantes,Si no mira lo que está pasando con Twitter po ejemplo / cómo Twitter / genera debates de opinión y // y a veces hasta conforma opinión en solo ciento cuarenta caracteres
