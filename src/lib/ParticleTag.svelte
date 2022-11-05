@@ -1,11 +1,5 @@
 <script>
   // @ts-nocheck
-  //   import {
-  //     particleOptions,
-  //     mediumOptions,
-  //     elementOptions,
-  //     directionOptions,
-  //   } from "./utils";
 
   export let particle;
   export let particleOptions;

@@ -130,23 +130,20 @@
               >
                 <!-- this will be rendered for each currently visible item -->
                 <tr class="flex flex-row py-4">
-                  <td class="w-1/4 text-sm text-left font-medium"
-                    ><ParticleTag
-                      particle={masterFilter[index].particle}
-                      {particleOptions}
-                    />
+                  <td class="w-1/4 text-sm text-left font-semibold"
+                    >{masterFilter[index].particle}
                   </td>
-                  <td class="w-1/4 text-sm text-left font-medium"
+                  <td class="w-1/4 text-sm text-left font-semibold"
                     >{masterFilter[index].medium}</td
                   >
-                  <td class="w-1/4 text-sm text-left font-medium"
+                  <td class="w-1/4 text-sm text-left font-semibold"
                     >{masterFilter[index].element}</td
                   >
-                  <td class="w-1/4 text-sm text-left font-medium"
+                  <td class="w-1/4 text-sm text-left font-semibold"
                     >{masterFilter[index].direction}</td
                   >
                 </tr>
-                <p class="text-sm text-gray-600">
+                <p class="text-sm text-gray-500">
                   {masterFilter[index].example}
                 </p>
               </div>
