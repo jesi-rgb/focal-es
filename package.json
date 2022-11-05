@@ -27,6 +27,7 @@
     "svelte-multiselect": "^7.0.2",
     "svelte-preprocess": "^4.10.7",
     "svelte-simple-datatables": "^0.2.3",
+    "svelte-tiny-virtual-list": "^2.0.5",
     "svelte-virtual-table": "^1.0.4",
     "svrollbar": "^0.12.0",
     "tailwind-scrollbar-hide": "^1.1.7",

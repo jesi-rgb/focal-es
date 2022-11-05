@@ -3,9 +3,11 @@
 
   export let data;
 
-  import { Question } from "phosphor-svelte";
+  import { onMount } from "svelte";
 
-  import VirtualList from "@sveltejs/svelte-virtual-list";
+  //   import VirtualList from "@sveltejs/svelte-virtual-list";
+  import VirtualList from "svelte-tiny-virtual-list";
+
   import InputSearch from "./InputSearch.svelte";
   import MultiSelect from "svelte-multiselect";
   import ParticleTag from "./ParticleTag.svelte";
@@ -45,8 +47,10 @@
 
   $: showExample = "";
 
-  let start;
-  let end;
+  onMount(() => {
+    viewport = document.querySelector(".virtual-list-wrapper");
+    contents = document.querySelector(".virtual-list-inner");
+  });
 </script>
 
 <div class="flex flex-col items-start space-y-5">
@@ -74,6 +78,19 @@
   </div>
   <div class="flex flex-col w-full mx-auto">
     <InputSearch bind:value={searchTerm} />
+    {#if masterFilter.length == 0}
+      <div class="bg-red-200 text-red-900 p-3 rounded-lg my-10">
+        <div class="text-md font-bold">
+          <p>
+            No hay ningún ejemplo que cumpla con los requisitos de búsqueda.
+          </p>
+        </div>
+        <p class="text-sm">
+          Prueba a cambiar los filtros o comprueba que la búsqueda por oración
+          no contiene erratas.
+        </p>
+      </div>
+    {/if}
     <table class="mb-4">
       <tr class="flex flex-row my-3">
         <th
@@ -99,30 +116,40 @@
           <div bind:this={contents} class="contents">
             <Svrollbar {viewport} {contents} />
             <VirtualList
-              height="500px"
-              items={masterFilter}
-              bind:start
-              bind:end
-              let:item
+              height={560}
+              itemCount={masterFilter.length}
+              itemSize={130}
             >
-              <!-- this will be rendered for each currently visible item -->
-              <tr
-                class="flex flex-row hover:bg-slate-100 py-4 "
-                on:click={() => (showExample = item.example)}
+              <div
+                class="hover:bg-slate-100"
+                slot="item"
+                let:index
+                let:style
+                {style}
+                on:click={() => (showExample = masterFilter[index].example)}
               >
-                <td class="w-1/4 text-sm text-left font-medium"
-                  ><ParticleTag particle={item.particle} /></td
-                >
-                <td class="w-1/4 text-sm text-left font-medium"
-                  >{item.medium}</td
-                >
-                <td class="w-1/4 text-sm text-left font-medium"
-                  >{item.element}</td
-                >
-                <td class="w-1/4 text-sm text-left font-medium"
-                  >{item.direction}</td
-                >
-              </tr>
+                <!-- this will be rendered for each currently visible item -->
+                <tr class="flex flex-row py-4">
+                  <td class="w-1/4 text-sm text-left font-medium"
+                    ><ParticleTag
+                      particle={masterFilter[index].particle}
+                      {particleOptions}
+                    />
+                  </td>
+                  <td class="w-1/4 text-sm text-left font-medium"
+                    >{masterFilter[index].medium}</td
+                  >
+                  <td class="w-1/4 text-sm text-left font-medium"
+                    >{masterFilter[index].element}</td
+                  >
+                  <td class="w-1/4 text-sm text-left font-medium"
+                    >{masterFilter[index].direction}</td
+                  >
+                </tr>
+                <p class="text-sm text-gray-600">
+                  {masterFilter[index].example}
+                </p>
+              </div>
             </VirtualList>
           </div>
         </div>
@@ -130,38 +157,22 @@
     </table>
   </div>
   <div class="text-lg font-light">
-    {#if showExample == ""}
+    {#if showExample == "" && masterFilter.length > 0}
       <div class="text-sm">Selecciona una fila para consultar su ejemplo.</div>
     {:else if searchTerm !== ""}
-      <div>
+      <div class="bg-blue-200 text-blue-800 p-5 rounded-xl">
         {@html showExample.replace(
           searchTerm,
-          "<span class='font-bold text-blue-700'>" + searchTerm + "</span>"
+          "<span class='font-bold'>" + searchTerm + "</span>"
         )}
       </div>
     {:else}
-      <div>{showExample}</div>
+      <div class="bg-blue-200 text-blue-800 p-5 rounded-xl">{showExample}</div>
     {/if}
   </div>
-
-  {#if start == 0 && end == 0}
-    <div class="bg-red-200 text-red-900 p-3 rounded-lg">
-      <div class="text-md font-bold">
-        <p>No hay ningún ejemplo que cumpla con los requisitos de búsqueda.</p>
-      </div>
-      <p class="text-sm">
-        Prueba a cambiar los filtros o comprueba que la búsqueda por oración no
-        contiene erratas.
-      </p>
-    </div>
-  {:else}
-    <div class="text-xs">
-      Mostrando elementos en el rango <b>{start} — {end}</b>
-    </div>
-  {/if}
 </div>
 
-<!-- <style>
+<style>
   :global(.virtual-list-wrapper) {
     /* hide scrollbar */
     -ms-overflow-style: none !important;
@@ -176,4 +187,4 @@
   .wrapper {
     position: relative;
   }
-</style> -->
+</style>

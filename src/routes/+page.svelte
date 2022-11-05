@@ -1,13 +1,13 @@
 <script>
   // @ts-nocheck
 
-  import { csvToObjs } from "$lib/utils";
+  import { tsvToObjs } from "$lib/utils";
   import SvTable from "../lib/SvTable.svelte";
   import randomData from "$lib/random-data";
 
   export let data;
 
-  let parsedData = csvToObjs(data.data);
+  let parsedData = tsvToObjs(data.data);
 </script>
 
 <div class="flex flex-col">

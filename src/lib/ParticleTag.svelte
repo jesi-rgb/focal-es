@@ -1,13 +1,14 @@
 <script>
   // @ts-nocheck
-  import {
-    particleOptions,
-    mediumOptions,
-    elementOptions,
-    directionOptions,
-  } from "./utils";
+  //   import {
+  //     particleOptions,
+  //     mediumOptions,
+  //     elementOptions,
+  //     directionOptions,
+  //   } from "./utils";
 
   export let particle;
+  export let particleOptions;
 
   let particleColors = [
     "red",
