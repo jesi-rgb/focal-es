@@ -3,24 +3,23 @@
 
   export let data;
 
-  import { marked } from "marked";
+  import { Question } from "phosphor-svelte";
+
   import VirtualList from "@sveltejs/svelte-virtual-list";
   import InputSearch from "./InputSearch.svelte";
   import MultiSelect from "svelte-multiselect";
   import ParticleTag from "./ParticleTag.svelte";
   import { Svrollbar } from "svrollbar";
 
-  import {
-    particleOptions,
-    mediumOptions,
-    elementOptions,
-    directionOptions,
-  } from "./utils";
-
   let viewport;
   let contents;
 
   //   might be of use: https://github.com/Skayo/svelte-tiny-virtual-list
+
+  let particleOptions = Array.from(new Set(data.map((d) => d.particle)));
+  let mediumOptions = Array.from(new Set(data.map((d) => d.medium)));
+  let elementOptions = Array.from(new Set(data.map((d) => d.element)));
+  let directionOptions = Array.from(new Set(data.map((d) => d.direction)));
 
   let particleSelected = [];
   let mediumSelected = [];
@@ -132,7 +131,7 @@
   </div>
   <div class="text-lg font-light">
     {#if showExample == ""}
-      <div>Selecciona una fila para consultar su ejemplo</div>
+      <div class="text-sm">Selecciona una fila para consultar su ejemplo.</div>
     {:else if searchTerm !== ""}
       <div>
         {@html showExample.replace(
@@ -144,12 +143,25 @@
       <div>{showExample}</div>
     {/if}
   </div>
-  <div class="text-xs">
-    Mostrando elementos en el rango <b>{start} — {end}</b>
-  </div>
+
+  {#if start == 0 && end == 0}
+    <div class="bg-red-200 text-red-900 p-3 rounded-lg">
+      <div class="text-md font-bold">
+        <p>No hay ningún ejemplo que cumpla con los requisitos de búsqueda.</p>
+      </div>
+      <p class="text-sm">
+        Prueba a cambiar los filtros o comprueba que la búsqueda por oración no
+        contiene erratas.
+      </p>
+    </div>
+  {:else}
+    <div class="text-xs">
+      Mostrando elementos en el rango <b>{start} — {end}</b>
+    </div>
+  {/if}
 </div>
 
-<style>
+<!-- <style>
   :global(.virtual-list-wrapper) {
     /* hide scrollbar */
     -ms-overflow-style: none !important;
@@ -164,4 +176,4 @@
   .wrapper {
     position: relative;
   }
-</style>
+</style> -->
