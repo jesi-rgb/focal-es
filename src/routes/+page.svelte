@@ -11,7 +11,7 @@
 </script>
 
 <div class="flex flex-col">
-  <h1 class="text-6xl font-extrabold font-title">FOCAL-ES</h1>
+  <h1 class="text-6xl font-extrabold font-title tracking-wide">FOCAL-ES</h1>
   <div class="my-4">
     Consulta el uso de las principales partículas focales en diferentes
     contextos.

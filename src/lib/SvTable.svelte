@@ -51,9 +51,12 @@
 
   $: showExample = "";
 
+  let itemSize;
+
   onMount(() => {
     viewport = document.querySelector(".virtual-list-wrapper");
     contents = document.querySelector(".virtual-list-inner");
+    itemSize = window.innerWidth > 1000 ? 130 : 230;
   });
 </script>
 
@@ -122,10 +125,10 @@
             <VirtualList
               height={560}
               itemCount={masterFilter.length}
-              itemSize={130}
+              {itemSize}
             >
               <div
-                class="hover:bg-slate-100"
+                class="hover:bg-slate-100 h-10"
                 slot="item"
                 let:index
                 let:style
@@ -147,7 +150,7 @@
                     >{masterFilter[index].direction}</td
                   >
                 </tr>
-                <p class="text-sm text-gray-500">
+                <p class="text-sm w-1/2 text-gray-500">
                   {masterFilter[index].example}
                 </p>
               </div>
