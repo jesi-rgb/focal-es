@@ -5,6 +5,8 @@
 
   import { onMount } from "svelte";
 
+  import latinize from "latinize";
+
   //   import VirtualList from "@sveltejs/svelte-virtual-list";
   import VirtualList from "svelte-tiny-virtual-list";
 
@@ -34,7 +36,9 @@
   $: masterFilter = data.filter((item) => {
     return (
       (searchTerm === "" ||
-        item.example.toLowerCase().indexOf(searchTerm) !== -1) &&
+        latinize(item.example.toLowerCase()).indexOf(
+          latinize(searchTerm.toLowerCase())
+        ) !== -1) &&
       (particleSelected.length === 0 ||
         particleSelected.includes(item.particle)) &&
       (mediumSelected.length === 0 || mediumSelected.includes(item.medium)) &&
