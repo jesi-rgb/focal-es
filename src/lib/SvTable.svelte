@@ -7,7 +7,7 @@
 
   import latinize from "latinize";
 
-  //   import VirtualList from "@sveltejs/svelte-virtual-list";
+  // import VirtualList from "@sveltejs/svelte-virtual-list";
   import VirtualList from "svelte-tiny-virtual-list";
 
   import InputSearch from "./InputSearch.svelte";
@@ -56,7 +56,7 @@
   onMount(() => {
     viewport = document.querySelector(".virtual-list-wrapper");
     contents = document.querySelector(".virtual-list-inner");
-    itemSize = window.innerWidth > 1000 ? 130 : 230;
+    itemSize = window.innerWidth > 1000 ? 130 : 200;
   });
 </script>
 
@@ -99,7 +99,7 @@
       </div>
     {/if}
     <table class="mb-4">
-      <tr class="flex flex-row my-3">
+      <tr class="flex flex-row my-3 px-4">
         <th
           data-sort="particle"
           class="w-1/4 text-left text-xs md:text-sm text-gray-500 uppercase tracking-wider"
@@ -128,7 +128,7 @@
               {itemSize}
             >
               <div
-                class="hover:bg-slate-100 h-10"
+                class="group hover:bg-accent hover:bg-opacity-50 hover:rounded-xl hover:transition-colors inline-block align-middle"
                 slot="item"
                 let:index
                 let:style
@@ -136,7 +136,9 @@
                 on:click={() => (showExample = masterFilter[index].example)}
               >
                 <!-- this will be rendered for each currently visible item -->
-                <tr class="flex flex-row py-4">
+                <tr
+                  class="flex flex-row py-3 px-4 group-hover:text-accent-darker"
+                >
                   <td class="w-1/4 text-sm text-left font-semibold"
                     >{masterFilter[index].particle}
                   </td>
@@ -150,7 +152,9 @@
                     >{masterFilter[index].direction}</td
                   >
                 </tr>
-                <p class="text-sm w-1/2 text-gray-500">
+                <p
+                  class="group-hover:text-accent-darker group-hover:text-opacity-60 text-sm text-gray-500 xl:w-1/2 font-italic mx-5"
+                >
                   {masterFilter[index].example}
                 </p>
               </div>
@@ -164,14 +168,14 @@
     {#if showExample == "" && masterFilter.length > 0}
       <div class="text-sm">Selecciona una fila para consultar su ejemplo.</div>
     {:else if searchTerm !== ""}
-      <div class="bg-blue-200 text-blue-800 p-5 rounded-xl">
+      <div class="bg-main-lighter text-main p-5 rounded-xl">
         {@html showExample.replace(
           searchTerm,
           "<span class='font-bold'>" + searchTerm + "</span>"
         )}
       </div>
     {:else}
-      <div class="bg-blue-200 text-blue-800 p-5 rounded-xl">{showExample}</div>
+      <div class="bg-main-lighter text-main p-5 rounded-xl">{showExample}</div>
     {/if}
   </div>
 </div>
