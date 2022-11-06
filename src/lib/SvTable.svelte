@@ -7,12 +7,12 @@
 
   import latinize from "latinize";
 
-  // import VirtualList from "@sveltejs/svelte-virtual-list";
   import VirtualList from "svelte-tiny-virtual-list";
+
+  import { ArrowSquareRight } from "phosphor-svelte";
 
   import InputSearch from "./InputSearch.svelte";
   import MultiSelect from "svelte-multiselect";
-  import ParticleTag from "./ParticleTag.svelte";
   import { Svrollbar } from "svrollbar";
 
   let viewport;
@@ -66,21 +66,34 @@
       bind:selected={particleSelected}
       placeholder="Filtrar por partícula..."
       options={particleOptions}
+      outerDivClass="border-4 ring-1 ring-main"
+      ulSelectedClass="text-main"
+      liOptionClass="text-main"
     />
+
     <MultiSelect
       bind:selected={mediumSelected}
       placeholder="Filtrar por medio..."
       options={mediumOptions}
+      outerDivClass="border-4 ring-1 ring-main"
+      ulSelectedClass="text-main"
+      liOptionClass="text-main"
     />
     <MultiSelect
       bind:selected={elementSelected}
       placeholder="Filtrar por elemento..."
       options={elementOptions}
+      outerDivClass="border-4 ring-1 ring-main"
+      ulSelectedClass="text-main"
+      liOptionClass="text-main"
     />
     <MultiSelect
       bind:selected={directionSelected}
       placeholder="Filtrar por dirección..."
       options={directionOptions}
+      outerDivClass="border-4 ring-1 ring-main"
+      ulSelectedClass="text-main"
+      liOptionClass="text-main"
     />
   </div>
   <div class="flex flex-col w-full mx-auto">
@@ -99,22 +112,19 @@
       </div>
     {/if}
     <table class="mb-4">
-      <tr class="flex flex-row my-3 px-4">
+      <tr class="flex flex-row my-3 px-4 text-main">
         <th
           data-sort="particle"
-          class="w-1/4 text-left text-xs md:text-sm text-gray-500 uppercase tracking-wider"
+          class="w-1/4 text-left text-xs md:text-sm uppercase tracking-wider"
           >Partícula</th
         >
-        <th
-          class="w-1/4 text-left text-xs md:text-sm text-gray-500 uppercase tracking-wider"
+        <th class="w-1/4 text-left text-xs md:text-sm uppercase tracking-wider"
           >Medio
         </th>
-        <th
-          class="w-1/4 text-left text-xs md:text-sm text-gray-500 uppercase tracking-wider"
+        <th class="w-1/4 text-left text-xs md:text-sm uppercase tracking-wider"
           >Elemento
         </th>
-        <th
-          class="w-1/4 text-left text-xs md:text-sm text-gray-500 uppercase tracking-wider"
+        <th class="w-1/4 text-left text-xs md:text-sm uppercase tracking-wider"
           >Dirección
         </th>
       </tr>
@@ -128,7 +138,7 @@
               {itemSize}
             >
               <div
-                class="group hover:bg-accent hover:bg-opacity-50 hover:rounded-xl hover:transition-colors inline-block align-middle"
+                class="group hover:bg-accent hover:bg-opacity-20 hover:rounded-xl hover:transition-colors inline-block align-middle"
                 slot="item"
                 let:index
                 let:style
@@ -153,7 +163,7 @@
                   >
                 </tr>
                 <p
-                  class="group-hover:text-accent-darker group-hover:text-opacity-60 text-sm text-gray-500 xl:w-1/2 font-italic mx-5"
+                  class="group-hover:text-accent-darker group-hover:text-opacity-60 text-sm text-gray-500 xl:w-1/2 italic mx-5"
                 >
                   {masterFilter[index].example}
                 </p>
