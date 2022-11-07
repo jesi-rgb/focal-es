@@ -4,12 +4,13 @@
   export let data;
 
   import { onMount } from "svelte";
+  import { fade, crossfade } from "svelte/transition";
 
   import latinize from "latinize";
 
   import VirtualList from "svelte-tiny-virtual-list";
 
-  import { ArrowSquareRight } from "phosphor-svelte";
+  import { X } from "phosphor-svelte";
 
   import InputSearch from "./InputSearch.svelte";
   import MultiSelect from "svelte-multiselect";
@@ -174,18 +175,45 @@
       </div>
     </table>
   </div>
-  <div class="text-lg font-light">
+  <div class="text-lg font-light w-full">
     {#if showExample == "" && masterFilter.length > 0}
-      <div class="text-sm">Selecciona una fila para consultar su ejemplo.</div>
+      <div in:fade={{ duration: 1000 }} class="text-sm">
+        Selecciona una fila para consultar su ejemplo.
+      </div>
     {:else if searchTerm !== ""}
-      <div class="bg-main-lighter text-main p-5 rounded-xl">
-        {@html showExample.replace(
-          searchTerm,
-          "<span class='font-bold'>" + searchTerm + "</span>"
-        )}
+      <div
+        transition:crossfade
+        class="bg-main-lighter text-main p-5 rounded-xl flex flex-row w-full"
+      >
+        <div class="w-4/5">
+          {@html showExample.replace(
+            searchTerm,
+            "<span class='font-bold'>" + searchTerm + "</span>"
+          )}
+        </div>
+        <button
+          on:click={() => {
+            showExample = "";
+          }}
+          class="mx-auto mr-10"><X /></button
+        >
       </div>
     {:else}
-      <div class="bg-main-lighter text-main p-5 rounded-xl">{showExample}</div>
+      <div
+        transition:fade={{ duration: 300 }}
+        class="bg-main-lighter text-main p-5 flex flex-row rounded-xl w-full"
+      >
+        <div class="w-4/5">
+          {showExample}
+        </div>
+        <button
+          on:click={() => {
+            showExample = "";
+          }}
+          class="mx-auto my-auto mr-0 p-5 rounded-full transition-colors hover:bg-main hover:bg-opacity-10"
+          ><X /></button
+        >
+      </div>
     {/if}
   </div>
 </div>
