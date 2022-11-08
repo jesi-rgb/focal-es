@@ -2,6 +2,7 @@
   // @ts-nocheck
 
   export let data;
+  let MAX_LENGTH_EXAMPLE = 230;
 
   import { onMount } from "svelte";
   import { fade, crossfade } from "svelte/transition";
@@ -33,6 +34,17 @@
 
   let searchTerm = "";
 
+  data = data.map((item) => {
+    if (item.example.length > MAX_LENGTH_EXAMPLE) {
+      let truncated = item.example.slice(0, MAX_LENGTH_EXAMPLE - 3);
+      truncated += "...";
+      item.truncatedExample = truncated;
+    } else {
+      item.truncatedExample = item.example;
+    }
+    return item;
+  });
+
   // master filter including every aspect
   $: masterFilter = data.filter((item) => {
     return (
@@ -57,12 +69,12 @@
   onMount(() => {
     viewport = document.querySelector(".virtual-list-wrapper");
     contents = document.querySelector(".virtual-list-inner");
-    itemSize = window.innerWidth > 1000 ? 130 : 200;
+    itemSize = window.innerWidth > 1500 ? 130 : 200;
   });
 </script>
 
 <div class="flex flex-col items-start space-y-5">
-  <div class="flex flex-col gap-4">
+  <div class="flex flex-col w-full 2xl:flex-row 2xl:w-auto gap-4">
     <MultiSelect
       bind:selected={particleSelected}
       placeholder="Filtrar por partícula..."
@@ -112,8 +124,10 @@
         </p>
       </div>
     {/if}
-    <table class="mb-4">
-      <tr class="flex flex-row my-3 px-4 text-main">
+    <table
+      class="mb-4 border border-main-lighter shadow-lg shadow-main-lighter rounded-xl"
+    >
+      <tr class="flex flex-row my-3 pb-2 px-4 text-main border-b border-main">
         <th
           data-sort="particle"
           class="w-1/4 text-left text-xs md:text-sm uppercase tracking-wider"
@@ -164,9 +178,9 @@
                   >
                 </tr>
                 <p
-                  class="group-hover:text-accent-darker group-hover:text-opacity-60 text-sm text-gray-500 xl:w-1/2 italic mx-5"
+                  class="group-hover:text-accent-darker group-hover:text-opacity-60 text-sm text-gray-500 italic mx-5"
                 >
-                  {masterFilter[index].example}
+                  {masterFilter[index].truncatedExample}
                 </p>
               </div>
             </VirtualList>
