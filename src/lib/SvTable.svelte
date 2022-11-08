@@ -124,9 +124,7 @@
         </p>
       </div>
     {/if}
-    <table
-      class="mb-4 border border-main-lighter shadow-lg shadow-main-lighter rounded-xl"
-    >
+    <table class="mb-4 shadow-lg shadow-main-lighter rounded-xl">
       <tr class="flex flex-row my-3 pb-2 px-4 text-main border-b border-main">
         <th
           data-sort="particle"
@@ -197,7 +195,7 @@
     {:else if searchTerm !== ""}
       <div
         transition:crossfade
-        class="bg-main-lighter text-main p-5 rounded-xl flex flex-row w-full"
+        class="bg-main-lighter text-main p-5 rounded-xl flex flex-row w-full select-all selection:bg-main selection:text-white"
       >
         <div class="w-4/5">
           {@html showExample.replace(
@@ -215,7 +213,7 @@
     {:else}
       <div
         transition:fade={{ duration: 300 }}
-        class="bg-main-lighter text-main p-5 flex flex-row rounded-xl w-full"
+        class="bg-main-lighter text-main p-5 flex flex-row rounded-xl w-full select-all selection:bg-main selection:text-white"
       >
         <div class="w-4/5">
           {showExample}
