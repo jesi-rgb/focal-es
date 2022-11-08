@@ -1,13 +1,8 @@
 <script>
   // @ts-nocheck
 
-  import { tsvToObjs } from "$lib/utils";
   import SvTable from "../lib/SvTable.svelte";
-  import randomData from "$lib/random-data";
-
-  export let data;
-
-  let parsedData = tsvToObjs(data.data);
+  import jsonData from "$lib/assets/focalEs.json";
 </script>
 
 <div class="flex flex-col">
@@ -22,5 +17,5 @@
     Filtra la tabla en función de su uso o busca una frase en el buscador.
   </div>
 
-  <SvTable data={parsedData} />
+  <SvTable data={jsonData} />
 </div>
