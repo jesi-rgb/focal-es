@@ -79,7 +79,7 @@
       bind:selected={particleSelected}
       placeholder="Filtrar por partícula..."
       options={particleOptions}
-      outerDivClass="border-4 ring-1 ring-main"
+      outerDivClass="ring-1 ring-main"
       ulSelectedClass="text-main"
       liOptionClass="text-main"
     />
@@ -88,7 +88,7 @@
       bind:selected={mediumSelected}
       placeholder="Filtrar por medio..."
       options={mediumOptions}
-      outerDivClass="border-4 ring-1 ring-main"
+      outerDivClass="ring-1 ring-main"
       ulSelectedClass="text-main"
       liOptionClass="text-main"
     />
@@ -96,7 +96,7 @@
       bind:selected={elementSelected}
       placeholder="Filtrar por elemento..."
       options={elementOptions}
-      outerDivClass="border-4 ring-1 ring-main"
+      outerDivClass="ring-1 ring-main"
       ulSelectedClass="text-main"
       liOptionClass="text-main"
     />
@@ -104,7 +104,7 @@
       bind:selected={directionSelected}
       placeholder="Filtrar por dirección..."
       options={directionOptions}
-      outerDivClass="border-4 ring-1 ring-main"
+      outerDivClass="ring-1 ring-main"
       ulSelectedClass="text-main"
       liOptionClass="text-main"
     />
@@ -124,11 +124,9 @@
         </p>
       </div>
     {/if}
-    <table class="mb-4 shadow-lg shadow-main-lighter rounded-xl">
-      <tr class="flex flex-row my-3 pb-2 px-4 text-main border-b border-main">
-        <th
-          data-sort="particle"
-          class="w-1/4 text-left text-xs md:text-sm uppercase tracking-wider"
+    <table class="mb-4 shadow-md shadow-main-lighter rounded-xl">
+      <tr class="flex flex-row my-2 pb-2 px-4 text-main border-b-2 border-main">
+        <th class="w-1/4 text-left text-xs md:text-sm uppercase tracking-wider"
           >Partícula</th
         >
         <th class="w-1/4 text-left text-xs md:text-sm uppercase tracking-wider"
