@@ -1,38 +1,19 @@
-# create-svelte
+# FOCAL-ES
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+FOCAL-ES es una aplicación que permite examinar el uso de las principales partículas focales del español en diferentes ejemplos, clasificados en función de su uso.
 
-## Creating a project
+La aplicación permite filtrar por partícula, medio, elemento modificado y dirección. Dichos filtros presentarán solo aquellos ejemplos que cumplan con las condiciones, haciendo fácil la exploración de la base de datos de más de 1300 ejemplos. 
 
-If you're seeing this, you've probably already done this step. Congrats!
+Además, se incorpora un campo de búsqueda que filtra inmediatamente por las palabras que contengan los ejemplos, para "revertir la búsqueda", en caso de que uno recuerde palabras específicas del ejemplo pero no las características de la partícula.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+La base de datos ha sido curada y elaborada por los investigadores Ventura Salazar, Elena Felíu y María del Carmen Conti.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+# Capturas de pantalla
 
-## Developing
+<img width="1257" alt="image" src="https://user-images.githubusercontent.com/50735312/200824722-e51953dd-ac74-48a9-ab18-0510648bb602.png">
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+<img width="1374" alt="image" src="https://user-images.githubusercontent.com/50735312/200824847-b4032e26-9ea0-42b1-abf5-fe0d1864dd28.png">
 
-```bash
-npm run dev
+<img width="1248" alt="image" src="https://user-images.githubusercontent.com/50735312/200825111-44a1eed5-f244-43c3-8eaa-11cdebd0617e.png">
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+<img width="1498" alt="image" src="https://user-images.githubusercontent.com/50735312/200825198-1a6a558f-e693-4033-9705-0f6782284ae6.png">
