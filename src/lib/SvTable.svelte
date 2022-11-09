@@ -79,7 +79,7 @@
       bind:selected={particleSelected}
       placeholder="Filtrar por partícula..."
       options={particleOptions}
-      outerDivClass="ring-1 ring-main"
+      outerDivClass=""
       ulSelectedClass="text-main"
       liOptionClass="text-main"
     />
@@ -88,7 +88,7 @@
       bind:selected={mediumSelected}
       placeholder="Filtrar por medio..."
       options={mediumOptions}
-      outerDivClass="ring-1 ring-main"
+      outerDivClass=""
       ulSelectedClass="text-main"
       liOptionClass="text-main"
     />
@@ -96,7 +96,7 @@
       bind:selected={elementSelected}
       placeholder="Filtrar por elemento..."
       options={elementOptions}
-      outerDivClass="ring-1 ring-main"
+      outerDivClass=""
       ulSelectedClass="text-main"
       liOptionClass="text-main"
     />
@@ -104,7 +104,7 @@
       bind:selected={directionSelected}
       placeholder="Filtrar por dirección..."
       options={directionOptions}
-      outerDivClass="ring-1 ring-main"
+      outerDivClass=""
       ulSelectedClass="text-main"
       liOptionClass="text-main"
     />
@@ -242,5 +242,26 @@
 
   .wrapper {
     position: relative;
+  }
+
+  :global(div.multiselect > svg) {
+    /* top-level wrapper div */
+    color: #140e78;
+  }
+
+  :root {
+    --main: #140e78;
+    --main-lighter: #c7d2f8;
+    --accent: #d0a2ff;
+    --accent-darker: #7300ed;
+    --text-color: #fff;
+
+    --sms-active-color: var(--main-lighter);
+
+    --sms-border: 1px solid var(--main-lighter);
+    --sms-options-bg: #fff;
+    --sms-selected-bg: var(--main);
+    --sms-text-color: #fff;
+    --sms-placeholder-color: var(--main);
   }
 </style>
