@@ -63,6 +63,8 @@
   });
 
   $: showExample = "";
+  $: currentParticle = "";
+  console.log(currentParticle);
 
   let itemSize;
 
@@ -154,7 +156,10 @@
                 let:index
                 let:style
                 {style}
-                on:click={() => (showExample = masterFilter[index].example)}
+                on:click={() => {
+                  showExample = masterFilter[index].example;
+                  currentParticle = masterFilter[index].particle;
+                }}
               >
                 <!-- this will be rendered for each currently visible item -->
                 <tr
@@ -196,10 +201,18 @@
         class="bg-main-lighter text-main p-5 rounded-xl flex flex-row w-full select-all selection:bg-main selection:text-white"
       >
         <div class="w-4/5">
-          {@html showExample.replace(
-            searchTerm,
-            "<span class='font-bold'>" + searchTerm + "</span>"
-          )}
+          {@html showExample
+            .toLowerCase()
+            .replace(
+              searchTerm.toLowerCase(),
+              "<span class='font-bold'>" + searchTerm + "</span>"
+            )
+            .replace(
+              currentParticle.toLowerCase(),
+              "<span class='font-bold'>" +
+                currentParticle.toLowerCase() +
+                "</span>"
+            )}
         </div>
         <button
           on:click={() => {
@@ -214,8 +227,14 @@
         class="bg-main-lighter text-main p-5 flex flex-row rounded-xl w-full select-all selection:bg-main selection:text-white"
       >
         <div class="w-4/5">
-          {showExample}
+          {@html showExample.replace(
+            currentParticle.toLowerCase(),
+            "<span class='font-bold'>" +
+              currentParticle.toLowerCase() +
+              "</span>"
+          )}
         </div>
+
         <button
           on:click={() => {
             showExample = "";
