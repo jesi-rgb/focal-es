@@ -2,7 +2,7 @@
   // @ts-nocheck
 
   import SvTable from "../lib/SvTable.svelte";
-  import jsonData from "$lib/assets/focalEs.json";
+  import jsonData from "$lib/assets/focal-es.json";
 </script>
 
 <div class="flex flex-col">

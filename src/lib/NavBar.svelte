@@ -9,5 +9,6 @@
     <img src={logo} width="20px" alt="FOCAL-ES logo" />
   </a>
   <a href="/">Inicio</a>
-  <a href="/about">Más información</a>
+  <a href="/search">Búsqueda</a>
+  <a href="/contact">Contacto</a>
 </nav>

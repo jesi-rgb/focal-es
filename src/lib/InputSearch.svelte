@@ -13,7 +13,7 @@
   </span>
   <input
     class="placeholder:italic placeholder:text-main placeholder:text-opacity-50 block bg-white w-full border border-main-lighter rounded-md py-2 pl-9 pr-3 shadow-sm shadow-main-lighter focus:outline-none focus:border-main focus:ring-main focus:ring-1 sm:text-sm"
-    placeholder="Buscar por oración"
+    placeholder="Buscar por palabra(s)"
     type="text"
     name="search"
     bind:value

@@ -22,10 +22,12 @@
 
   //   might be of use: https://github.com/Skayo/svelte-tiny-virtual-list
 
-  let particleOptions = Array.from(new Set(data.map((d) => d.particle)));
-  let mediumOptions = Array.from(new Set(data.map((d) => d.medium)));
-  let elementOptions = Array.from(new Set(data.map((d) => d.element)));
-  let directionOptions = Array.from(new Set(data.map((d) => d.direction)));
+  let particleOptions = Array.from(new Set(data.map((d) => d.particle))).sort();
+  let mediumOptions = Array.from(new Set(data.map((d) => d.medium))).sort();
+  let elementOptions = Array.from(new Set(data.map((d) => d.element))).sort();
+  let directionOptions = Array.from(
+    new Set(data.map((d) => d.direction))
+  ).sort();
 
   let particleSelected = [];
   let mediumSelected = [];
@@ -135,7 +137,7 @@
           >Medio
         </th>
         <th class="w-1/4 text-left text-xs md:text-sm uppercase tracking-wider"
-          >Elemento
+          >Elemento focalizado
         </th>
         <th class="w-1/4 text-left text-xs md:text-sm uppercase tracking-wider"
           >Dirección
