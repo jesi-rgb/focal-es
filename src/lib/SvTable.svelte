@@ -66,7 +66,6 @@
 
   $: showExample = "";
   $: currentParticle = "";
-  console.log(currentParticle);
 
   let itemSize;
 
@@ -265,13 +264,10 @@
     position: relative;
   }
 
-  :global(div.multiselect > svg) {
-    /* top-level wrapper div */
-    color: #140e78;
-  }
-
   :root {
     --main: #140e78;
+
+    --white: #fff;
     --main-lighter: #c7d2f8;
     --accent: #d0a2ff;
     --accent-darker: #7300ed;
@@ -282,7 +278,16 @@
     --sms-border: 1px solid var(--main-lighter);
     --sms-options-bg: #fff;
     --sms-selected-bg: var(--main);
-    --sms-text-color: #fff;
+    --sms-text-color: var(--white);
     --sms-placeholder-color: var(--main);
+  }
+
+  :global(div.multiselect > svg) {
+    /* top-level wrapper div */
+    color: #140e78;
+  }
+  :global(.remove-all > svg) {
+    /* top-level wrapper div */
+    color: #140e78;
   }
 </style>
