@@ -3,9 +3,7 @@
 </script>
 
 <div class="flex flex-col space-y-10 mx-auto mt-10">
-  <div class="text-3xl font-semibold font-title text-main">
-    El proyecto FOCAL-ES
-  </div>
+  <div class="text-3xl font-semibold font-title text-main">FOCAL-ES</div>
   <div class="flex flex-col 2xl:flex-row items-center gap-10">
     <div class="text-justify space-y-3 2xl:w-3/4">
       <p>
@@ -22,9 +20,6 @@
         ofrecer una perspectiva clara y concisa de su uso y relevancia en el uso
         del lenguaje.
       </p>
-      <div class="my-auto top-36 opacity-10">
-        <img src={logo} width="200px" alt="FOCAL-ES lgoo" />
-      </div>
     </div>
   </div>
 </div>
