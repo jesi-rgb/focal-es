@@ -19,13 +19,12 @@
 
   let particleGroups = data.groupBy("particle");
 
-  let particles = [];
-  let frequencies = [];
-  let partFreqDict = [];
+  let particleFrequency = [];
   Object.keys(particleGroups).forEach((key) => {
-    particles.push(key);
-    frequencies.push(particleGroups[key].length);
-    partFreqDict.push({ particle: key, frequency: particleGroups[key].length });
+    particleFrequency.push({
+      particle: key,
+      frequency: particleGroups[key].length,
+    });
   });
 
   //   chart definition
@@ -33,14 +32,18 @@
   let pinXAxis, pinYAxis; // declare pins
   let margin = 30; // declare initial values for margin and svg_height/width
   let svg_height = 300;
-  let svg_width = 700;
+  let svg_width = 600;
   $: height = svg_height - margin * 2;
   $: width = svg_width - margin * 2;
 
   // define generator functions for x and y axes
-  $: x = scaleBand().domain(particles).range([0, width]).padding(0.1);
+  $: x = scaleBand()
+    .domain(particleFrequency.map((i) => i.particle))
+    .range([0, width])
+    .padding(0.1);
+
   $: y = scaleLinear()
-    .domain([0, max(frequencies)])
+    .domain([0, max(particleFrequency.map((i) => i.frequency))])
     .range([height, 0]);
 
   // call axis generators on the scale and pin the SVG pins.
@@ -65,14 +68,13 @@
   />
 
   <g transform="translate({margin},{margin})">
-    {#each partFreqDict as { particle, frequency }}
+    {#each particleFrequency as { particle, frequency }}
       <rect
         x={x(particle)}
         y={y(frequency)}
         height={y(0) - y(frequency)}
         width={x.bandwidth()}
         stroke="#140E78"
-        stroke-width="3"
         fill="#C7D2F8"
       />
     {/each}
