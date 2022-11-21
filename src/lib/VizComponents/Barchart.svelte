@@ -3,14 +3,11 @@
 
   import { select } from "d3-selection";
   import { extent, bisector, max } from "d3-array";
-  import { scaleLinear, scaleTime } from "d3-scale";
-  import { line, area, curveBasis } from "d3-shape";
+  import { scaleLinear, scaleOrdinal } from "d3-scale";
   import { interpolateRound } from "d3-interpolate";
   import Axis from "./Axis.svelte";
 
   import data from "$lib/assets/focal-es.json";
-
-  import { onMount } from "svelte";
 
   Array.prototype.groupBy = function (prop) {
     return this.reduce(function (groups, item) {
@@ -21,41 +18,34 @@
     }, {});
   };
 
-  let particleFreq = data.groupBy("particle");
-  console.log(particleFreq);
+  let particleGroups = data.groupBy("particle");
+
+  let particles = [];
+  let frequencies = [];
+  Object.keys(particleGroups).forEach((key) => {
+    particles.push(key);
+    frequencies.push(particleGroups[key].length);
+  });
+  console.log(frequencies, particles);
 
   //   chart definition
 
-  let width, height;
-  onMount(() => {
-    width = window.innerWidth - 100;
-    console.log(width);
-    height = 100;
-  });
+  const width = 600;
+  const height = 100;
 
   const margin = { top: 30, right: 0, bottom: 10, left: 30 };
   const innerHeight = height - margin.top - margin.bottom;
   const innerWidth = width - margin.left - margin.right;
 
-  const xScale = scaleTime()
-    .domain(extent(hours.map((d) => new Date(d.dt * 1000 + timeOffset))))
+  const yScale = scaleLinear()
+    .domain(extent(frequencies.map((d) => +d)))
     .range([0, innerWidth]);
 
-  console.log(xScale);
-
-  const yScale = scaleLinear()
-    .domain(
-      padExtent(
-        hours.map((d) => d.temp),
-        5
-      ).map((d) => Math.round(d))
-    )
-    .range([innerHeight, 0])
-    .interpolate(interpolateRound);
+  const xScale = scaleOrdinal(particles).range([0, innerWidth]);
 </script>
 
-<svg>
-  <g>
+<svg {width} {height}>
+  <g transform={`translate(${margin.left},${margin.bottom})`}>
     <Axis
       {innerHeight}
       tickNumber={6}
