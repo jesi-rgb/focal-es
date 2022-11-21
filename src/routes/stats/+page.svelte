@@ -25,13 +25,6 @@
 
 <main>
   <h1 class="text-3xl text-main font-title">Algunas estadísticas</h1>
-  <div>hola</div>
-  <div>hola</div>
-</main>
 
-<BarchartObvbl
-  {data}
-  title={"Número de partículas"}
-  xDomain={particles}
-  yDomain={frequencies}
-/>
+  <Barchart />
+</main>
