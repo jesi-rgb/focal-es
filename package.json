@@ -12,11 +12,13 @@
     "lint": "eslint ."
   },
   "devDependencies": {
+    "@observablehq/plot": "^0.6.0",
     "@popperjs/core": "^2.11.6",
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
     "@sveltejs/svelte-virtual-list": "^3.0.1",
     "autoprefixer": "^10.4.12",
+    "d3": "^7.6.1",
     "eslint": "^8.16.0",
     "eslint-plugin-svelte3": "^4.0.0",
     "latinize": "^0.5.0",

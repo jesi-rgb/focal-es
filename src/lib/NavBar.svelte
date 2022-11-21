@@ -11,4 +11,5 @@
   <a href="/">Inicio</a>
   <a href="/search">Búsqueda</a>
   <a href="/contact">Contacto</a>
+  <a href="/stats">Estadísticas</a>
 </nav>
