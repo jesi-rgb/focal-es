@@ -1,8 +1,8 @@
 <script>
   // @ts-nocheck
-  import Barchart from "$lib/VizComponents/Barchart.svelte";
-  import BarchartObvbl from "$lib/VizComponents/BarchartObvbl.svelte";
   import data from "$lib/assets/focal-es.json";
+  import ElementBarchart from "$lib/VizComponents/ElementBarchart.svelte";
+  import ParticleBarchart from "$lib/VizComponents/ParticleBarchart.svelte";
 
   Array.prototype.groupBy = function (prop) {
     return this.reduce(function (groups, item) {
@@ -23,8 +23,20 @@
   });
 </script>
 
-<main>
-  <h1 class="text-3xl text-main font-title">Algunas estadísticas</h1>
+<h1 class="text-3xl text-main font-title mb-10">Algunas estadísticas</h1>
 
-  <Barchart />
-</main>
+<div class="flex flex-col space-y-20">
+  <div>
+    <h2 class="text-2xl font-semibold">
+      Distribución de partículas en el corpus
+    </h2>
+    <ParticleBarchart />
+  </div>
+
+  <div>
+    <h2 class="text-2xl font-semibold">
+      Distribución de elementos en el corpus
+    </h2>
+    <ElementBarchart />
+  </div>
+</div>

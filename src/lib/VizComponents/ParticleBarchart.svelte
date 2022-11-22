@@ -27,6 +27,8 @@
     });
   });
 
+  particleFrequency.sort((a, b) => b.frequency - a.frequency);
+
   //   chart definition
 
   let pinXAxis, pinYAxis; // declare pins
@@ -55,7 +57,12 @@
   }
 </script>
 
-<svg width={svg_width} height={svg_height}>
+<svg
+  class="w-full xl:max-w-xl"
+  viewBox="0 0 {svg_width} {svg_height}"
+  preserveAspectRatio="xMinYMin"
+  style="max-width=100%;"
+>
   <g
     class="xAxis font-body text-sm"
     bind:this={pinXAxis}
@@ -70,6 +77,7 @@
   <g transform="translate({margin},{margin})">
     {#each particleFrequency as { particle, frequency }}
       <rect
+        class="hover:fill-main transition-colors duration-100"
         x={x(particle)}
         y={y(frequency)}
         height={y(0) - y(frequency)}
