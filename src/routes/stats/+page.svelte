@@ -3,7 +3,7 @@
   import data from "$lib/assets/focal-es.json";
   import ElementBarchart from "$lib/VizComponents/ElementBarchart.svelte";
   import ParticleBarchart from "$lib/VizComponents/ParticleBarchart.svelte";
-  import { max } from "d3";
+  import { CirclesThree, Crosshair, Target } from "phosphor-svelte";
 
   Array.prototype.groupBy = function (prop) {
     return this.reduce(function (groups, item) {
@@ -56,7 +56,10 @@
     </p>
   </div>
   <div>
-    <h2 class="text-2xl font-semibold">Distribución de partículas</h2>
+    <h2 class="text-2xl font-semibold lg:flex lg:gap-3 items-center">
+      <span> <CirclesThree weight="duotone" class="text-main text-2xl" /></span>
+      Distribución de partículas
+    </h2>
 
     <p class="max-w-md">
       Se observa el número de oraciones que contiene cada partícula. {minParticleFreq.particle}
@@ -69,7 +72,12 @@
   </div>
 
   <div>
-    <h2 class="text-2xl font-semibold">
+    <h2
+      class="text-2xl font-semibold lg:flex lg:flex-row lg:gap-3 items-center"
+    >
+      <span>
+        <Crosshair weight="duotone" class="text-main text-2xl" />
+      </span>
       Distribución de elementos modificados
     </h2>
     <p class="max-w-md">

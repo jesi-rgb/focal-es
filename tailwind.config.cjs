@@ -6,7 +6,7 @@ module.exports = {
       fontFamily: {
         body: ["Nunito", "ui-sans-serif", "system-ui"],
         title: ["Vidaloka", "ui-serif"],
-        mono: ["IBM Plex Mono"],
+        mono: ["Courier Prime"],
       },
       colors: {
         main: "#140E78",

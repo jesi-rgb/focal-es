@@ -66,7 +66,7 @@
 >
   <g transform="translate({6 * margin},{0})">
     <g
-      class="xAxis font-mono text-sm lg:text-sm"
+      class="xAxis font-mono text-sm lg:text-lg"
       bind:this={pinXAxis}
       transform="translate({margin},{margin + height})"
     />
@@ -78,15 +78,23 @@
 
     <g transform="translate({margin},{margin})">
       {#each elementFrequency as { element, frequency }}
-        <rect
-          class="hover:fill-main transition-colors duration-100"
-          x={y(0)}
-          y={y(element)}
-          height={y.bandwidth()}
-          width={x(frequency)}
-          stroke="#140E78"
-          fill="#C7D2F8"
-        />
+        <g class="group duration-100">
+          <rect
+            class="group-hover:fill-main transition-colors"
+            x={y(0)}
+            y={y(element)}
+            height={y.bandwidth()}
+            width={x(frequency)}
+            stroke="#140E78"
+            fill="#C7D2F8"
+          />
+          <text
+            x={x(frequency) + 10}
+            y={y(element) + y.bandwidth() / 2 + 4}
+            class="font-mono font-bold fill-white group-hover:fill-main transition-opacity"
+            >{frequency}</text
+          >
+        </g>
       {/each}
     </g>
   </g>

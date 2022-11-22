@@ -63,28 +63,39 @@
   preserveAspectRatio="xMinYMin"
   style="max-width=100%;"
 >
-  <g
-    class="xAxis font-body text-sm"
-    bind:this={pinXAxis}
-    transform="translate({margin},{margin + height})"
-  />
-  <g
-    class="yAxis font-mono font-semibold tabular-nums"
-    bind:this={pinYAxis}
-    transform="translate({margin},{margin})"
-  />
+  <g transform="translate({5},{0})">
+    <g
+      class="xAxis font-body text-sm"
+      bind:this={pinXAxis}
+      transform="translate({margin},{margin + height})"
+    />
+    <g
+      class="yAxis font-mono text-sm tabular-nums"
+      bind:this={pinYAxis}
+      transform="translate({margin},{margin})"
+    />
 
-  <g transform="translate({margin},{margin})">
-    {#each particleFrequency as { particle, frequency }}
-      <rect
-        class="hover:fill-main transition-colors duration-100"
-        x={x(particle)}
-        y={y(frequency)}
-        height={y(0) - y(frequency)}
-        width={x.bandwidth()}
-        stroke="#140E78"
-        fill="#C7D2F8"
-      />
-    {/each}
+    <g transform="translate({margin},{margin})">
+      {#each particleFrequency as { particle, frequency }}
+        <g class="group">
+          <rect
+            class=" group-hover:fill-main transition-colors duration-100"
+            x={x(particle)}
+            y={y(frequency)}
+            height={y(0) - y(frequency)}
+            width={x.bandwidth()}
+            stroke="#140E78"
+            fill="#C7D2F8"
+          />
+          <text
+            x={x(particle) + x.bandwidth() / 4}
+            y={y(10)}
+            class="fill-main group-hover:fill-white font-bold font-mono"
+          >
+            {frequency}
+          </text>
+        </g>
+      {/each}
+    </g>
   </g>
 </svg>
