@@ -41,8 +41,6 @@
 
   let minElementFreq = elementFrequency[0];
   let maxElementFreq = elementFrequency[elementFrequency.length - 1];
-
-  console.log(minElementFreq);
 </script>
 
 <h1 class="text-3xl text-main font-title mb-10">Algunas estadísticas</h1>
