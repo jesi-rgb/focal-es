@@ -3,6 +3,7 @@
   import data from "$lib/assets/focal-es.json";
   import ElementBarchart from "$lib/VizComponents/ElementBarchart.svelte";
   import ParticleBarchart from "$lib/VizComponents/ParticleBarchart.svelte";
+  import { max } from "d3";
 
   Array.prototype.groupBy = function (prop) {
     return this.reduce(function (groups, item) {
@@ -14,29 +15,71 @@
   };
 
   let particleGroups = data.groupBy("particle");
+  let elementGroups = data.groupBy("element");
 
-  let particles = [];
-  let frequencies = [];
+  let particleFrequency = [];
   Object.keys(particleGroups).forEach((key) => {
-    particles.push(key);
-    frequencies.push(particleGroups[key].length);
+    particleFrequency.push({
+      particle: key,
+      frequency: particleGroups[key].length,
+    });
   });
+  particleFrequency.sort((a, b) => a.frequency - b.frequency);
+
+  let minParticleFreq = particleFrequency[0];
+  let maxParticleFreq = particleFrequency[particleFrequency.length - 1];
+
+  let elementFrequency = [];
+  Object.keys(elementGroups).forEach((key) => {
+    elementFrequency.push({
+      element: key,
+      frequency: elementGroups[key].length,
+    });
+  });
+
+  elementFrequency.sort((a, b) => a.frequency - b.frequency);
+
+  let minElementFreq = elementFrequency[0];
+  let maxElementFreq = elementFrequency[elementFrequency.length - 1];
+
+  console.log(minElementFreq);
 </script>
 
 <h1 class="text-3xl text-main font-title mb-10">Algunas estadísticas</h1>
 
 <div class="flex flex-col space-y-20">
+  <div class="text-lg max-w-md">
+    <p>
+      En total, el corpus presenta <b>{data.length}</b> ejemplos clasificados por
+      partícula, medio, elemento modificado y dirección. Se puede comprobar la distribución
+      de dichos ejemplos en las siguientes gráficas.
+    </p>
+  </div>
   <div>
-    <h2 class="text-2xl font-semibold">
-      Distribución de partículas en el corpus
-    </h2>
+    <h2 class="text-2xl font-semibold">Distribución de partículas</h2>
+
+    <p class="max-w-md">
+      Se observa el número de oraciones que contiene cada partícula. {minParticleFreq.particle}
+      destaca por ser la menos común con <b>{minParticleFreq.frequency}</b>
+      ejemplos, aunque no está muy lejos de {maxParticleFreq.particle}, con un
+      total de <b>{maxParticleFreq.frequency}</b>
+      ejemplos.
+    </p>
     <ParticleBarchart />
   </div>
 
   <div>
     <h2 class="text-2xl font-semibold">
-      Distribución de elementos en el corpus
+      Distribución de elementos modificados
     </h2>
+    <p class="max-w-md">
+      En este caso, vemos la clasificación de los elementos modificados. Aquí,
+      la proporción sí es más exagerada, habiendo únicamente <b
+        >{minElementFreq.frequency}</b
+      >
+      ejemplos de {minElementFreq.element}, mientras que hay
+      <b>{maxElementFreq.frequency}</b> elementos de {maxElementFreq.element}.
+    </p>
     <ElementBarchart />
   </div>
 </div>

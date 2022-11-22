@@ -3,7 +3,7 @@
 </script>
 
 <nav
-  class="flex flex-row text-main text-lg xl:text-2xl space-x-4 font-title font-light my-5 items-baseline"
+  class="flex flex-row text-main text-lg xl:text-2xl space-x-4 font-title font-light my-5 mb-10 items-baseline"
 >
   <a href="/" class="">
     <img src={logo} width="20px" alt="FOCAL-ES logo" />

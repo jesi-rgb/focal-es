@@ -29,8 +29,6 @@
 
   elementFrequency.sort((b, a) => a.frequency - b.frequency);
 
-  console.log(elementFrequency);
-
   //   chart definition
 
   let pinXAxis, pinYAxis; // declare pins
