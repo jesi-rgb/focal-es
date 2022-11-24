@@ -37,7 +37,6 @@
     .range(["#C7D2F8", "#D0A2FF"]);
 
   let pieChartSections = pie()
-    .padAngle(1)
     .startAngle(-Math.PI / 2)
     .endAngle(Math.PI / 2)(mediumFrequency.map((i) => i.frequency));
 
@@ -78,6 +77,14 @@
 
         <text x={cd.centroid[0]} y={cd.centroid[1]} dx="-20" class="font-bold"
           >{cd.medium.medium}</text
+        >
+        <text
+          x={cd.centroid[0]}
+          y={cd.centroid[1]}
+          dx="-20"
+          dy="5"
+          dominant-baseline="hanging"
+          class="font-mono">{cd.medium.frequency}</text
         >
       {/each}
     </g>
