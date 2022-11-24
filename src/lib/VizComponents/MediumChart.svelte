@@ -5,7 +5,6 @@
   import { scaleOrdinal } from "d3";
 
   import { arc, pie } from "d3-shape";
-  import { Star } from "phosphor-svelte";
 
   Array.prototype.groupBy = function (prop) {
     return this.reduce(function (groups, item) {
@@ -26,8 +25,12 @@
     });
   });
 
-  let width = 200;
-  let height = 200;
+  let width = 300;
+  let height = 300;
+  let outerRadius = 150;
+  let innerRadius = outerRadius / 3;
+
+  let margin = { top: 20, bottom: 30, left: 30, right: 30 };
 
   const colorScale = scaleOrdinal()
     .domain(mediumFrequency.map((m) => m.medium))
@@ -39,26 +42,44 @@
     .endAngle(Math.PI / 2)(mediumFrequency.map((i) => i.frequency));
 
   let chartData = pieChartSections.map((p, i) => {
+    let sector = arc()({
+      innerRadius: innerRadius,
+      outerRadius: outerRadius,
+      startAngle: p.startAngle,
+      endAngle: p.endAngle,
+    });
+    let centroid = arc().centroid({
+      innerRadius: innerRadius,
+      outerRadius: outerRadius,
+      startAngle: p.startAngle,
+      endAngle: p.endAngle,
+    });
     return {
       medium: mediumFrequency[i],
-      path: arc()({
-        innerRadius: 30,
-        outerRadius: 90,
-        startAngle: p.startAngle,
-        endAngle: p.endAngle,
-      }),
+      path: sector,
+      centroid: centroid,
     };
   });
 </script>
 
-<svg
-  class="w-full xl:max-w-xl"
-  preserveAspectRatio="xMinYMin"
-  style="max-width=100%;"
->
-  <g transform="translate({width / 2},{height / 2})">
-    {#each chartData as cd}
-      <path fill={colorScale(cd.medium)} d={cd.path} />
-    {/each}
-  </g>
-</svg>
+<div class="gauge-container" bind:clientWidth={width}>
+  <svg viewBox="0 0 {width} {height}">
+    <g
+      transform="translate({margin.left + outerRadius},{height / 2 +
+        outerRadius / 2})"
+    >
+      {#each chartData as cd}
+        <path
+          fill={colorScale(cd.medium)}
+          d={cd.path}
+          stroke="#140E78"
+          stroke-width="2"
+        />
+
+        <text x={cd.centroid[0]} y={cd.centroid[1]} dx="-20" class="font-bold"
+          >{cd.medium.medium}</text
+        >
+      {/each}
+    </g>
+  </svg>
+</div>

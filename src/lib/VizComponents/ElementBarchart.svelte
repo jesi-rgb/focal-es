@@ -90,7 +90,8 @@
           />
           <text
             x={x(frequency) + 10}
-            y={y(element) + y.bandwidth() / 2 + 4}
+            y={y(element) + y.bandwidth() / 2}
+            dominant-baseline="middle"
             class="font-mono font-bold fill-white group-hover:fill-main transition-opacity"
             >{frequency}</text
           >
