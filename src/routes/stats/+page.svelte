@@ -2,8 +2,9 @@
   // @ts-nocheck
   import data from "$lib/assets/focal-es.json";
   import ElementBarchart from "$lib/VizComponents/ElementBarchart.svelte";
+  import MediumChart from "$lib/VizComponents/MediumChart.svelte";
   import ParticleBarchart from "$lib/VizComponents/ParticleBarchart.svelte";
-  import { CirclesThree, Crosshair, Target } from "phosphor-svelte";
+  import { Book, CirclesThree, Crosshair, Target } from "phosphor-svelte";
 
   Array.prototype.groupBy = function (prop) {
     return this.reduce(function (groups, item) {
@@ -87,5 +88,17 @@
       <b>{maxElementFreq.frequency}</b> elementos de {maxElementFreq.element}.
     </p>
     <ElementBarchart />
+  </div>
+  <div>
+    <h2
+      class="text-2xl font-semibold lg:flex lg:flex-row lg:gap-3 items-center"
+    >
+      <span>
+        <Book weight="duotone" class="text-main text-2xl" />
+      </span>
+      Distribución de medio
+    </h2>
+    <p class="max-w-md" />
+    <MediumChart />
   </div>
 </div>
