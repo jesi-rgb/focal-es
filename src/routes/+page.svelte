@@ -13,7 +13,6 @@
     TextAa,
   } from "phosphor-svelte";
 
-  import screenShot from "$lib/images/focal-es.png";
   import logo from "$lib/images/FOCAL-ES-rounded.svg";
 </script>
 
