@@ -1,10 +1,18 @@
 <script>
   // @ts-nocheck
   import data from "$lib/assets/focal-es.json";
+  import DirectionChart from "$lib/VizComponents/DirectionChart.svelte";
   import ElementBarchart from "$lib/VizComponents/ElementBarchart.svelte";
   import MediumChart from "$lib/VizComponents/MediumChart.svelte";
   import ParticleBarchart from "$lib/VizComponents/ParticleBarchart.svelte";
-  import { Book, CirclesThree, Crosshair, Target } from "phosphor-svelte";
+  import {
+    ArrowCircleRight,
+    ArrowRight,
+    Book,
+    CirclesThree,
+    Crosshair,
+    Target,
+  } from "phosphor-svelte";
 
   Array.prototype.groupBy = function (prop) {
     return this.reduce(function (groups, item) {
@@ -98,7 +106,27 @@
       </span>
       Distribución de medio
     </h2>
-    <p class="max-w-md" />
+    <p class="max-w-md">
+      Se aprecia que hay ligeramente más ejemplos de medios escritos que de
+      medios orales, pero esta distribución no está particularmente
+      desbalanceada.
+    </p>
     <MediumChart />
+  </div>
+  <div>
+    <h2
+      class="text-2xl font-semibold lg:flex lg:flex-row lg:gap-3 items-center"
+    >
+      <span>
+        <ArrowCircleRight weight="duotone" class="text-main text-2xl" />
+      </span>
+      Distribución de dirección
+    </h2>
+    <p class="max-w-md">
+      Se aprecia que hay ligeramente más ejemplos de medios escritos que de
+      medios orales, pero esta distribución no está particularmente
+      desbalanceada.
+    </p>
+    <DirectionChart />
   </div>
 </div>
