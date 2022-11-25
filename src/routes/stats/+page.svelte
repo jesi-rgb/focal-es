@@ -58,7 +58,7 @@
   <div class="text-lg max-w-md">
     <p>
       En total, el corpus presenta <b>{data.length}</b> ejemplos clasificados por
-      partícula, medio, elemento modificado y dirección. Se puede comprobar la distribución
+      partícula, medio, elemento focalizado y dirección. Se puede comprobar la distribución
       de dichos ejemplos en las siguientes gráficas.
     </p>
   </div>
@@ -85,7 +85,7 @@
       <span>
         <Crosshair weight="duotone" class="text-main text-2xl" />
       </span>
-      Distribución de elementos modificados
+      Distribución de elementos focalizados
     </h2>
     <p class="max-w-md">
       En este caso, vemos la clasificación de los elementos modificados. Aquí,

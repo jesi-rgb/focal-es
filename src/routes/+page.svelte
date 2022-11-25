@@ -14,12 +14,16 @@
   } from "phosphor-svelte";
 
   import screenShot from "$lib/images/focal-es.png";
-  import logo from "$lib/images/FOCAL-ES.svg";
+  import logo from "$lib/images/FOCAL-ES-rounded.svg";
 </script>
 
 <div class="space-y-10 mt-10">
-  <!-- <img src={logo} width="75" alt="focal-es logo" /> -->
-  <div class="text-7xl font-semibold font-title text-main mb-10">FOCAL-ES</div>
+  <div
+    class="flex flex-row items-center text-6xl xl:text-7xl font-semibold font-title text-main mb-10"
+  >
+    <img class="mr-5" src={logo} width="70" alt="focal-es logo" />
+    <div class="">FOCAL-ES</div>
+  </div>
 
   <div class="text-justify space-y-20 xl:w-1/2">
     <p class="text-lg">

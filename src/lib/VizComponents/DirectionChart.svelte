@@ -2,15 +2,9 @@
   // @ts-nocheck
 
   import data from "$lib/assets/focal-es.json";
-  import { max, scaleLinear, scaleLog, scaleOrdinal, sum } from "d3";
+  import { scaleLinear, scaleOrdinal, sum } from "d3";
 
-  import {
-    arc,
-    pie,
-    stack,
-    stackOrderDescending,
-    stackOrderNone,
-  } from "d3-shape";
+  import { stack, stackOrderDescending } from "d3-shape";
 
   Array.prototype.groupBy = function (prop) {
     return this.reduce(function (groups, item) {
@@ -69,8 +63,6 @@
       data: series[i].data,
     });
   }
-
-  console.log(xScale(0));
 </script>
 
 <div class="gauge-container" bind:clientWidth={width}>
@@ -86,12 +78,12 @@
         stroke-width="2"
       />
       <text
-        transform=""
         x={xScale(s.x + s.width / 2)}
         y={height / 2}
         text-anchor="middle"
         dominant-baseline="middle"
-        fill="#140E78">{(s.data.direction).}</text
+        style=""
+        fill="#140E78">{s.data.direction}</text
       >
     {/each}
   </svg>
