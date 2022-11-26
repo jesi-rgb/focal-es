@@ -5,6 +5,7 @@
   import { scaleLinear, scaleOrdinal, sum } from "d3";
 
   import { stack, stackOrderDescending } from "d3-shape";
+  import Tooltip from "./Tooltip.svelte";
 
   Array.prototype.groupBy = function (prop) {
     return this.reduce(function (groups, item) {
@@ -63,28 +64,52 @@
       data: series[i].data,
     });
   }
+
+  let hoveredData;
 </script>
 
-<div class="gauge-container" bind:clientWidth={width}>
+<div
+  class="gauge-container"
+  bind:clientWidth={width}
+  on:mouseleave={() => (hoveredData = null)}
+>
   <svg viewBox="0 0 {width} {height}">
     {#each rectData as s}
       <rect
+        class="stroke-main stroke-1 hover:stroke-yellow-accent hover:fill-yellow-accent"
         x={xScale(s.x)}
         y={height / 2 - rectHeight / 2}
         width={xScale(s.width)}
         height={rectHeight}
         fill={colorScale(s.data.direction)}
-        stroke="#140E78"
-        stroke-width="2"
+        on:mouseover={() => (hoveredData = s)}
+        on:focus={() => hoveredData}
       />
+
       <text
         x={xScale(s.x + s.width / 2)}
         y={height / 2}
         text-anchor="middle"
         dominant-baseline="middle"
-        style=""
-        fill="#140E78">{s.data.direction}</text
+        fill="#140E78"
+        class="font-bold"
+        dy="-10">{s.data.direction == "derecha" ? s.data.direction : ""}</text
+      >
+      <text
+        x={xScale(s.x + s.width / 2)}
+        y={height / 2}
+        text-anchor="middle"
+        dominant-baseline="middle"
+        fill="#140E78"
+        class="font-mono"
+        dy="10"
+        >{s.data.direction == "derecha"
+          ? ((s.width / data.length) * 100).toFixed(2) + "%"
+          : ""}</text
       >
     {/each}
   </svg>
+  {#if hoveredData}
+    <Tooltip data={hoveredData} length={data.length} {xScale} />
+  {/if}
 </div>

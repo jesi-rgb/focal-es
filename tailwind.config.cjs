@@ -14,6 +14,7 @@ module.exports = {
         accent: "#D0A2FF",
         "accent-darker": "#7300ED",
         olive: "#3A5C0F",
+        "yellow-accent": "##FCFDAF",
       },
     },
   },
