@@ -79,7 +79,7 @@
       {#each particleFrequency as { particle, frequency }}
         <g class="group">
           <rect
-            class=" group-hover:fill-canary transition-colors duration-100"
+            class=" group-hover:fill-canary hover:cursor-pointer transition-colors duration-100"
             x={x(particle)}
             y={y(frequency)}
             height={y(0) - y(frequency)}

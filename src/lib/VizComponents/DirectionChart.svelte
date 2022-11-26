@@ -27,7 +27,7 @@
   });
 
   let width = 300;
-  let height = 300;
+  let height = 200;
   let rectHeight = 80;
 
   let margin = { top: 20, bottom: 30, left: 5, right: 30 };
@@ -66,17 +66,22 @@
   }
 
   let hoveredData;
+
+  let pinXAxis;
+  $: if (pinXAxis) {
+    select(pinXAxis).call(axisBottom(xScale));
+  }
 </script>
 
 <div
-  class="gauge-container"
+  class="rects-container"
   bind:clientWidth={width}
   on:mouseleave={() => (hoveredData = null)}
 >
   <svg viewBox="0 0 {width} {height}">
     {#each rectData as s}
       <rect
-        class="stroke-main stroke-1 hover:fill-canary"
+        class="stroke-main stroke-2 hover:fill-canary hover:cursor-pointer"
         x={xScale(s.x)}
         y={height / 2 - rectHeight / 2}
         width={xScale(s.width)}

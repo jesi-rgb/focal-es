@@ -9,7 +9,7 @@
 
 <div
   class="bg-main-lighter bg-opacity-30 rounded-xl border border-main px-3 py-1 text-main transition-all"
-  style="position: absolute; top:200px; left:{xScale(data.x)}px"
+  style="position: absolute; top:150px; left:{xScale(data.x)}px"
 >
   <p class="font-bold mb-3 border-main border-b">{data.data.direction}</p>
   <p>{data.width} ejemplos</p>

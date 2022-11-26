@@ -70,14 +70,14 @@
       {#each chartData as cd}
         <g class="group fill-main">
           <path
-            class="hover:fill-canary"
+            class="hover:fill-canary hover:cursor-pointer"
             fill={colorScale(cd.medium)}
             d={cd.path}
             stroke="#140E78"
             stroke-width="2"
           />
 
-          <g class="group-hover:fill-main pointer-events-none">
+          <g class="pointer-events-none">
             <text
               x={cd.centroid[0]}
               y={cd.centroid[1]}
@@ -100,7 +100,7 @@
               dx="-20"
               dy="20"
               dominant-baseline="hanging"
-              class="font-mono text-sm opacity-40 group-hover:opacity-80"
+              class="font-mono text-sm opacity-60 group-hover:opacity-80"
               >{cd.medium.frequency}</text
             >
           </g>

@@ -7,11 +7,9 @@
   import ParticleBarchart from "$lib/VizComponents/ParticleBarchart.svelte";
   import {
     ArrowCircleRight,
-    ArrowRight,
-    Book,
+    BookOpen,
     CirclesThree,
     Crosshair,
-    Target,
   } from "phosphor-svelte";
 
   Array.prototype.groupBy = function (prop) {
@@ -102,7 +100,7 @@
       class="text-2xl font-semibold lg:flex lg:flex-row lg:gap-3 items-center"
     >
       <span>
-        <Book weight="duotone" class="text-main text-2xl" />
+        <BookOpen weight="duotone" class="text-main text-2xl" />
       </span>
       Distribución de medio
     </h2>
@@ -123,9 +121,10 @@
       Distribución de dirección
     </h2>
     <p class="max-w-md">
-      Se aprecia que hay ligeramente más ejemplos de medios escritos que de
-      medios orales, pero esta distribución no está particularmente
-      desbalanceada.
+      Por último, la distribución del atributo de dirección es claramente
+      favorable a ser hacia la derecha, lo que indica que es la forma más común
+      de focalizar un elemento. Se puede pasar el ratón por las diferentes
+      secciones del gráfico para obtener más información.
     </p>
     <DirectionChart />
   </div>

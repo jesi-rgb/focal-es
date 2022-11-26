@@ -80,7 +80,7 @@
       {#each elementFrequency as { element, frequency }}
         <g class="group duration-100">
           <rect
-            class="group-hover:fill-canary transition-colors"
+            class="group-hover:fill-canary hover:cursor-pointer transition-colors"
             x={y(0)}
             y={y(element)}
             height={y.bandwidth()}
