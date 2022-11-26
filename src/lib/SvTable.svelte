@@ -5,13 +5,12 @@
   let MAX_LENGTH_EXAMPLE = 230;
 
   import { onMount } from "svelte";
-  import { fade, crossfade } from "svelte/transition";
 
   import latinize from "latinize";
 
   import VirtualList from "svelte-tiny-virtual-list";
 
-  import { Shower, Warning, X } from "phosphor-svelte";
+  import { Warning } from "phosphor-svelte";
 
   import InputSearch from "./InputSearch.svelte";
   import MultiSelect from "svelte-multiselect";
@@ -87,7 +86,9 @@
   onMount(() => {
     viewport = document.querySelector(".virtual-list-wrapper");
     contents = document.querySelector(".virtual-list-inner");
-    itemSize = window.innerWidth > 1500 ? 130 : 150;
+    itemSize = window.innerWidth < 600 ? 180 : 120;
+
+    console.log(window.innerWidth);
   });
 </script>
 
@@ -130,7 +131,7 @@
   <div class="flex flex-col w-full mx-auto">
     <InputSearch bind:value={searchTerm} />
     {#if masterFilter.length == 0 && noSelection}
-      <div class="bg-main-lighter text-main p-3 rounded-lg my-10 w-max">
+      <div class="bg-main-lighter text-main p-3 rounded-lg my-10">
         <div class="text-md font-semibold">
           <p>
             ¡Busca alguna palabra o filtra la tabla por alguno de los criterios
@@ -139,7 +140,7 @@
         </div>
       </div>
     {:else if masterFilter.length == 0 && !noSelection}
-      <div class="bg-red-200 text-red-900 p-3 rounded-lg my-10 w-max">
+      <div class="bg-red-200 text-red-900 p-3 rounded-lg my-10">
         <div class="text-md font-bold flex items-center">
           <Warning class="mr-3" weight="regular" />
           <p>
