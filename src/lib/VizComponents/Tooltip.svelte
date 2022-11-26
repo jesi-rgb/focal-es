@@ -4,7 +4,6 @@
   export let data;
   export let length;
   export let xScale;
-  console.log(((data.width / length) * 100).toFixed(2));
 </script>
 
 <div

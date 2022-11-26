@@ -4,6 +4,24 @@ export function intersection(a, b) {
   return b.filter((value) => setA.has(value));
 }
 
+// https://www.consolelog.io/group-by-in-javascript/
+Array.prototype.groupBy = function (prop) {
+  return this.reduce(function (groups, item) {
+    const val = item[prop];
+    groups[val] = groups[val] || [];
+    groups[val].push(item);
+    return groups;
+  }, {});
+};
+
+// https://stackoverflow.com/questions/56602742/javascript-use-reduce-to-construct-a-function-intersection-that-compares-inp
+export function intersections(arrays) {
+  return arrays.reduce((a, b) => {
+    const set = new Set(b);
+    return a.filter((c) => set.has(c));
+  });
+}
+
 export function tsvToObjs(data) {
   const lines = data.split(/\r\n|\n/);
   let [headings, ...entries] = lines;

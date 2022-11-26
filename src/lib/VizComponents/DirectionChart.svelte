@@ -7,15 +7,6 @@
   import { stack, stackOrderDescending } from "d3-shape";
   import Tooltip from "./Tooltip.svelte";
 
-  Array.prototype.groupBy = function (prop) {
-    return this.reduce(function (groups, item) {
-      const val = item[prop];
-      groups[val] = groups[val] || [];
-      groups[val].push(item);
-      return groups;
-    }, {});
-  };
-
   let particleGroups = data.groupBy("direction");
 
   let directionFrequency = [];

@@ -8,15 +8,6 @@
   import { axisBottom, axisLeft } from "d3-axis";
   import { extent, max } from "d3";
 
-  Array.prototype.groupBy = function (prop) {
-    return this.reduce(function (groups, item) {
-      const val = item[prop];
-      groups[val] = groups[val] || [];
-      groups[val].push(item);
-      return groups;
-    }, {});
-  };
-
   let particleGroups = data.groupBy("particle");
 
   let particleFrequency = [];

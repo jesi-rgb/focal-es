@@ -31,6 +31,10 @@
   let directionSelected = [];
 
   let searchTerm = "";
+  let showExample = "";
+  let currentParticle = "";
+
+  let itemSize;
 
   // truncate the examples since some are very long.
   // for this, we append "truncatedExample" to each object
@@ -46,12 +50,12 @@
     return item;
   });
 
-  $: nothingSelected =
-    particleSelected.length !== 0 &&
-    mediumSelected.length !== 0 &&
-    elementSelected.length !== 0 &&
-    directionSelected.length !== 0 &&
-    searchTerm !== "";
+  $: noSelection =
+    particleSelected.length === 0 &&
+    mediumSelected.length === 0 &&
+    elementSelected.length === 0 &&
+    directionSelected.length === 0 &&
+    searchTerm === "";
 
   $: isSearchEmpty = searchTerm === "";
   $: isParticleSelectEmpty = particleSelected.length === 0;
@@ -59,39 +63,26 @@
   $: isElementSelectEmpty = elementSelected.length === 0;
   $: isDirectionSelectEmpty = directionSelected.length === 0;
 
-  //   let belongsToSearch = (item) =>
-  //     latinize(item.example.toLowerCase()).indexOf(
-  //       latinize(searchTerm.toLowerCase())
-  //     ) !== -1;
+  let isFoundOnSearch = (item, search) =>
+    latinize(item.example.toLowerCase()).indexOf(
+      latinize(search.toLowerCase())
+    ) !== -1;
 
-  let belongsToParticleSelect = (item) =>
-    particleSelected.includes(item.particle);
+  let belongsTo = (item, property, set) => {
+    return set.includes(item[property]);
+  };
 
-  let belongsToMediumSelect = (item) => mediumSelected.includes(item.medium);
-
-  let belongsToElementSelect = (item) => elementSelected.includes(item.element);
-
-  let belongsToDirectionSelect = (item) =>
-    directionSelected.includes(item.direction);
-
-  //   master filter including every aspect
-  $: masterFilter = data.filter((item) => {
+  $: masterFilter = data.filter((i) => {
     return (
-      (isSearchEmpty ||
-        latinize(item.example.toLowerCase()).indexOf(
-          latinize(searchTerm.toLowerCase())
-        ) !== -1) &&
-      (isParticleSelectEmpty || belongsToParticleSelect(item)) &&
-      (isMediumSelectEmpty || belongsToMediumSelect(item)) &&
-      (isElementSelectEmpty || belongsToElementSelect(item)) &&
-      (isDirectionSelectEmpty || belongsToDirectionSelect(item))
+      (belongsTo(i, "particle", particleSelected) || isParticleSelectEmpty) &&
+      (belongsTo(i, "medium", mediumSelected) || isMediumSelectEmpty) &&
+      (belongsTo(i, "element", elementSelected) || isElementSelectEmpty) &&
+      (belongsTo(i, "direction", directionSelected) ||
+        isDirectionSelectEmpty) &&
+      (isFoundOnSearch(i, searchTerm) || isSearchEmpty) &&
+      !noSelection
     );
   });
-
-  let showExample = "";
-  let currentParticle = "";
-
-  let itemSize;
 
   onMount(() => {
     viewport = document.querySelector(".virtual-list-wrapper");
@@ -138,7 +129,16 @@
   </div>
   <div class="flex flex-col w-full mx-auto">
     <InputSearch bind:value={searchTerm} />
-    {#if masterFilter.length == 0}
+    {#if masterFilter.length == 0 && noSelection}
+      <div class="bg-main-lighter text-main p-3 rounded-lg my-10 w-max">
+        <div class="text-md font-bold">
+          <p>
+            ¡Busca alguna palabra o filtra por alguno de los criterios de
+            arriba!
+          </p>
+        </div>
+      </div>
+    {:else if masterFilter.length == 0 && !noSelection}
       <div class="bg-red-200 text-red-900 p-3 rounded-lg my-10">
         <div class="text-md font-bold">
           <p>
@@ -171,7 +171,7 @@
           <div bind:this={contents} class="contents">
             <Svrollbar {viewport} {contents} />
             <VirtualList
-              height={560}
+              height={masterFilter.length === 0 ? 0 : 560}
               itemCount={masterFilter.length}
               {itemSize}
             >
@@ -219,54 +219,6 @@
     {#if showExample == "" && masterFilter.length > 0}
       <div in:fade={{ duration: 1000 }} class="text-sm">
         Selecciona una fila para consultar su ejemplo.
-      </div>
-    {:else if searchTerm !== ""}
-      <div
-        transition:crossfade
-        class="bg-main-lighter text-main p-5 rounded-xl flex flex-row w-full select-all selection:bg-main selection:text-white"
-      >
-        <div class="w-4/5">
-          {@html showExample
-            .toLowerCase()
-            .replace(
-              searchTerm.toLowerCase(),
-              "<span class='font-bold'>" + searchTerm + "</span>"
-            )
-            .replace(
-              currentParticle.toLowerCase(),
-              "<span class='font-bold'>" +
-                currentParticle.toLowerCase() +
-                "</span>"
-            )}
-        </div>
-        <button
-          on:click={() => {
-            showExample = "";
-          }}
-          class="mx-auto mr-10"><X /></button
-        >
-      </div>
-    {:else}
-      <div
-        transition:fade={{ duration: 300 }}
-        class="bg-main-lighter text-main p-5 flex flex-row rounded-xl w-full select-all selection:bg-main selection:text-white"
-      >
-        <div class="w-4/5">
-          {@html showExample.replace(
-            currentParticle.toLowerCase(),
-            "<span class='font-bold'>" +
-              currentParticle.toLowerCase() +
-              "</span>"
-          )}
-        </div>
-
-        <button
-          on:click={() => {
-            showExample = "";
-          }}
-          class="mx-auto my-auto mr-0 p-5 rounded-full transition-colors hover:bg-main hover:bg-opacity-10"
-          ><X /></button
-        >
       </div>
     {/if}
   </div>
