@@ -9,7 +9,6 @@
 </script>
 
 <div
-  transition:crossfade
   class="bg-main-lighter text-main p-5 rounded-xl flex flex-row w-full select-all selection:bg-main selection:text-white"
 >
   <div class="w-4/5">

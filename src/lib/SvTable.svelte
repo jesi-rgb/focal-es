@@ -11,11 +11,12 @@
 
   import VirtualList from "svelte-tiny-virtual-list";
 
-  import { X } from "phosphor-svelte";
+  import { Shower, Warning, X } from "phosphor-svelte";
 
   import InputSearch from "./InputSearch.svelte";
   import MultiSelect from "svelte-multiselect";
   import { Svrollbar } from "svrollbar";
+  import ShowExample from "./ShowExample.svelte";
 
   let viewport;
   let contents;
@@ -32,7 +33,6 @@
 
   let searchTerm = "";
   let showExample = "";
-  let currentParticle = "";
 
   let itemSize;
 
@@ -131,16 +131,17 @@
     <InputSearch bind:value={searchTerm} />
     {#if masterFilter.length == 0 && noSelection}
       <div class="bg-main-lighter text-main p-3 rounded-lg my-10 w-max">
-        <div class="text-md font-bold">
+        <div class="text-md font-semibold">
           <p>
-            ¡Busca alguna palabra o filtra por alguno de los criterios de
-            arriba!
+            ¡Busca alguna palabra o filtra la tabla por alguno de los criterios
+            de arriba!
           </p>
         </div>
       </div>
     {:else if masterFilter.length == 0 && !noSelection}
-      <div class="bg-red-200 text-red-900 p-3 rounded-lg my-10">
-        <div class="text-md font-bold">
+      <div class="bg-red-200 text-red-900 p-3 rounded-lg my-10 w-max">
+        <div class="text-md font-bold flex items-center">
+          <Warning class="mr-3" weight="regular" />
           <p>
             No hay ningún ejemplo que cumpla con los requisitos de búsqueda.
           </p>
@@ -151,7 +152,7 @@
         </p>
       </div>
     {/if}
-    <table class="mb-4 shadow-md shadow-main-lighter rounded-xl">
+    <table class="mb-4 shadow-md shadow-main-lighter rounded-md">
       <tr class="flex flex-row my-2 pb-2 px-4 text-main border-b-2 border-main">
         <th class="w-1/4 text-left text-xs md:text-sm uppercase tracking-wider"
           >Partícula</th
@@ -183,7 +184,6 @@
                 {style}
                 on:click={() => {
                   showExample = masterFilter[index].example;
-                  currentParticle = masterFilter[index].particle;
                 }}
               >
                 <!-- this will be rendered for each currently visible item -->
@@ -216,10 +216,8 @@
     </table>
   </div>
   <div class="text-lg font-light w-full">
-    {#if showExample == "" && masterFilter.length > 0}
-      <div in:fade={{ duration: 1000 }} class="text-sm">
-        Selecciona una fila para consultar su ejemplo.
-      </div>
+    {#if showExample !== ""}
+      <ShowExample bind:example={showExample} {searchTerm} />
     {/if}
   </div>
 </div>
