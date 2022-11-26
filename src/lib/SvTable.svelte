@@ -20,8 +20,6 @@
   let viewport;
   let contents;
 
-  //   might be of use: https://github.com/Skayo/svelte-tiny-virtual-list
-
   let particleOptions = Array.from(new Set(data.map((d) => d.particle))).sort();
   let mediumOptions = Array.from(new Set(data.map((d) => d.medium))).sort();
   let elementOptions = Array.from(new Set(data.map((d) => d.element))).sort();
@@ -34,6 +32,9 @@
 
   let searchTerm = "";
 
+  // truncate the examples since some are very long.
+  // for this, we append "truncatedExample" to each object
+  // so we have both the full and truncated examples to work with
   data = data.map((item) => {
     if (item.example.length > MAX_LENGTH_EXAMPLE) {
       let truncated = item.example.slice(0, MAX_LENGTH_EXAMPLE - 3);
@@ -52,58 +53,50 @@
     directionSelected.length !== 0 &&
     searchTerm !== "";
 
-  let isSearchEmpty = searchTerm === "";
-  let isParticleSelectEmpty = particleSelected.length === 0;
-  let isMediumSelectEmpty = mediumSelected.length === 0;
-  let isElementSelectEmpty = elementSelected.length === 0;
-  let isDirectionSelectEmpty = directionSelected.length === 0;
+  $: isSearchEmpty = searchTerm === "";
+  $: isParticleSelectEmpty = particleSelected.length === 0;
+  $: isMediumSelectEmpty = mediumSelected.length === 0;
+  $: isElementSelectEmpty = elementSelected.length === 0;
+  $: isDirectionSelectEmpty = directionSelected.length === 0;
 
-  let belongsToSearch = (item) =>
-    latinize(item.example.toLowerCase()).indexOf(
-      latinize(searchTerm.toLowerCase())
-    ) !== -1;
+  //   let belongsToSearch = (item) =>
+  //     latinize(item.example.toLowerCase()).indexOf(
+  //       latinize(searchTerm.toLowerCase())
+  //     ) !== -1;
+
   let belongsToParticleSelect = (item) =>
     particleSelected.includes(item.particle);
+
   let belongsToMediumSelect = (item) => mediumSelected.includes(item.medium);
+
   let belongsToElementSelect = (item) => elementSelected.includes(item.element);
+
   let belongsToDirectionSelect = (item) =>
     directionSelected.includes(item.direction);
 
   //   master filter including every aspect
-  //   $: masterFilter = data.filter((item) => {
-  //     return (
-  //       (searchTerm === "" ||
-  //         latinize(item.example.toLowerCase()).indexOf(
-  //           latinize(searchTerm.toLowerCase())
-  //         ) !== -1) &&
-  //       (particleSelected.length === 0 ||
-  //         particleSelected.includes(item.particle)) &&
-  //       (mediumSelected.length === 0 || mediumSelected.includes(item.medium)) &&
-  //       (elementSelected.length === 0 ||
-  //         elementSelected.includes(item.element)) &&
-  //       (directionSelected.length === 0 ||
-  //         directionSelected.includes(item.direction))
-  //     );
-  //   });
   $: masterFilter = data.filter((item) => {
     return (
-      belongsToParticleSelect(item) &&
-      belongsToMediumSelect(item) &&
-      belongsToElementSelect(item) &&
-      belongsToDirectionSelect(item) &&
-      belongsToSearch(item)
+      (isSearchEmpty ||
+        latinize(item.example.toLowerCase()).indexOf(
+          latinize(searchTerm.toLowerCase())
+        ) !== -1) &&
+      (isParticleSelectEmpty || belongsToParticleSelect(item)) &&
+      (isMediumSelectEmpty || belongsToMediumSelect(item)) &&
+      (isElementSelectEmpty || belongsToElementSelect(item)) &&
+      (isDirectionSelectEmpty || belongsToDirectionSelect(item))
     );
   });
 
-  $: showExample = "";
-  $: currentParticle = "";
+  let showExample = "";
+  let currentParticle = "";
 
   let itemSize;
 
   onMount(() => {
     viewport = document.querySelector(".virtual-list-wrapper");
     contents = document.querySelector(".virtual-list-inner");
-    itemSize = window.innerWidth > 1500 ? 130 : 200;
+    itemSize = window.innerWidth > 1500 ? 130 : 150;
   });
 </script>
 
