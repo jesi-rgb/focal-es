@@ -25,9 +25,7 @@
   let particleOptions = Array.from(new Set(data.map((d) => d.particle))).sort();
   let mediumOptions = Array.from(new Set(data.map((d) => d.medium))).sort();
   let elementOptions = Array.from(new Set(data.map((d) => d.element))).sort();
-  let directionOptions = Array.from(
-    new Set(data.map((d) => d.direction))
-  ).sort();
+  let directionOptions = Array.from(new Set(data.map((d) => d.direction)));
 
   let particleSelected = [];
   let mediumSelected = [];

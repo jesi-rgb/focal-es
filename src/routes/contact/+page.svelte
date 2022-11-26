@@ -1,6 +1,5 @@
 <script>
   import ContactLink from "$lib/ContactLink.svelte";
-  import { line } from "d3";
 </script>
 
 <div class="text-3xl font-semibold font-title text-main mb-3">Contacto</div>
