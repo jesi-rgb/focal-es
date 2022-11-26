@@ -76,7 +76,7 @@
   <svg viewBox="0 0 {width} {height}">
     {#each rectData as s}
       <rect
-        class="stroke-main stroke-1 hover:stroke-yellow-accent hover:fill-yellow-accent"
+        class="stroke-main stroke-1 hover:fill-canary"
         x={xScale(s.x)}
         y={height / 2 - rectHeight / 2}
         width={xScale(s.width)}

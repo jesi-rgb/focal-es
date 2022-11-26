@@ -79,7 +79,7 @@
       {#each particleFrequency as { particle, frequency }}
         <g class="group">
           <rect
-            class=" group-hover:fill-main transition-colors duration-100"
+            class=" group-hover:fill-canary transition-colors duration-100"
             x={x(particle)}
             y={y(frequency)}
             height={y(0) - y(frequency)}
@@ -90,7 +90,7 @@
           <text
             x={x(particle) + x.bandwidth() / 4}
             y={y(10)}
-            class="fill-main group-hover:fill-white font-bold font-mono"
+            class="fill-main font-bold font-mono"
           >
             {frequency}
           </text>
