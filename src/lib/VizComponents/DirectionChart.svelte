@@ -88,7 +88,7 @@
         text-anchor="middle"
         dominant-baseline="middle"
         fill="#140E78"
-        class="font-bold"
+        class="font-bold pointer-events-none"
         dy="-10">{s.data.direction == "derecha" ? s.data.direction : ""}</text
       >
       <text
@@ -97,7 +97,7 @@
         text-anchor="middle"
         dominant-baseline="middle"
         fill="#140E78"
-        class="font-mono"
+        class="font-mono pointer-events-none"
         dy="10"
         >{s.data.direction == "derecha"
           ? ((s.width / data.length) * 100).toFixed(2) + "%"

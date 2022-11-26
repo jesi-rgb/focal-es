@@ -5,8 +5,8 @@ module.exports = {
     extend: {
       fontFamily: {
         body: ["Nunito", "ui-sans-serif", "system-ui"],
-        title: ["Vidaloka", "ui-serif"],
-        mono: ["Courier Prime"],
+        title: ["Playfair Display", "ui-serif"],
+        mono: ["IBM Plex Mono"],
       },
       colors: {
         main: "#140E78",

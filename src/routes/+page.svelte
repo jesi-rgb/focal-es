@@ -43,7 +43,7 @@
         <span class="mr-3">
           <Books weight="duotone" />
         </span>
-        <h1>Contenido</h1>
+        <h1 class="font-semibold">Contenido</h1>
       </div>
       <p>
         En su versión actual, reúne más de 1400 ejemplos de uso de lo que la
@@ -65,7 +65,7 @@
         <span class="mr-3">
           <SlidersHorizontal weight="duotone" />
         </span>
-        <h1>Filtros</h1>
+        <h1 class="font-semibold">Filtros</h1>
       </div>
       La aplicación de búsqueda de FOCAL-ES cuenta con los siguientes filtros:
       <ul class="list-inside lg:ml-10 space-y-5 my-3">
@@ -113,7 +113,7 @@
         <span class="mr-3">
           <MagnifyingGlass weight="duotone" />
         </span>
-        <h1>Equipo Investigador</h1>
+        <h1 class="font-semibold">Equipo Investigador</h1>
       </div>
 
       <p>
@@ -171,7 +171,7 @@
         <span class="mr-3">
           <Gear weight="duotone" />
         </span>
-        <h1>Equipo técnico</h1>
+        <h1 class="font-semibold">Equipo técnico</h1>
       </div>
       <p>
         El desarrollo técnico de la aplicación ha corrido a cargo de <b
@@ -199,7 +199,7 @@
         <span class="mr-3">
           <Bookmarks weight="duotone" />
         </span>
-        <h1>Contenido</h1>
+        <h1 class="font-semibold">Contenido</h1>
       </div>
 
       <ul class="space-y-4 italic opacity-60">
