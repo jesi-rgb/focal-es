@@ -123,9 +123,15 @@
         <span class="font-mono">1380988</span>), activo en el bienio 2021-2022 y
         financiado por la Universidad de Jaén dentro de la convocatoria
         correspondiente a 2020 de ayudas a proyectos de I+D+i en el marco del
-        Programa Operativo FEDER Andalucía 2014-2020. El investigador principal
-        del proyecto fue <b>Ventura Salazar García</b>. El equipo investigador
-        estaba compuesto también por <b>Carmen Conti Jiménez</b>,
+        Programa Operativo FEDER Andalucía 2014-2020.
+      </p>
+
+      <br />
+
+      <p>
+        El investigador principal del proyecto fue <b>Ventura Salazar García</b
+        >. El equipo investigador estaba compuesto también por
+        <b>Carmen Conti Jiménez</b>,
         <b>Elena Felíu Arquiola</b>, <b>Francisco Fernández García</b> y
         <b>Francisco Pedro Pla Colomer</b>. Todos ellos son profesores del
         Departamento de Filología Española de la Universidad de Jaén y miembros
@@ -133,7 +139,9 @@
         (ALTYA), grupo HUM-834 del Plan Andaluz de Investigación, Desarrollo e
         Innovación, cuya responsable actual es Carmen Conti Jiménez.
       </p>
+
       <br />
+
       <p>
         También se contó con un equipo colaborador formado por <b
           >Valeria Belloro</b
