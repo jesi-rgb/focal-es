@@ -45,20 +45,53 @@
     return item;
   });
 
-  // master filter including every aspect
+  $: nothingSelected =
+    particleSelected.length !== 0 &&
+    mediumSelected.length !== 0 &&
+    elementSelected.length !== 0 &&
+    directionSelected.length !== 0 &&
+    searchTerm !== "";
+
+  let isSearchEmpty = searchTerm === "";
+  let isParticleSelectEmpty = particleSelected.length === 0;
+  let isMediumSelectEmpty = mediumSelected.length === 0;
+  let isElementSelectEmpty = elementSelected.length === 0;
+  let isDirectionSelectEmpty = directionSelected.length === 0;
+
+  let belongsToSearch = (item) =>
+    latinize(item.example.toLowerCase()).indexOf(
+      latinize(searchTerm.toLowerCase())
+    ) !== -1;
+  let belongsToParticleSelect = (item) =>
+    particleSelected.includes(item.particle);
+  let belongsToMediumSelect = (item) => mediumSelected.includes(item.medium);
+  let belongsToElementSelect = (item) => elementSelected.includes(item.element);
+  let belongsToDirectionSelect = (item) =>
+    directionSelected.includes(item.direction);
+
+  //   master filter including every aspect
+  //   $: masterFilter = data.filter((item) => {
+  //     return (
+  //       (searchTerm === "" ||
+  //         latinize(item.example.toLowerCase()).indexOf(
+  //           latinize(searchTerm.toLowerCase())
+  //         ) !== -1) &&
+  //       (particleSelected.length === 0 ||
+  //         particleSelected.includes(item.particle)) &&
+  //       (mediumSelected.length === 0 || mediumSelected.includes(item.medium)) &&
+  //       (elementSelected.length === 0 ||
+  //         elementSelected.includes(item.element)) &&
+  //       (directionSelected.length === 0 ||
+  //         directionSelected.includes(item.direction))
+  //     );
+  //   });
   $: masterFilter = data.filter((item) => {
     return (
-      (searchTerm === "" ||
-        latinize(item.example.toLowerCase()).indexOf(
-          latinize(searchTerm.toLowerCase())
-        ) !== -1) &&
-      (particleSelected.length === 0 ||
-        particleSelected.includes(item.particle)) &&
-      (mediumSelected.length === 0 || mediumSelected.includes(item.medium)) &&
-      (elementSelected.length === 0 ||
-        elementSelected.includes(item.element)) &&
-      (directionSelected.length === 0 ||
-        directionSelected.includes(item.direction))
+      belongsToParticleSelect(item) &&
+      belongsToMediumSelect(item) &&
+      belongsToElementSelect(item) &&
+      belongsToDirectionSelect(item) &&
+      belongsToSearch(item)
     );
   });
 
