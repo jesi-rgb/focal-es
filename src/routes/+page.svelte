@@ -18,7 +18,7 @@
 
 <div class="space-y-10 mt-10">
   <div
-    class="flex flex-row items-center text-6xl xl:text-7xl font-semibold font-title text-main mb-10"
+    class="flex flex-row items-center text-5xl xl:text-7xl font-semibold font-title text-main mb-10"
   >
     <img class="mr-5" src={logo} width="70" alt="focal-es logo" />
     <div class="">FOCAL-ES</div>

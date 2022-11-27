@@ -50,7 +50,7 @@
   let maxElementFreq = elementFrequency[elementFrequency.length - 1];
 </script>
 
-<h1 class="text-3xl text-main font-title mb-10">Algunas estadísticas</h1>
+<h1 class="text-3xl text-main font-title font-bold mb-10">Estadísticas</h1>
 
 <div class="flex flex-col space-y-20">
   <div class="text-lg max-w-md">
