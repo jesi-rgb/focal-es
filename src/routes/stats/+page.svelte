@@ -67,10 +67,13 @@
     </h2>
 
     <p class="max-w-md">
-      Se observa el número de oraciones que contiene cada partícula. {minParticleFreq.particle}
+      Se observa el número de oraciones que contiene cada partícula. <i
+        >{minParticleFreq.particle}</i
+      >
       destaca por ser la menos común con <b>{minParticleFreq.frequency}</b>
-      ejemplos, aunque no está muy lejos de {maxParticleFreq.particle}, con un
-      total de <b>{maxParticleFreq.frequency}</b>
+      ejemplos, aunque no está muy lejos de
+      <i>{maxParticleFreq.particle.toLowerCase()}</i>, con un total de
+      <b>{maxParticleFreq.frequency}</b>
       ejemplos.
     </p>
     <ParticleBarchart />
@@ -90,8 +93,10 @@
       la proporción sí es más exagerada, habiendo únicamente <b
         >{minElementFreq.frequency}</b
       >
-      ejemplos de {minElementFreq.element}, mientras que hay
-      <b>{maxElementFreq.frequency}</b> elementos de {maxElementFreq.element}.
+      ejemplos de <i>{minElementFreq.element.toLowerCase()}</i>, mientras que
+      hay
+      <b>{maxElementFreq.frequency}</b> elementos de
+      <i>{maxElementFreq.element.toLowerCase()}</i>.
     </p>
     <ElementBarchart />
   </div>

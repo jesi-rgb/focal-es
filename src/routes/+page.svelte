@@ -1,7 +1,6 @@
 <script>
   import {
     ArrowCircleRight,
-    Bookmark,
     Bookmarks,
     BookOpen,
     Books,
@@ -24,7 +23,7 @@
     <div class="">FOCAL-ES</div>
   </div>
 
-  <div class="text-justify space-y-20 xl:w-1/2">
+  <div class="text-justify space-y-20 xl:w-3/4">
     <p class="text-lg">
       <span class="text-main font-title text-lg">FOCAL-ES</span> es una base de datos
       cuyo objetivo es recabar muestras de lengua que ilustran el uso real de las
@@ -46,15 +45,18 @@
         <h1 class="font-semibold">Contenido</h1>
       </div>
       <p>
-        En su versión actual, reúne más de 1400 ejemplos de uso de lo que la
-        <b>Nueva Gramática de la Lengua Española (cf. RAE y ASALE 2009: 2992)</b
+        En su versión actual, reúne más de <span class="font-semibold"
+          >1400</span
         >
-        denomina adverbios de foco de inclusión, que se corresponden en buena medida
-        con las unidades que en otros contextos académicos suelen recibir la etiqueta
-        de partículas focales aditivas (cf. Sudhoff 2010: 53). Tales ejemplos han
-        sido extraídos de textos procedentes de España y que figuran en el CORPES
-        XXI, un corpus de referencia ―mantenido por la Real Academia Española desde
-        2013― que se circunscribe al español del siglo XXI.
+        ejemplos de uso de lo que la
+        <i>Nueva Gramática de la Lengua Española </i>(cf. RAE y ASALE 2009:
+        2992) denomina adverbios de foco de inclusión, que se corresponden en
+        buena medida con las unidades que en otros contextos académicos suelen
+        recibir la etiqueta de partículas focales aditivas (cf. Sudhoff 2010:
+        53). Tales ejemplos han sido extraídos de textos procedentes de España y
+        que figuran en el CORPES XXI, un corpus de referencia ―mantenido por la
+        Real Academia Española desde 2013― que se circunscribe al español del
+        siglo XXI.
       </p>
     </div>
 
@@ -199,22 +201,20 @@
         <span class="mr-3">
           <Bookmarks weight="duotone" />
         </span>
-        <h1 class="font-semibold">Contenido</h1>
+        <h1 class="font-semibold">Referencias</h1>
       </div>
 
-      <ul class="space-y-4 italic opacity-60">
+      <ul class="space-y-4 opacity-60">
         <li>
           RAE y ASALE [Real Academia Española y Asociación de Academias de la
-          Lengua Española] (2009).
-        </li>
-
-        <li>
-          Nueva Gramática de la Lengua Española. Madrid: Espasa. Sudhoff, Stefan
-          (2010).
+          Lengua Española] (2009). <i>Nueva Gramática de la Lengua Española.</i>
+          Madrid: Espasa.
         </li>
         <li>
-          Focus Particles in German: Syntax, Prosody, and Information Structure.
-          Ámsterdam: John Benjamins.
+          Sudhoff, Stefan (2010). <i
+            >Focus Particles in German: Syntax, Prosody, and Information
+            Structure.</i
+          > Ámsterdam: John Benjamins.
         </li>
       </ul>
     </div>
