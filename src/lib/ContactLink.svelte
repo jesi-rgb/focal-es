@@ -17,7 +17,7 @@
     </span>
     {title}
   </div>
-  <div class="text-main text-opacity-60 font-mono text-sm">
+  <div class="text-main text-opacity-60 font-mono text-sm truncate">
     {link}
   </div>
 </a>

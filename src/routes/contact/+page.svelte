@@ -2,9 +2,9 @@
   import ContactLink from "$lib/ContactLink.svelte";
 </script>
 
-<div class="text-3xl font-semibold font-title text-main mb-3 ">Contacto</div>
+<div class="text-3xl font-semibold font-title text-main mb-3">Contacto</div>
 He aquí un listado de enlaces relevantes de contacto:
-<div class="mt-9 xl:w-max">
+<div class="mt-9 2xl:w-max">
   <div class="flex flex-col space-y-9">
     <ContactLink
       title={"GRUPO DE INVESTIGACIÓN ALTYA"}
