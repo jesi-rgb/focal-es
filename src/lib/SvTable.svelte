@@ -87,8 +87,6 @@
     viewport = document.querySelector(".virtual-list-wrapper");
     contents = document.querySelector(".virtual-list-inner");
     itemSize = window.innerWidth < 600 ? 180 : 120;
-
-    console.log(window.innerWidth);
   });
 </script>
 
